@@ -73,8 +73,6 @@
 	    	</div>
 	    	<h2 class="text-top-title text-center">Show Gallery</h2>
 	    	
-	    	
-	    	
 	    </div>
     </section>
 	<!-- START SECTION HOT SHOW -->
@@ -88,7 +86,7 @@
 	    		<label class="text-white text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </label>
 	    	</div>
 	    	<div class="row">
-	    		<div class="col-12 col-md-3 col-lg-5 px-md-0">
+	    		<div class="col-12 col-lg-5 px-lg-0">
 					<div class="card-hotshow">
 						<div class="feather-left">
 							<img src="assets/images/feather-01.png" class="img-fluid">
@@ -102,7 +100,7 @@
 		    			</div>
 		    		</div>
 	    		</div>
-	    		<div class="col-12 col-md-9 col-lg-7">
+	    		<div class="col-12 col-lg-7">
 				
 	    			<div class="img-hotshow">
 	    				<div class="feather-right">
@@ -303,6 +301,9 @@
 		            items:3
 		        },
 		        1000:{
+		            items:4
+		        },
+		        1200:{
 		            items:5
 		        }
 		    }

@@ -271,7 +271,7 @@ body{
 }
 .sm-card-content{
     font-size: 14px;
-    max-height: 70px;
+    max-height: 68px;
     overflow: hidden;
 }
 /*-------------------- Header Text --------------------*/
@@ -372,6 +372,64 @@ body{
     display: inline-flex;
 }
 /*---------------- Social Icon --------------------*/
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 500;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.line {
+  background: #3AAE37;
+  color: white;
+}
+
+.wechat {
+  background: #78D035;
+  color: white;
+}
+
+.youtube {
+  background: #CB202E;
+  color: white;
+}
+
+.instagram {
+  background: #EC2758;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
 
 /*------------------------------------*
 End Genaral
@@ -775,11 +833,22 @@ Responsive
         transform: translate(45%, -50%);
         margin-left: auto;
     }
+/*-- Social --*/
+    .icon-bar{
+        display: none;
+    }
+/*-- Feather --*/
+    .feather-left{
+        display: none;
+    }
+    .feather-right{
+        display: none;
+    }
 /*-- Slide --*/
     .slide-box{
         left: 50%;
-        width: 340px;
-        padding: 20px;
+        width: 315px;
+        padding: 20px 15px;
     }
 /*-- Index --*/
     section {
@@ -803,7 +872,7 @@ Responsive
         padding-right: 15px;
     }
     .ft-input-group{
-        width: 345px;
+        width: 300px;
     }
 }
 /*=Small devices (landscape phones, 576px and up)*/
@@ -835,6 +904,11 @@ Responsive
     .owl-next{
         transform: translate(110%, -50%);
         margin-left: auto;
+    }
+/*-- Social --*/
+    .feather-right {
+        top: -20px;
+        transform: translate(20%, -50%);
     }
 /*-- Index --*/
     .text-top-excerpt {
@@ -887,6 +961,11 @@ Responsive
     .navbar .navbar-nav .nav-item a{
         padding-left: 15px;
         padding-right: 15px;
+    }
+/*-- Social --*/
+    .feather-right {
+        top: -20px;
+        transform: translate(30%, -50%);
     }
 /*-- Index --*/
     .contact-fb-fanpage iframe{

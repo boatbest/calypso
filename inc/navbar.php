@@ -1,5 +1,12 @@
-<!-- Image and text -->
-
+<!-- Social Media Floating -->
+<div class="icon-bar">
+    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a> 
+    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> 
+    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="line"><i class="fab fa-line"></i></a> 
+    <a href="#" class="youtube"><i class="fab fa-youtube"></i></a> 
+    <a href="#" class="wechat"><i class="fab fa-weixin"></i></a> 
+</div>
 <!-- <a class="navbar-logo" href="#"></a> -->
   <div class="">
     <nav class="navbar-inverse nav-upper d-none d-lg-block">
