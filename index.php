@@ -13,6 +13,7 @@
     <!-- START FOOTER -->
     <?php include_once('inc/slider.php'); ?>
     <!-- END FOOTER -->
+
 	<!-- START SECTION PACKAGE -->
     <section class="section-package">
     	<div class="container">
@@ -73,46 +74,6 @@
 	    	<h2 class="text-top-title text-center">Show Gallery</h2>
 	    	
 	    	
-			<div class="row">
-				<div class="col-12 col-lg-6">
-					<label>
-			    	Line height	
-			    	</label>
-					<div class="line-title line-title-h2 line-title-w300"></div>
-			    	<div class="line-title line-title-h3 line-title-w300"></div>
-			    	<div class="line-title line-title-h4 line-title-w300"></div>
-				</div>
-				<div class="col-12 col-lg-6">
-					<label>
-			    	Line Width
-			    	</label>
-					<div class="line-title line-title-h2 line-title-w100"></div>
-			    	<div class="line-title line-title-h2 line-title-w200"></div>
-			    	<div class="line-title line-title-h2 line-title-w300"></div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-12 col-lg-6">
-			            <button type="submit" class="btn-cal btn-cal-sm">Submit</button>
-			            <button type="submit" class="btn-cal btn-cal-md">Submit</button>
-			            <button type="submit" class="btn-cal btn-cal-lg">Submit</button>
-				</div>
-				<div class="col-12 col-lg-6">
-					<div class="header-text-box">
-						<label class="text-box-detail">About The Thai Dance Performance</label>
-					</div>
-				</div>
-			</div>
-			<div class="m-4">
-				<ul class="pagination justify-content-center">
-				  <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
-				  <li class="page-item"><a class="page-link" href="#">1</a></li>
-				  <li class="page-item active"><a class="page-link" href="#">2</a></li>
-				  <li class="page-item"><a class="page-link" href="#">3</a></li>
-				  <li class="page-item"><a class="page-link" href="#">Next</a></li>
-				</ul>
-			</div>
 	    	
 	    </div>
     </section>
@@ -127,30 +88,41 @@
 	    		<label class="text-white text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </label>
 	    	</div>
 	    	<div class="row">
-				<div class="col-12 col-md-8">
-					<div class="card-box">
-						<div class="card-box-header">
-							<h4 class="card-box-title">Traveler's Infarmation</h4>
+	    		<div class="col-12 col-md-3 col-lg-5 px-md-0">
+					<div class="card-hotshow">
+						<div class="feather-left">
+							<img src="assets/images/feather-01.png" class="img-fluid">
 						</div>
-						<div class="card-box-content">
-							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-							</p>
+		    			<h4> HOT SHOW </h4>
+		    			<p>
+		    				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently like Aldus PageMaker including.
+		    			</p>
+		    			<div class="text-center">
+		    				<button type="submit" class="btn-cal btn-cal-md px-5">Read More</button>
+		    			</div>
+		    		</div>
+	    		</div>
+	    		<div class="col-12 col-md-9 col-lg-7">
+				
+	    			<div class="img-hotshow">
+	    				<div class="feather-right">
+							<img src="assets/images/feather-02.png" class="img-fluid">
 						</div>
-					</div>
-				</div>
-				<div class="col-12 col-md-4">
-					<div class="card-box">
-						<div class="card-box-header">
-							<h4 class="card-box-title">Traveler's Infarmation</h4>
-						</div>
-						<div class="card-box-content">
-							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-							</p>
-						</div>
-					</div>	
-				</div>
+		    			<img src="assets/images/calypso1.jpg" alt="" class="img-fluid">
+		    		</div>
+	    		</div>
+	    	</div>
+	    </div>
+    </section>
+	<!-- START SECTION NEWS -->
+    <section class="section-news">
+    	<div class="container">
+	    	<div class="top-title mx-auto">
+	    		<img src="assets/images/Logo/logo.png" alt="Calypso logo" class="top-title-img">
+	    	</div>
+	    	<h2 class="text-top-title text-center">News</h2>
+	    	<div class="text-top-excerpt">
+	    		<label class="text-white text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </label>
 	    	</div>
 	    	<div class="row">
 	    		<div class="col-12">
@@ -242,22 +214,6 @@
 					    </div>
 
 					</div>
-	    		</div>
-	    	</div>
-	    </div>
-    </section>
-	<!-- START SECTION NEWS -->
-    <section class="section-news">
-    	<div class="container">
-	    	<div class="top-title mx-auto">
-	    		<img src="assets/images/Logo/logo.png" alt="Calypso logo" class="top-title-img">
-	    	</div>
-	    	<h2 class="text-top-title text-center">News</h2>
-	    	<div class="text-top-excerpt">
-	    		<label class="text-white text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </label>
-	    	</div>
-	    	<div class="row">
-	    		<div class="col-12">
 	    		</div>
 	    	</div>
 	    </div>
