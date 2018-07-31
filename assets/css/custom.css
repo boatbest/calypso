@@ -581,7 +581,8 @@ input.qtyminus {
 .img-hotshow{
     position: relative;
     width: 100%;
-    height: 415px;
+    height: 411px;
+    border: 4px solid #ececec;
 }
 .img-hotshow img{
     float: left;
@@ -598,10 +599,10 @@ input.qtyminus {
 }
 .feather-right{
     position: absolute;
-    width: 215px;
-    top: -30px;
+    width: 185px;
+    top: -20px;
     right: 0;
-    transform: translate(35%, -50%);
+    transform: translate(30%, -50%);
 }
 
 /*-- SECTION NEWS --*/
