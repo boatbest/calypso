@@ -1,11 +1,11 @@
 <!-- Social Media Floating -->
 <div class="icon-bar">
-    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a> 
-    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> 
+    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
     <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-    <a href="#" class="line"><i class="fab fa-line"></i></a> 
-    <a href="#" class="youtube"><i class="fab fa-youtube"></i></a> 
-    <a href="#" class="wechat"><i class="fab fa-weixin"></i></a> 
+    <a href="#" class="line"><i class="fab fa-line"></i></a>
+    <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+    <a href="#" class="wechat"><i class="fab fa-weixin"></i></a>
 </div>
 <!-- <a class="navbar-logo" href="#"></a> -->
   <div class="">
@@ -39,14 +39,14 @@
           </li>
         </ul>
       </div>
-    </nav> 
-  
+    </nav>
+
       <nav class="navbar navbar-expand-lg bg-purple">
         <div class="container">
           <div class="navbar-frame ">
              <a  href="index.php">
                <img class="navbar-logo" src="assets/images/Logo/logo.png">
-             </a>    
+             </a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars font-white"></i>
@@ -61,7 +61,7 @@
               <li class="nav-item">
                 <a class="nav-link oop dropdown-toggle <?php if($link == 'localhost/calypso/about_cal.php'){echo 'active';} ?> nav-border-right" href="about_cal.php" id="navbarDropdown-about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
                   <div class="dropdown-menu bg-purple" aria-labelledby="navbarDropdown-about">
-                    <a class="dropdown-item" href="#">Calypso Carbaret</a>
+                    <a class="dropdown-item" href="about_cal.php">Calypso Carbaret</a>
                     <a class="dropdown-item" href="#">Thai Restaurant</a>
                   </div>
               </li>
@@ -94,5 +94,3 @@
         </div>
       </nav>
   </div>
-
-
