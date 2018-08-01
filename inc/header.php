@@ -9,8 +9,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- ICON -->
-    <link rel="icon" type="image/png" href="assets/images/Logo/logo-icon.png" sizes="16x16" href="" >
-    <link rel="apple-touch-icon" sizes="76x76" href="">
+    <link rel="icon" type="image/png" href="assets/images/Logo/logo-icon.png" sizes="16x16">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/Logo/logo-icon.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -20,12 +20,9 @@
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/pond.css">
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Kanit:300,400,500,600" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="assets/vendor/flaticon/font/flaticon.css">
-
-
-    
-
