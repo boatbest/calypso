@@ -21,6 +21,7 @@
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
     <link rel="stylesheet" type="text/css" href="assets/css/pond.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/park.css">
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Kanit:300,400,500,600" rel="stylesheet">
