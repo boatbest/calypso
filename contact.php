@@ -61,15 +61,15 @@
                         <form>
                           <div class="form-group">
                             <label for="formGroupExampleInput">Name</label>
-                            <input type="text" class="form-control cal-form" id="formGroupExampleInput" placeholder="Example input">
+                            <input type="text" class="form-control cal-form" id="formGroupExampleInput" placeholder="Name">
                           </div>
                           <div class="form-group">
                             <label for="formGroupExampleInput2">Email</label>
-                            <input type="text" class="form-control cal-form" id="formGroupExampleInput2" placeholder="Another input">
+                            <input type="text" class="form-control cal-form" id="formGroupExampleInput2" placeholder="Email">
                           </div>
                           <div class="form-group">
                             <label for="formGroupExampleInput2">Message</label>
-                            <input type="text" class="form-control cal-form" id="formGroupExampleInput2" placeholder="Another input">
+                            <input type="text" class="form-control cal-form" id="formGroupExampleInput2" placeholder="Messages">
                           </div>
                           <div class="cal-capcha">
                             <img src="assets/images/newCaptchaAnchor.gif" alt="calypso" class="img-fluid">

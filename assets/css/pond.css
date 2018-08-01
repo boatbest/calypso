@@ -77,13 +77,6 @@ LOGIN
     border-radius: 0px;
     background-color: #ce352a;
 }
-.login-gmail-icon {
-    margin-right: 10px;
-    font-size: 25px;
-}
-.login-gmail-text {
-    font-size: 20px;
-}
 .login-overlay-image{
     position: relative;
     height: 55px;
@@ -105,6 +98,7 @@ LOGIN
 END LOGIN
 *------------------------------------*/
 
+
 /*------------------------------------*
 CONTACT
 *------------------------------------*/
@@ -119,9 +113,6 @@ END CONTACT
 /*------------------------------------*
 Responsive
 *------------------------------------*/
-
-
-
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
   /*------------------------------------*
@@ -142,9 +133,17 @@ Responsive
   }
   .login-overlay-image {
       position: relative;
-      height: 75px;
+      height: 46px;
       width: 100%;
       overflow: hidden;
+  }
+  .login-image-full {
+      position: absolute;
+      display: block;
+      width: 80%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
   }
   .login-font {
       font-size: 25px;
@@ -175,6 +174,7 @@ Responsive
   *------------------------------------*/
 }
 
+
 /*=Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
   /*------------------------------------*
@@ -195,7 +195,7 @@ Responsive
   }
   .login-overlay-image {
       position: relative;
-      height: 75px;
+      height: 44px;
       width: 100%;
       overflow: hidden;
   }
@@ -213,9 +213,18 @@ Responsive
   .line-title-w100 {
       width: 90px;
   }
+  .login-image-full {
+      position: absolute;
+      display: block;
+      width: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
   /*------------------------------------*
   END LOGIN / 576px
   *------------------------------------*/
+
   /*------------------------------------*
   CONTACT / 576px
   *------------------------------------*/
@@ -232,6 +241,21 @@ Responsive
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   /*------------------------------------*
+   LOGIN / 768px
+  *------------------------------------*/
+  .login-image-full {
+      position: absolute;
+      display: block;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  /*------------------------------------*
+   END LOGIN / 768px
+  *------------------------------------*/
+
+  /*------------------------------------*
    CONTACT / 768px
   *------------------------------------*/
   .contact-font2 {
@@ -246,15 +270,14 @@ Responsive
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   /*------------------------------------*
-   CONTACT / 1200px
+   CONTACT / 992px
   *------------------------------------*/
   .contact-font2 {
       font-size: 16px;
   }
   /*------------------------------------*
-  END CONTACT / 1200px
+  END CONTACT / 992px
   *------------------------------------*/
-
 }
 
 
