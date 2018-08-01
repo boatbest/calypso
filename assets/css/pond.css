@@ -169,6 +169,10 @@ Responsive
   .contact-font2 {
       font-size: 15px;
   }
+  .contact-fb-fanpage iframe {
+      width: 100%;
+      overflow: hidden;
+  }
   /*------------------------------------*
   END CONTACT / 575.98
   *------------------------------------*/
@@ -231,6 +235,10 @@ Responsive
   .contact-font2 {
       font-size: 15px;
   }
+  .contact-fb-fanpage iframe {
+      width: 100%;
+      overflow: hidden;
+  }
   /*------------------------------------*
   END CONTACT / 576px
   *------------------------------------*/
@@ -261,6 +269,10 @@ Responsive
   .contact-font2 {
       font-size: 15px;
   }
+  .contact-fb-fanpage iframe {
+      width: 100%;
+      overflow: hidden;
+  }
   /*------------------------------------*
   END CONTACT / 768px
   *------------------------------------*/
@@ -274,6 +286,10 @@ Responsive
   *------------------------------------*/
   .contact-font2 {
       font-size: 16px;
+  }
+  .contact-fb-fanpage iframe {
+      width: 350px;
+      overflow: hidden;
   }
   /*------------------------------------*
   END CONTACT / 992px

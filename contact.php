@@ -56,7 +56,7 @@
       <section class="section-contact bg-bottom-linear">
         <div class="container">
             <div class="contact-box">
-                <div class="row mx-0 mx-lg-4">
+                <div class="row mx-0 mx-lg-3">
                     <div class="col-12 col-md-6">
                         <form>
                           <div class="form-group">
