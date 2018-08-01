@@ -20,12 +20,9 @@
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/gia.css">
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Kanit:300,400,500,600" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="assets/vendor/flaticon/font/flaticon.css">
-
-
-    
-
