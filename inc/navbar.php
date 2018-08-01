@@ -84,8 +84,8 @@
               <li class="nav-item">
                 <a class="nav-link oop <?php if($link == 'localhost/calypso/news.php'){echo 'active';} ?> nav-border-right" href="news.php">News</a>
               </li>
-              <li class="nav-items">
-                <a class="nav-link oop nav-border-right px-0 ml-4 ml-lg-0" href="booking.php">
+              <li class="nav-items ml-3">
+                <a class="nav-link oop nav-border-right px-0" href="booking.php">
                   <img src="assets/images/img-icon/btn-booking.png" class="img-fluid">
                 </a>
               </li>
