@@ -1,0 +1,276 @@
+
+/*------------------------------------*
+$FONTFACE
+*------------------------------------*/
+
+@font-face {
+    font-family: 'kanitbold';
+    src: url('../fonts/kanit/kanit-bold-webfont.woff2') format('woff2'),
+         url('../fonts/kanit/kanit-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kanitlight';
+    src: url('../fonts/kanit/kanit-light-webfont.woff2') format('woff2'),
+         url('../fonts/kanit/kanit-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kanitmedium';
+    src: url('../fonts/kanit/kanit-medium-webfont.woff2') format('woff2'),
+         url('../fonts/kanit/kanit-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kanitregular';
+    src: url('../fonts/kanit/kanit-regular-webfont.woff2') format('woff2'),
+         url('../fonts/kanit/kanit-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*------------------------------------*
+LOGIN
+*------------------------------------*/
+.login-font{
+    font-size: 30px;
+    font-family: "kanitregular";
+}
+.login-font2{
+    font-size: 20px;
+    font-family: "kanitregular";
+}
+.login-box {
+    border-image: linear-gradient(90deg, #E71270,#DF3529, #14BFF0);
+    border-image-slice: 1;
+    background-color: #2c1d3a;
+    padding: 30px;
+    color: #ffffff;
+}
+.login-p-t{
+    padding-top: 15px;
+}
+.login-form {
+    padding: 10px 0px 10px 15px;
+    border-radius: none;
+    display: block;
+    width: 60%;
+    height: 50px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: none;
+}
+.signin-btn-gmail {
+    overflow: hidden;
+    width: 100%;
+    height: 58px;
+    color: #fff;
+    border-radius: 0px;
+    background-color: #ce352a;
+}
+.login-gmail-icon {
+    margin-right: 10px;
+    font-size: 25px;
+}
+.login-gmail-text {
+    font-size: 20px;
+}
+.login-overlay-image{
+    position: relative;
+    height: 55px;
+    width: 100%;
+    overflow: hidden;
+}
+.login-image-full {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.line-title-w100 {
+    width: 100px;
+}
+/*------------------------------------*
+END LOGIN
+*------------------------------------*/
+
+/*------------------------------------*
+CONTACT
+*------------------------------------*/
+.contact-font{
+    font-size: 20px;
+}
+/*------------------------------------*
+END CONTACT
+*------------------------------------*/
+
+
+/*------------------------------------*
+Responsive
+*------------------------------------*/
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  /*------------------------------------*
+  END LOGIN / 575.98
+  *------------------------------------*/
+  .login-form {
+      padding: 10px 0px 10px 15px;
+      border-radius: none;
+      display: block;
+      width: 100%;
+      height: 50px;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      border: none;
+  }
+  .login-overlay-image {
+      position: relative;
+      height: 75px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .login-font {
+      font-size: 25px;
+      font-family: "kanitregular";
+  }
+  .login-font2 {
+      font-size: 16px;
+      font-family: "kanitregular";
+  }
+  .login-p-t {
+      padding-top: 11px;
+  }
+  .line-title-w100 {
+      width: 90px;
+  }
+  /*------------------------------------*
+  END LOGIN / 575.98
+  *------------------------------------*/
+
+  /*------------------------------------*
+  CONTACT / 575.98
+  *------------------------------------*/
+  .contact-font2 {
+      font-size: 15px;
+  }
+  /*------------------------------------*
+  END CONTACT / 575.98
+  *------------------------------------*/
+}
+
+/*=Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  /*------------------------------------*
+   LOGIN / 576px
+  *------------------------------------*/
+  .login-form {
+      padding: 10px 0px 10px 15px;
+      border-radius: none;
+      display: block;
+      width: 80%;
+      height: 50px;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      border: none;
+  }
+  .login-overlay-image {
+      position: relative;
+      height: 75px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .login-font {
+      font-size: 25px;
+      font-family: "kanitregular";
+  }
+  .login-font2 {
+      font-size: 16px;
+      font-family: "kanitregular";
+  }
+  .login-p-t {
+      padding-top: 11px;
+  }
+  .line-title-w100 {
+      width: 90px;
+  }
+  /*------------------------------------*
+  END LOGIN / 576px
+  *------------------------------------*/
+  /*------------------------------------*
+  CONTACT / 576px
+  *------------------------------------*/
+  .contact-font2 {
+      font-size: 15px;
+  }
+  /*------------------------------------*
+  END CONTACT / 576px
+  *------------------------------------*/
+}
+
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  /*------------------------------------*
+   CONTACT / 768px
+  *------------------------------------*/
+  .contact-font2 {
+      font-size: 15px;
+  }
+  /*------------------------------------*
+  END CONTACT / 768px
+  *------------------------------------*/
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  /*------------------------------------*
+   CONTACT / 1200px
+  *------------------------------------*/
+  .contact-font2 {
+      font-size: 16px;
+  }
+  /*------------------------------------*
+  END CONTACT / 1200px
+  *------------------------------------*/
+
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  /*------------------------------------*
+   CONTACT / 1200px
+  *------------------------------------*/
+  .contact-font2 {
+      font-size: 18px;
+  }
+  /*------------------------------------*
+  END CONTACT / 1200px
+  *------------------------------------*/
+}
+
+@media (min-width: 1600px) {
+
+}
