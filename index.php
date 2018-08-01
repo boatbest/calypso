@@ -72,7 +72,42 @@
 	    		<img src="assets/images/Logo/logo.png" alt="Calypso logo" class="top-title-img">
 	    	</div>
 	    	<h2 class="text-top-title text-center">Show Gallery</h2>
-	    	
+	    	<div class="row">
+	    		<div class="col-12 col-lg-6 mb-2 mb-lg-0">
+	    			<div class="row">
+	    				<div class="col-6 px-1">
+	    					<div class="show-gall-horizontal mb-2">
+	    						<img src="assets/images/01.jpg" class="img-fluid">
+	    					</div>
+	    					<div class="show-gall-horizontal">
+	    						<img src="assets/images/02.jpg" class="img-fluid">
+	    					</div>
+	    				</div>
+	    				<div class="col-6 px-1">
+	    					<div class="show-gall-vertical">
+	    						<img src="assets/images/03.jpg" class="img-fluid">
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="col-12 col-lg-6">
+	    			<div class="row">
+	    				<div class="col-6 px-1">
+	    					<div class="show-gall-horizontal mb-2">
+	    						<img src="assets/images/04.jpg" class="img-fluid">
+	    					</div>
+	    					<div class="show-gall-horizontal">
+	    						<img src="assets/images/05.jpg" class="img-fluid">
+	    					</div>
+	    				</div>
+	    				<div class="col-6 px-1">
+	    					<div class="show-gall-vertical">
+	    						<img src="assets/images/06.jpg" class="img-fluid">
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
 	    </div>
     </section>
 	<!-- START SECTION HOT SHOW -->

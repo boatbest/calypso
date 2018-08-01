@@ -66,7 +66,7 @@ body{
     background-position: bottom;
 }
 .wrapper {
-    min-height: calc(100vh - 500px);
+    min-height: calc(100vh - 315px);
 }
 
 /*----------------- Font -----------------*/
@@ -79,6 +79,9 @@ body{
 .bg-purple{
     background-color: #2C1D3A!important;
 }
+.bg-dark-purple{
+    background-color: #1C1227!important;
+}
 .bg-white{
     background-color: #ffffff!important;
 }
@@ -86,6 +89,10 @@ body{
     background: linear-gradient(#1c1128, #24183400)!important;
 }
 /*--------------- Form -------------------*/
+a.btn-cal:hover{
+    color: #e0e0e0;
+    text-decoration: none;
+}
 .btn-cal{
     color: #fff;
     background-color: #17252A;
@@ -191,6 +198,7 @@ body{
 .dropdown-menu{
     border: unset;
     border-radius: unset;
+    box-shadow: 2px 0px 6px 1px rgba(161, 161, 161, 0.3);
 }
 .dropdown-item:focus, .dropdown-item:hover {
     color: #ffffff;
@@ -625,6 +633,26 @@ input.qtyminus {
 .section-gallery{
     background-color: #2C1D3A;
 }
+.show-gall-horizontal{
+    width: 100%;
+    height: 200px;
+}
+.show-gall-horizontal img{
+    float: left;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.show-gall-vertical{
+    width: 100%;
+    height: 100%;
+}
+.show-gall-vertical img{
+    float: left;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /*-- SECTION HOT SHOW --*/
 .section-hotshow{
@@ -687,6 +715,22 @@ input.qtyminus {
 
 /*------------------------------------*
 End Page Index
+*------------------------------------*/
+
+/*------------------------------------*
+Start Page News
+*------------------------------------*/
+.news_title{
+    margin-top: 7px;
+    margin-bottom: 15px;
+    max-height: 80px;
+    overflow: hidden;
+}
+.news_title small{
+    color: #a2a2a2;
+}
+/*------------------------------------*
+End Page News
 *------------------------------------*/
 
 
@@ -918,6 +962,9 @@ Responsive
         width: 270px;
         overflow: hidden;
     }  
+    .show-gall-horizontal {
+        height: 220px;
+    }
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -944,6 +991,9 @@ Responsive
     }
     .slide-box{
         left: 30%;
+    }
+    .show-gall-horizontal {
+        height: 160px;
     }
 /*-- Footer --*/
     footer{
@@ -972,9 +1022,12 @@ Responsive
         width: 340px;
         overflow: hidden;
     }
+    .show-gall-horizontal {
+        height: 200px;
+    }
 /*-- Footer --*/
     footer{
-        padding-top: 20rem;
+        padding-top: 36rem;
     }
     .footer-container{
         max-width: 1150px;

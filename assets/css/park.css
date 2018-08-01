@@ -1,0 +1,298 @@
+/*
+Template CSS :  Calypso;
+Version :       1.0;
+Author :        workbythai;
+*/
+
+/*
+* FONT-FACE...........1
+* Genaral.............2
+* Page ...............3
+* Footer..............4
+* Responsive..........5
+*/
+
+
+/* -------- ABOUT-CAL ------------ */
+
+.ab-acl-fix {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 600px;
+}
+.ab-cal-image {
+  float:left;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.ab-cal-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  background-color: #000000ba;
+}
+.ab-cal-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.ab-cal-h3-w300 {
+  font-weight: normal;
+  text-transform: capitalize;
+}
+.ab-cal-hr-w370 {
+  margin: 25px auto;
+  width: 370px;
+}
+.ab-cal-hr-content {
+  margin: 25px auto;
+  width: 170px;
+}
+.ab-cal-sethr {
+  border-top: 1px solid rgba(0,0,0,.1);
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 1px solid transparent;
+  border-image: linear-gradient(90deg, #E71270,#DF3529, #14BFF0);
+  border-image-slice: 1;
+}
+.ab-cal-fix-centent {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+.ab-img-centent {
+  float:left;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.ab-cal-btn-show {
+  font-weight: bold;
+  height: 70px;
+  font-size: 25px;
+}
+.ab-cal-set-img-5 {
+  width: 100%;
+  overflow: hidden;
+  height: 400px;
+}
+.ab-cal-d-table {
+    width: 100%;
+    height: 400px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.ab-fix-line-text {
+  overflow: hidden;
+  max-height: 380px;
+}
+.ab-cal-fix-2line {
+  overflow: hidden;
+  max-height: 70px;
+}
+.ab-mb-set-500 {
+  margin-bottom: 500px;
+}
+/* -------- END ABOUT-CAL ------------ */
+
+
+/*------------------------------------*
+Responsive
+*------------------------------------*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  /* ABOUT-CAL SM 575.98 */
+  .ab-cal-text {
+      color: white;
+      font-size: 16px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  .ab-cal-hr-w370 {
+      margin: 25px auto;
+      width: 50%;
+  }
+  .ab-cal-d-table {
+      width: 100%;
+      height: 400px;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+  }
+  .ab-mb-set-500 {
+      margin-bottom: 0px;
+  }
+  .ab-cal-d-table {
+      width: 100%;
+      max-height: 400px;
+      height: 0;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      padding-top: 50px;
+  }
+  /* END ABOUT-CAL SM 575.98 */
+}
+/*=Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .ab-acl-fix {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 470px;
+  }
+  .ab-cal-text {
+      color: white;
+      font-size: 16px;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  .ab-cal-set-img-5 {
+      width: 100%;
+      overflow: hidden;
+      height: 460px;
+  }
+
+  .ab-cal-d-table {
+      width: 100%;
+      max-height: 460px;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      height: 0px;
+      padding-top: 50px;
+  }
+  .ab-mb-set-500 {
+      margin-bottom: 170px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .ab-cal-fix-centent {
+      width: 100%;
+      overflow: hidden;
+      height: 100%;
+      max-height: 600px;
+  }
+  .ab-cal-d-table {
+      width: 100%;
+      max-height: 460px;
+      height: 0px;
+      padding-top: 50px;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+  }
+  .ab-fix-line-text {
+      overflow: hidden;
+      max-height: 380px;
+      font-size: 16px;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+/* ABOUT-CAL MIN 992 */
+  .ab-cal-text {
+      color: white;
+      font-size: 16px;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: unset;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  .ab-cal-fix-centent {
+      width: 100%;
+      overflow: hidden;
+      height: 100%;
+      max-height: 450px;
+  }
+  .ab-mb-set-500 {
+      margin-bottom: 380px;
+  }
+/* END ABOUT MIN 992 */
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+/* ABOUT MIN 1200 */
+  .ab-cal-set-img-5 {
+      width: 100%;
+      overflow: hidden;
+      height: 400px;
+  }
+  .ab-cal-d-table {
+      width: 100%;
+      padding-top: 0px;
+      height: 400px;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: left;
+  }
+  .ab-fix-line-text {
+      overflow: hidden;
+      max-height: 313px;
+      font-size: 16px;
+  }
+  .ab-cal-text {
+      color: white;
+      font-size: 16px;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: unset;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+/* END ABOUT MIN 1200 */
+}
+
+@media (min-width: 1600px) {
+  /* ABOUT MIN 1600 */
+  .ab-mb-set-500 {
+      margin-bottom: 500px;
+  }
+  /* END ABOUT MIN 1600 */
+}
