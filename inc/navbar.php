@@ -13,7 +13,7 @@
       <div class="container">
         <ul class="float-right mb-0">
           <li>
-            <a href="">
+            <a href="login.php">
               Representatives
             </a>
           </li>
@@ -61,8 +61,8 @@
               <li class="nav-item">
                 <a class="nav-link oop dropdown-toggle <?php if($link == 'localhost/calypso/about_cal.php'){echo 'active';} ?> nav-border-right" href="about_cal.php" id="navbarDropdown-about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
                   <div class="dropdown-menu bg-purple" aria-labelledby="navbarDropdown-about">
-                    <a class="dropdown-item" href="#">Calypso Carbaret</a>
-                    <a class="dropdown-item" href="#">Thai Restaurant</a>
+                    <a class="dropdown-item" href="about_cal.php">Calypso Carbaret</a>
+                    <a class="dropdown-item" href="about_thai.php">Thai Restaurant</a>
                   </div>
               </li>
               <li class="nav-item">
@@ -76,9 +76,9 @@
               <li class="nav-item">
                 <a class="nav-link oop dropdown-toggle <?php if($link == 'localhost/calypso/history.php'){echo 'active';} ?> nav-border-right" href="history.php" id="navbarDropdown-contact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plan your Visit</a>
                   <div class="dropdown-menu bg-purple" aria-labelledby="navbarDropdown-contact">
-                    <a class="dropdown-item" href="#">Map</a>
-                    <a class="dropdown-item" href="#">Contact</a>
-                    <a class="dropdown-item" href="#">Frequently Asked Questions</a>
+                    <a class="dropdown-item" href="map.php">Map</a>
+                    <a class="dropdown-item" href="contact.php">Contact</a>
+                    <a class="dropdown-item" href="faq.php">Frequently Asked Questions</a>
                   </div>
               </li>
               <li class="nav-item">
