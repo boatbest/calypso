@@ -9,8 +9,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- ICON -->
-    <link rel="icon" type="image/png" href="assets/images/Logo/logo-icon.png" sizes="16x16" href="" >
-    <link rel="apple-touch-icon" sizes="76x76" href="">
+    <link rel="icon" type="image/png" href="assets/images/Logo/logo-icon.png" sizes="16x16">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/Logo/logo-icon.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
