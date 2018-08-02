@@ -122,7 +122,14 @@ input[type='radio']:checked:after {
       -ms-user-select: none; /* Internet Explorer/Edge */
           user-select: none; /* Non-prefixed version, currently
                                 supported by Chrome and Opera */
+}
 
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: unset !important;
 }
 
 /*------------------------------------*
@@ -153,6 +160,25 @@ $Payment
 
 .half-form{
   width:45%;
+}
+
+.icon-group{
+  font-size: 12px;
+}
+
+.policy{
+  text-decoration: underline;
+  color:white;
+}
+
+.policy:hover{
+  text-decoration: underline;
+  color:white;
+}
+
+.sum-price{
+  font-size: 24px;
+  color:#ffc14f;
 }
 
 /*------------------------------------*
@@ -194,6 +220,13 @@ Responsive
 
 @media (min-width: 768px) {
 
+  .summary-section-desktop{
+    display:none !important;
+  }
+
+  .summary-section-mobile{
+    display:block !important;
+  }
 
 }
 
@@ -219,6 +252,14 @@ Responsive
   $END GENERAL 768px
   *------------------------------------*/
 
+  .summary-section-desktop{
+    display:none !important;
+  }
+
+  .summary-section-mobile{
+    display:block !important;
+  }
+
 }
 
 @media (min-width: 1200px) {
@@ -241,6 +282,14 @@ Responsive
     /*------------------------------------*
     $END GENERAL 768px
     *------------------------------------*/
+
+    .summary-section-desktop{
+      display:block !important;
+    }
+
+    .summary-section-mobile{
+      display:none !important;
+    }
 
 }
 
