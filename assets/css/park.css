@@ -36,7 +36,7 @@ Author :        workbythai;
   height: 100%;
   width: 100%;
   opacity: 1;
-  background-color: #000000ba;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .ab-cal-text {
   color: white;

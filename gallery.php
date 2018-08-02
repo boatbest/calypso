@@ -28,14 +28,7 @@
         </div>
       </div>
       <!-- END HEAD -->
-      <!-- <div id="aniimated-thumbnials">
-        <a href="img/img1.jpg">
-          <img src="img/thumb1.jpg" />
-        </a>
-        <a href="img/img2.jpg">
-          <img src="img/thumb2.jpg" />
-        </a>
-      </div> -->
+
 
 
 
@@ -167,8 +160,6 @@
           </ul>
         </nav>
       </div>
-
-
     </div>
 
     <!-- START FOOTER -->
