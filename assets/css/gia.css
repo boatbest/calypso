@@ -1,0 +1,69 @@
+
+
+
+/*---------faq--------------*/
+.section-hotshow-41 {
+    height: 180vh;
+}
+/*---------faq end----------*/
+
+/*----------about-thai------*/
+.about-fix-img{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 90vh;
+}
+.about-img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+/*----------about-thai end------*/
+
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  /*-----------faq-----------*/
+  .faq-font{
+    font-size: 18px;
+  }
+  .faq-font-1{
+    font-size: 16px;
+  }
+  .faq-font-2{
+    font-size: 14px;
+  }
+
+
+  /*-----------faq and-------*/
+
+}
+/*=Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1600px) {
+}

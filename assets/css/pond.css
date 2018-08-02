@@ -109,6 +109,52 @@ CONTACT
 END CONTACT
 *------------------------------------*/
 
+/*------------------------------------*
+MAP
+*------------------------------------*/
+.map-font{
+    font-size: 20px;
+}
+.map-font2{
+    font-size: 16px;
+    color: #d92a65;
+}
+.map-font3{
+    font-size: 16px;
+    font-family: 'kanitlight';
+}
+.map-font4{
+    font-size: 25px;
+    font-family: 'kanitregular';
+}
+.map-font5{
+    font-size: 25px;
+    font-family: 'kanitlight';
+}
+.map-line-title-w300 {
+    width: 350px;
+}
+.map-icon{
+    font-size: 20px;
+}
+.map-overlay-image{
+    position: relative;
+    height: 787px;
+    width: 100%;
+    overflow: hidden;
+}
+.map-image-full {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*------------------------------------*
+END MAP
+*------------------------------------*/
+
 
 /*------------------------------------*
 Responsive
@@ -176,6 +222,36 @@ Responsive
   /*------------------------------------*
   END CONTACT / 575.98
   *------------------------------------*/
+
+  /*------------------------------------*
+  MAP / 575.98
+  *------------------------------------*/
+  .map-font {
+      font-size: 18px;
+  }
+  .map-icon {
+      font-size: 16px;
+  }
+  .map-font3 {
+      font-size: 14px;
+      font-family: 'kanitlight';
+  }
+  .map-font5 {
+      font-size: 20px;
+      font-family: 'kanitlight';
+  }
+  .map-overlay-image {
+      position: relative;
+      height: 270px;
+      width: 100%;
+      overflow: hidden;
+  }
+  .map-line-title-w300 {
+      width: 290px;
+  }
+  /*------------------------------------*
+  END MAP / 575.98
+  *------------------------------------*/
 }
 
 
@@ -242,6 +318,26 @@ Responsive
   /*------------------------------------*
   END CONTACT / 576px
   *------------------------------------*/
+
+  /*------------------------------------*
+  MAP / 576px
+  *------------------------------------*/
+  .map-icon {
+      font-size: 16px;
+  }
+  .map-font3 {
+      font-size: 14px;
+      font-family: 'kanitlight';
+  }
+  .map-overlay-image {
+      position: relative;
+      height: 360px;
+      width: 100%;
+      overflow: hidden;
+  }
+  /*------------------------------------*
+  END MAP / 576px
+  *------------------------------------*/
 }
 
 
@@ -276,6 +372,19 @@ Responsive
   /*------------------------------------*
   END CONTACT / 768px
   *------------------------------------*/
+
+  /*------------------------------------*
+  MAP / 768px
+  *------------------------------------*/
+  .map-overlay-image {
+      position: relative;
+      height: 489px;
+      width: 100%;
+      overflow: hidden;
+  }
+  /*------------------------------------*
+  END MAP / 768px
+  *------------------------------------*/
 }
 
 
@@ -294,6 +403,20 @@ Responsive
   /*------------------------------------*
   END CONTACT / 992px
   *------------------------------------*/
+
+  /*------------------------------------*
+   MAP / 992px
+  *------------------------------------*/
+  .map-overlay-image {
+      position: relative;
+      height: 656px;
+      width: 100%;
+      overflow: hidden;
+  }
+  /*------------------------------------*
+  END MAP / 992px
+  *------------------------------------*/
+
 }
 
 
@@ -307,6 +430,19 @@ Responsive
   }
   /*------------------------------------*
   END CONTACT / 1200px
+  *------------------------------------*/
+
+  /*------------------------------------*
+  MAP / 1200px
+  *------------------------------------*/
+  .map-overlay-image{
+      position: relative;
+      height: 787px;
+      width: 100%;
+      overflow: hidden;
+  }
+  /*------------------------------------*
+  END MAP / 1200px
   *------------------------------------*/
 }
 
