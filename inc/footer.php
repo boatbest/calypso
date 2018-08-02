@@ -20,35 +20,35 @@
 					<div class="row">
 						<ul class="ft-menu">
 							<li class="ft-menu-item">
-								<a href="">Home</a>
+								<a href="index.php">Home</a>
 							</li>
 							<li class="ft-menu-item">
-								<a href="">Booking</a>
+								<a href="booking.php">Booking</a>
 							</li>
 							<li class="ft-menu-item">
-								<a href="">About Calypso</a>
+								<a href="about_cal.php">About Calypso</a>
 							</li>
 							<li class="ft-menu-item">
-								<a href="">Faqs</a>
-							</li>
-						</ul>
-						<ul class="ft-menu">
-							<li class="ft-menu-item">
-								<a href="">Thai Restaurant</a>
-							</li>
-							<li class="ft-menu-item">
-								<a href="">Gallery</a>
-							</li>
-							<li class="ft-menu-item">
-								<a href="">Contact us</a>
-							</li>
-							<li class="ft-menu-item">
-								<a href="">News</a>
+								<a href="faq.php">Faqs</a>
 							</li>
 						</ul>
 						<ul class="ft-menu">
 							<li class="ft-menu-item">
-								<a href="">Representative</a>
+								<a href="about_thai.php">Thai Restaurant</a>
+							</li>
+							<li class="ft-menu-item">
+								<a href="gallery.php">Gallery</a>
+							</li>
+							<li class="ft-menu-item">
+								<a href="contact.php">Contact us</a>
+							</li>
+							<li class="ft-menu-item">
+								<a href="news.php">News</a>
+							</li>
+						</ul>
+						<ul class="ft-menu">
+							<li class="ft-menu-item">
+								<a href="login.php">Representative</a>
 							</li>
 						</ul>
 					</div>

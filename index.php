@@ -77,15 +77,15 @@
 	    			<div class="row">
 	    				<div class="col-6 px-1">
 	    					<div class="show-gall-horizontal mb-2">
-	    						<img src="assets/images/01.jpg" class="img-fluid">
+	    						<img src="assets/images/01.jpg" class="">
 	    					</div>
 	    					<div class="show-gall-horizontal">
-	    						<img src="assets/images/02.jpg" class="img-fluid">
+	    						<img src="assets/images/02.jpg" class="">
 	    					</div>
 	    				</div>
 	    				<div class="col-6 px-1">
 	    					<div class="show-gall-vertical">
-	    						<img src="assets/images/03.jpg" class="img-fluid">
+	    						<img src="assets/images/03.jpg" class="">
 	    					</div>
 	    				</div>
 	    			</div>
@@ -94,15 +94,15 @@
 	    			<div class="row">
 	    				<div class="col-6 px-1">
 	    					<div class="show-gall-horizontal mb-2">
-	    						<img src="assets/images/04.jpg" class="img-fluid">
+	    						<img src="assets/images/04.jpg" class="">
 	    					</div>
 	    					<div class="show-gall-horizontal">
-	    						<img src="assets/images/05.jpg" class="img-fluid">
+	    						<img src="assets/images/05.jpg" class="">
 	    					</div>
 	    				</div>
 	    				<div class="col-6 px-1">
 	    					<div class="show-gall-vertical">
-	    						<img src="assets/images/06.jpg" class="img-fluid">
+	    						<img src="assets/images/06.jpg" class="">
 	    					</div>
 	    				</div>
 	    			</div>
@@ -136,12 +136,13 @@
 		    		</div>
 	    		</div>
 	    		<div class="col-12 col-lg-7">
-				
-	    			<div class="img-hotshow">
+	    			<div class="w-100">
 	    				<div class="feather-right">
 							<img src="assets/images/feather-02.png" class="img-fluid">
 						</div>
-		    			<img src="assets/images/calypso1.jpg" alt="" class="img-fluid">
+	    			</div>
+	    			<div class="img-hotshow">
+		    			<img src="assets/images/calypso1.jpg" alt="" class="">
 		    		</div>
 	    		</div>
 	    	</div>
@@ -278,8 +279,8 @@
 						  	<img src="assets/images/newCaptchaAnchor.gif" alt="calypso" class="img-fluid">
 						  </div>
 						  <div class="w-100 my-4">
-				            <button type="submit" class="btn-cal btn-cal-md mr-4">Submit</button>
-				            <button type="submit" class="btn-cal btn-cal-md">reset</button>
+				            <button type="submit" class="btn-cal btn-cal-md mr-3 mr-md-4">Submit</button>
+				            <button type="submit" class="btn-cal btn-cal-md">Reset</button>
 				          </div>
 						</form>
 	    			</div>
