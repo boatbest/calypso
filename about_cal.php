@@ -76,92 +76,90 @@
 
 
 
-    <section>
-      <div class="container">
-        <div class="text-center">
-  		    <button type="submit" class="btn-cal btn-cal-md ab-cal-btn-show  px-5">Our Show</button>
-  		  </div>
+      <section>
+        <div class="container">
+          <div class="text-center">
+    		    <button type="submit" class="btn-cal btn-cal-md ab-cal-btn-show  px-5">Our Show</button>
+    		  </div>
 
-        <div class="row py-md-4 py-4">
-          <div class="col-lg-7">
-            <div class="ab-cal-set-img-5">
-              <img src="assets/images/about/CAL_6429.jpg" class="ab-img-centent">
+          <div class="row py-md-4 py-4">
+            <div class="col-lg-7">
+              <div class="ab-cal-set-img-5">
+                <img src="assets/images/about/CAL_6429.jpg" class="ab-img-centent">
+              </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="ab-cal-d-table">
+                  <div class="ab-cal-fix-2line">
+                    <h3 class="ab-cal-h3-w300">Elvils : </h3>
+                  </div>
+
+                    <div class="ab-fix-line-text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </p>
+                    </div>
+                </div>
             </div>
           </div>
-          <div class="col-lg-5">
-              <div class="ab-cal-d-table">
-                <div class="ab-cal-fix-2line">
-                  <h3 class="ab-cal-h3-w300">Elvils : </h3>
-                </div>
 
+          <div class="row py-md-4 py-4">
+            <div class="col-lg-7">
+              <div class="ab-cal-set-img-5">
+                <img src="assets/images/about/CAL_7219.jpg" class="ab-img-centent">
+              </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="ab-cal-d-table">
+                  <div class="ab-cal-fix-2line">
+                    <h3 class="ab-cal-h3-w300">Lorem Ipsum is simply dummy text </h3>
+                  </div>
                   <div class="ab-fix-line-text">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </p>
                   </div>
-              </div>
-          </div>
-        </div>
-
-        <div class="row py-md-4 py-4">
-          <div class="col-lg-7">
-            <div class="ab-cal-set-img-5">
-              <img src="assets/images/about/CAL_7219.jpg" class="ab-img-centent">
+                </div>
             </div>
           </div>
-          <div class="col-lg-5">
-              <div class="ab-cal-d-table">
-                <div class="ab-cal-fix-2line">
-                  <h3 class="ab-cal-h3-w300">Lorem Ipsum is simply dummy text </h3>
-                </div>
-                <div class="ab-fix-line-text">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  </p>
-                </div>
-              </div>
-          </div>
-        </div>
 
-        <div class="row py-md-4 py-4">
-          <div class="col-lg-7">
-            <div class="ab-cal-set-img-5">
-              <img src="assets/images/about/GIGI3637.JPG" class="ab-img-centent">
+          <div class="row py-md-4 py-4">
+            <div class="col-lg-7">
+              <div class="ab-cal-set-img-5">
+                <img src="assets/images/about/GIGI3637.JPG" class="ab-img-centent">
+              </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="ab-cal-d-table">
+                  <div class="ab-cal-fix-2line">
+                    <h3 class="ab-cal-h3-w300">Lorem Ipsum is simply dummy text </h3>
+                  </div>
+                  <div class="ab-fix-line-text">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
             </div>
           </div>
-          <div class="col-lg-5">
-              <div class="ab-cal-d-table">
-                <div class="ab-cal-fix-2line">
-                  <h3 class="ab-cal-h3-w300">Lorem Ipsum is simply dummy text </h3>
-                </div>
-                <div class="ab-fix-line-text">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  </p>
-                </div>
-              </div>
-          </div>
+          <div class="text-center mt-md-5 mt-3">
+  		    	<button type="submit" class="btn-cal btn-cal-md px-5">Read More</button>
+  		    </div>
         </div>
-
-        <div class="text-center mt-md-5 mt-3">
-		    	<button type="submit" class="btn-cal btn-cal-md px-5">Read More</button>
-		    </div>
-
-      </div>
-    </section>
+      </section>
 
 
     </div>
