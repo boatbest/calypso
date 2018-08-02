@@ -13,6 +13,7 @@
 
 
       <!-- head about -->
+
       <div class="ab-acl-fix">
         <img src="assets/images/06.JPG"  class="ab-cal-image">
         <div class="ab-cal-overlay">
@@ -75,7 +76,7 @@
 
 
 
-    <section class="ab-mb-set-500">
+    <section>
       <div class="container">
         <div class="text-center">
   		    <button type="submit" class="btn-cal btn-cal-md ab-cal-btn-show  px-5">Our Show</button>

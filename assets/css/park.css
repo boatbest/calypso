@@ -72,7 +72,7 @@ Author :        workbythai;
 .ab-cal-fix-centent {
   width: 100%;
   overflow: hidden;
-  height: 100%;
+  height: 65vmin;
 }
 .ab-img-centent {
   float:left;
@@ -88,7 +88,7 @@ Author :        workbythai;
 .ab-cal-set-img-5 {
   width: 100%;
   overflow: hidden;
-  height: 400px;
+  height: 65vmin;
 }
 .ab-cal-d-table {
     width: 100%;
@@ -109,6 +109,82 @@ Author :        workbythai;
 }
 /* -------- END ABOUT-CAL ------------ */
 
+
+/* GALLERY */
+.galley-fix {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 27vmin;
+  border: 1px solid rgba(72, 72, 72, 0.53);
+}
+
+  /* galley overlay */
+.galley-show {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.galley-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(216, 144, 241, 0.6);
+}
+
+.galley-show:hover .galley-overlay {
+  opacity: 1;
+}
+
+.galley-text {
+  color: white;
+  font-size: xx-large;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  /* end galley overlay */
+
+  .galley-page-link {
+      position: relative;
+      display: block;
+      padding: .65rem 1rem;
+      margin-left: 0px;
+      line-height: 1.25;
+      color: #ffffff;
+      background-color: transparent;
+      border: 2px solid transparent;
+      font-size: large;
+      font-weight: 500;
+  }
+  .galley-page-link:hover {
+      color: rgb(189, 8, 8);
+      text-decoration: unset;
+      transition: 0.5s;
+  }
+  .galley-page-link-active {
+      color: rgb(189, 8, 8);
+      text-decoration: unset;
+
+  }
+  .page-item > .galley-page-link {
+    margin-left: 0;
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+}
+
+/* END GALLERY */
 
 /*------------------------------------*
 Responsive
@@ -153,7 +229,23 @@ Responsive
       text-align: center;
       padding-top: 50px;
   }
+  .ab-cal-fix-centent {
+      width: 100%;
+      overflow: hidden;
+      height: 65vmin;
+  }
   /* END ABOUT-CAL SM 575.98 */
+
+
+  /* GALLERY 575.98 */
+  .galley-fix {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 65vmin;
+      border: 1px solid rgba(72, 72, 72, 0.53);
+  }
+  /* END GALLERY 575.98 */
 }
 /*=Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -180,7 +272,7 @@ Responsive
   .ab-cal-set-img-5 {
       width: 100%;
       overflow: hidden;
-      height: 460px;
+      height: 50vmin;
   }
 
   .ab-cal-d-table {
@@ -195,6 +287,21 @@ Responsive
   .ab-mb-set-500 {
       margin-bottom: 170px;
   }
+  .ab-cal-fix-centent {
+      width: 100%;
+      overflow: hidden;
+      height: 46vmin;
+  }
+  /* GALLERY */
+  .galley-fix {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 51vmin;
+      border: 1px solid rgba(72, 72, 72, 0.53);
+  }
+  /*END GALLERY */
+
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -218,6 +325,13 @@ Responsive
       overflow: hidden;
       max-height: 380px;
       font-size: 16px;
+  }
+  .galley-fix {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 27vmin;
+      border: 1px solid rgba(72, 72, 72, 0.53);
   }
 }
 
@@ -246,6 +360,24 @@ Responsive
   }
   .ab-mb-set-500 {
       margin-bottom: 380px;
+  }
+  .ab-cal-d-table {
+      width: 100%;
+      padding-top: 0px;
+      height: 38vmin;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: left;
+  }
+  .ab-cal-set-img-5 {
+      width: 100%;
+      overflow: hidden;
+      height: 38vmin;
+  }
+  .ab-fix-line-text {
+      overflow: hidden;
+      max-height: 28vmin;
+      font-size: 16px;
   }
 /* END ABOUT MIN 992 */
 }
@@ -287,6 +419,13 @@ Responsive
       padding-right: 0px;
   }
 /* END ABOUT MIN 1200 */
+  .galley-fix {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 28vmin;
+      border: 1px solid rgba(72, 72, 72, 0.53);
+  }
 }
 
 @media (min-width: 1600px) {

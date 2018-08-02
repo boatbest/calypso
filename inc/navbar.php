@@ -68,9 +68,9 @@
               <li class="nav-item">
                 <a class="nav-link oop dropdown-toggle <?php if($link == 'localhost/calypso/list_product.php'){echo 'active';} ?> nav-border-right" href="list_product.php" id="navbarDropdown-gallery" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
                   <div class="dropdown-menu bg-purple" aria-labelledby="navbarDropdown-gallery">
-                    <a class="dropdown-item" href="#">Calypso Carbaret</a>
-                    <a class="dropdown-item" href="#">Thai Restaurant</a>
-                    <a class="dropdown-item" href="#">Asiatique the Riverfront</a>
+                    <a class="dropdown-item" href="gallery.php">Calypso Carbaret</a>
+                    <a class="dropdown-item" href="gallery.php">Thai Restaurant</a>
+                    <a class="dropdown-item" href="gallery.php">Asiatique the Riverfront</a>
                   </div>
               </li>
               <li class="nav-item">
