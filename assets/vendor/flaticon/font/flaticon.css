@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 15/06/2018 05:23
+  	Creation date: 02/08/2018 08:57
   	*/
 
 @font-face {
@@ -24,13 +24,15 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        /*font-size: 30px;*/
+        font-size: 20px;
 font-style: normal;
-/*margin-left: 20px;*/
+margin-left: 20px;
 }
 
-.flaticon-box:before { content: "\f100"; }
-.flaticon-shipped:before { content: "\f101"; }
-.flaticon-worldwide:before { content: "\f102"; }
-.flaticon-map:before { content: "\f103"; }
-.flaticon-china:before { content: "\f104"; }
+.flaticon-call:before { content: "\f100"; }
+.flaticon-printer:before { content: "\f101"; }
+.flaticon-calendar:before { content: "\f102"; }
+.flaticon-clock:before { content: "\f103"; }
+.flaticon-ticket:before { content: "\f104"; }
+.flaticon-refund:before { content: "\f105"; }
+.flaticon-sports-car:before { content: "\f106"; }

@@ -66,7 +66,7 @@ body{
     background-position: bottom;
 }
 .wrapper {
-    min-height: calc(100vh - 500px);
+    min-height: calc(100vh - 315px);
 }
 
 /*----------------- Font -----------------*/
@@ -79,13 +79,20 @@ body{
 .bg-purple{
     background-color: #2C1D3A!important;
 }
+.bg-dark-purple{
+    background-color: #1C1227!important;
+}
 .bg-white{
     background-color: #ffffff!important;
 }
 .bg-bottom-linear{
-    background: linear-gradient(#1c1128, #24183400)!important;
+    background: linear-gradient(rgb(28, 17, 40), rgba(36, 24, 52, 0))!important;
 }
 /*--------------- Form -------------------*/
+a.btn-cal:hover{
+    color: #e0e0e0;
+    text-decoration: none;
+}
 .btn-cal{
     color: #fff;
     background-color: #17252A;
@@ -191,6 +198,7 @@ body{
 .dropdown-menu{
     border: unset;
     border-radius: unset;
+    box-shadow: 2px 0px 6px 1px rgba(161, 161, 161, 0.3);
 }
 .dropdown-item:focus, .dropdown-item:hover {
     color: #ffffff;
@@ -251,15 +259,25 @@ body{
     padding: .75rem;
 }
 .sm-card-img{
-    padding: 2px;
     width: 100%;
     height: 150px;
+    position: relative;
+    overflow: hidden;
+    /*padding: 2px;*/
+/*    width: 100%;
+    height: 150px;*/
 }
 .sm-card-img-top{
-    float: left;
+    position: absolute;
+    width: auto!important;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+/*    float: left;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;*/
 }
 .sm-card-text{
     color: #ffffff;
@@ -361,8 +379,8 @@ body{
     color: #90949c;
     pointer-events: none;
     cursor: auto;
-    background-color: #1c11297d;
-    border-color: #1c11297d;
+    background-color: rgba(28, 17, 41, 0.50);
+    border-color: rgba(28, 17, 41, 0.50);
 }
 /*------------------ Owl Carousel -------------------*/
 .owl-nav{
@@ -385,7 +403,7 @@ body{
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 10px 12px;
+  padding: 7px 10px;
   transition: all 0.3s ease;
   color: white;
   font-size: 22px;
@@ -471,20 +489,26 @@ section{
     overflow: hidden;*/
 }
 .package-card-img{
+    position: relative;
+    overflow: hidden;
     padding: 2px;
     width: 100%;
     height: 250px;
 }
 .package-card-img-top{
-    float: left;
-    width: 100%;
+    position: absolute;
+    width: auto!important;
     height: 100%;
-    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .package-card-text{
     color: #ffffff;
     font-weight: 400;
     margin-bottom: .25rem;
+    height: 48px;
+    overflow: hidden;
 }
 
 /*------------------------------------*
@@ -506,7 +530,7 @@ Page Index
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: #0000008f;
+    background-color: rgba(0, 0, 0, 0.56);
     color: #ffffff;
     width: 450px;
     padding: 30px;
@@ -625,6 +649,33 @@ input.qtyminus {
 .section-gallery{
     background-color: #2C1D3A;
 }
+.show-gall-horizontal{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.show-gall-horizontal img{
+    position:absolute;
+    width:auto;
+    height:100%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.show-gall-vertical{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.show-gall-vertical img{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 /*-- SECTION HOT SHOW --*/
 .section-hotshow{
@@ -637,16 +688,23 @@ input.qtyminus {
     border: 1px solid #90949c;
 }
 .img-hotshow{
-    position: relative;
     width: 100%;
-    height: 411px;
+    height: 428px;
+    position: relative;
+    overflow: hidden;
     border: 4px solid #ececec;
 }
 .img-hotshow img{
-    float: left;
+    position:absolute;
+    width:auto;
+    height:100%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /*float: left;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;*/
 }
 .feather-left{
     position: absolute;
@@ -658,10 +716,12 @@ input.qtyminus {
 .feather-right{
     position: absolute;
     width: 185px;
-    top: -20px;
     right: 0;
-    transform: translate(30%, -50%);
+    z-index: 20;
 }
+/*.feather-right img{
+    position: absolute;
+}*/
 
 /*-- SECTION NEWS --*/
 .section-news{
@@ -687,6 +747,40 @@ input.qtyminus {
 
 /*------------------------------------*
 End Page Index
+*------------------------------------*/
+
+/*------------------------------------*
+Start Page News
+*------------------------------------*/
+.news_title{
+    margin-top: 7px;
+    margin-bottom: 15px;
+    max-height: 50px;
+    overflow: hidden;
+}
+.news_title small{
+    color: #a2a2a2;
+}
+.frame-img-news{
+    width: 100%;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+}
+.frame-img-news img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.news-content-bottom{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*------------------------------------*
+End Page News
 *------------------------------------*/
 
 
@@ -731,10 +825,8 @@ footer{
     width: auto;
     height: 65px;
 }
-.ft-menu{
+.ft-menu {
     list-style: none;
-    padding-left: 8px;
-    padding-right: 8px; 
 }
 .ft-menu a{
     color: #fff;
@@ -852,7 +944,7 @@ Responsive
     }
 /*-- Index --*/
     section {
-        padding: 60px 0px;
+        padding: 40px 0px;
     }
     .contact-box{
         padding: 7px;
@@ -861,18 +953,41 @@ Responsive
         width: 265px;
         overflow: hidden;
     }
+    .show-gall-horizontal {
+        height: 135px;
+    }
+    .img-hotshow{
+        height: 315px;
+    }
+
+    /*-- News --*/
+    .frame-img-news{
+        height: 236px;
+    }
 /*-- Footer --*/
     footer{
         padding-top: 20rem;
     }
     .ft-secure {
-        width: 85px;
+        width: 80px;
         height: auto;
         padding-left: 15px;
         padding-right: 15px;
     }
+    .ft-item-payment {
+        padding-right: 6px;
+    }
+    .ft-cradit {
+        width: 40px;
+    }
     .ft-input-group{
-        width: 300px;
+        width: 290px;
+    }
+    .footer-top {
+        font-size: 14px;
+    }
+    .ft-menu {
+        padding-left: 20px;
     }
 }
 /*=Small devices (landscape phones, 576px and up)*/
@@ -892,7 +1007,13 @@ Responsive
         left: 50%;
     }
 /*-- Index --*/
-
+    .show-gall-horizontal {
+        height: 135px;
+    }
+    .feather-right {
+        top: -20px;
+        transform: translate(12%, -50%);
+    }
 
 }
 
@@ -906,10 +1027,7 @@ Responsive
         margin-left: auto;
     }
 /*-- Social --*/
-    .feather-right {
-        top: -20px;
-        transform: translate(20%, -50%);
-    }
+    
 /*-- Index --*/
     .text-top-excerpt {
         width: 75%;
@@ -918,6 +1036,25 @@ Responsive
         width: 270px;
         overflow: hidden;
     }  
+    .show-gall-horizontal {
+        height: 240px;
+    }
+    .feather-right {
+        top: -20px;
+        transform: translate(12%, -50%);
+    }
+    .img-hotshow{
+        height: 470px;
+    }
+/*-- News --*/
+    .frame-img-news {
+        height: 220px;
+    }
+/*-- Footer --*/
+    .ft-menu {
+        padding-left: 15px;
+        padding-right: 0px;
+    }
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -945,6 +1082,13 @@ Responsive
     .slide-box{
         left: 30%;
     }
+    .show-gall-horizontal {
+        height: 160px;
+    }
+/*-- News --*/
+    .frame-img-news {
+         height: 295px; 
+    }
 /*-- Footer --*/
     footer{
         padding-top: 10rem;
@@ -963,18 +1107,29 @@ Responsive
         padding-right: 15px;
     }
 /*-- Social --*/
-    .feather-right {
-        top: -20px;
-        transform: translate(30%, -50%);
-    }
+    
 /*-- Index --*/
     .contact-fb-fanpage iframe{
         width: 340px;
         overflow: hidden;
     }
+    .show-gall-horizontal {
+        height: 200px;
+    }
+    .feather-right {
+        top: -20px;
+        transform: translate(24%, -50%);
+    }
+    .img-hotshow{
+        height: 428px;
+    }
+/*-- News --*/
+    .frame-img-news {
+         height: 360px; 
+    }
 /*-- Footer --*/
     footer{
-        padding-top: 20rem;
+        padding-top: 36rem;
     }
     .footer-container{
         max-width: 1150px;
