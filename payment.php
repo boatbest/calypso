@@ -62,29 +62,36 @@
                                   <div class="col-xl-5 col-lg-5 col-md-4 col-12 ">
                                     <div class="form-group">
                                       <label for="formGroupExampleInpu2">First Name<span class="text-red">*</span> :</label>
-                                      <input type="text" class="form-control cal-form" id="" placeholder="Please enter your first name">
+                                      <input type="text" class="form-control cal-form" id="" placeholder="Please enter your first name" required="">
                                     </div>
                                   </div>
                                   <div class="col-xl-5 col-lg-5 col-md-5 col-12 ">
                                     <div class="form-group">
                                       <label for="formGroupExampleInput3">Family Name<span class="text-red">*</span> :</label>
-                                      <input type="text" class="form-control cal-form" id="" placeholder="Please enter your family name">
+                                      <input type="text" class="form-control cal-form" id="" placeholder="Please enter your family name" required="">
                                     </div>
                                   </div>
                                   <div class="col-xl-6 col-lg-6 col-md-6 col-12 ">
                                     <div class="form-group">
                                       <label for="formGroupExampleInpu2">Phone Number<span class="text-red">*</span> :</label>
-                                      <input type="text" class="form-control cal-form" id="" placeholder="Please enter your first name">
+                                      <input type="tel" class="form-control cal-form" id="" placeholder="Please enter your first name" required="">
                                     </div>
                                   </div>
                                   <div class="col-xl-6 col-lg-6 col-md-6 col-12 ">
                                     <div class="form-group">
                                       <label for="formGroupExampleInput">Country/Region of Travel Document<span class="text-red">*</span> :</label>
                                       <select class="cal-form form-control custom-select" id="">
-                                         <option selected></option>
-                                         <option value="mr">Mr.</option>
-                                         <option value="ms">Ms.</option>
-                                         <option value="mrs">Mrs.</option>
+                                        <option selected disabled="">Select your country/region</option>
+                                        <option value="United States">United States</option> 
+                                        <option value="United Kingdom">United Kingdom</option> 
+                                        <option value="Afghanistan">Afghanistan</option> 
+                                        <option value="Albania">Albania</option> 
+                                        <option value="Algeria">Algeria</option> 
+                                        <option value="American Samoa">American Samoa</option> 
+                                        <option value="Andorra">Andorra</option> 
+                                        <option value="Angola">Angola</option> 
+                                        <option value="Anguilla">Anguilla</option> 
+                                        <option value="Antarctica">Antarctica</option> 
                                        </select>
                                     </div>
                                   </div>
@@ -93,7 +100,7 @@
                                   </div>
                                   <div class="col-xl-6 col-lg-6 col-md-6 col-12">
                                     <div class="form-group">
-                                      <input type="text" class="form-control cal-form" id="" placeholder="example@mail.com">
+                                      <input type="email" class="form-control cal-form" id="" placeholder="example@mail.com" required="">
                                     </div>
                                   </div>
                                   <div class="col-12 ">
@@ -101,13 +108,13 @@
                                   </div>
                                   <div class="col-xl-6 col-lg-6 col-md-6 col-12 ">
                                     <div class="form-group">
-                                      <input type="text" class="form-control cal-form" id="" placeholder="example@mail.com">
+                                      <input type="email" class="form-control cal-form" id="" placeholder="example@mail.com" required="">
                                     </div>
                                   </div>
                                   <div class="col-xl-12 ">
                                     <div class="form-group">
                                       <label for="formGroupExampleInput">Your Requirement<span class="text-red">*</span> :</label>
-                                      <textarea class="form-control cal-form" rows="3" placeholder="Please enter your requirement" id=""></textarea>
+                                      <textarea class="form-control cal-form" rows="3" placeholder="Please enter your requirement" id="" required=""></textarea>
                                     </div>
                                   </div>
                               </div>
@@ -166,7 +173,7 @@
                                       <div class="col-xl-4 col-lg-4 col-md-4 col-6 ">
                                         <div class="form-group">
                                           <label for="formGroupExampleInpu2">Security Code <i class="far fa-question-circle" data-toggle="tooltip" data-placement="right" title="Description"></i></label>
-                                          <input type="text" class="form-control cal-form" id="" >
+                                          <input type="text" class="form-control cal-form" id="" maxlength="4">
                                         </div>
                                       </div>
                                     </div>
