@@ -9,3 +9,12 @@
     <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
     <script src="assets/vendor/lightgallery/dist/js/lightgallery-all.min.js"></script>
     <script src="assets/vendor/lightgallery/lib/jquery.mousewheel.min.js"></script>
+
+
+    <script>
+
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
+
+    </script>

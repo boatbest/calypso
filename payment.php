@@ -33,8 +33,8 @@
               <h2 class="text-top-title text-center">Booking</h2>
               <div class="text-top-excerpt">
                 <nav class="breadcrumb justify-content-center">
-                  <span class="breadcrumb-item active">Booking Summary</span>
-                  <span class="breadcrumb-item">Customer Information</span>
+                  <a class="breadcrumb-item" href="../calypso/booking.php">Booking Summary</a>
+                  <span class="breadcrumb-item active">Customer Information</span>
                   <span class="breadcrumb-item">Order Completed</span>
                 </nav>
               </div>
