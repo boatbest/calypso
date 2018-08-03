@@ -140,8 +140,18 @@ $END GENERAL
 /*------------------------------------*
 $BOOKING
 *------------------------------------*/
+.bg-page-booking{
+  background-image: url('../images/01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.booking-top-section{
+  padding-bottom: 20px;
+}
+.booking-slide-section{
 
-
+}
 
 /*------------------------------------*
 $END BOOKING
