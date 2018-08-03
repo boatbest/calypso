@@ -58,7 +58,7 @@ body{
     font-weight: 300;
     width: 100%;
     height: auto;
-    margin: 0; 
+    margin: 0;
     color: #ffffff;
     background-color: #1C1227;
     background-image: url('../images/Banner/footer-img.png');
@@ -300,9 +300,9 @@ a.btn-cal:hover{
 /*-------------------- Line (HR) --------------------*/
 .line-title{
     background: -webkit-linear-gradient(90deg, #E71270,#DF3529, #14BFF0); /*For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(90deg, #E71270,#DF3529, #14BFF0); /* For Opera 11.1 to 12.0 */ 
-    background: -moz-linear-gradient(90deg, #E71270,#DF3529, #14BFF0); /* For Firefox 3.6 to 15 */ 
-    background: linear-gradient(90deg, #E71270,#DF3529, #14BFF0); /* Standard syntax */ 
+    background: -o-linear-gradient(90deg, #E71270,#DF3529, #14BFF0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, #E71270,#DF3529, #14BFF0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, #E71270,#DF3529, #14BFF0); /* Standard syntax */
     margin-bottom: 15px;
 }
 .line-title-h2 {
@@ -312,7 +312,7 @@ a.btn-cal:hover{
     height: 3px;
 }
 .line-title-h4 {
-    height: 4px;  
+    height: 4px;
 }
 .line-title-w100{
     width: 100px;
@@ -596,16 +596,16 @@ select::-ms-expand {
 .form-booking .has-form2{
     padding: 10px 0px 10px 0px;
 }
-input.qtyplus { 
-    width: 46px; 
+input.qtyplus {
+    width: 46px;
     background-color: #2B1C3A;
     color: #ffffff;
     border: unset;
     cursor: pointer;
     /*height: 25px;*/
 }
-input.qtyminus { 
-    width: 46px; 
+input.qtyminus {
+    width: 46px;
     background-color: #2B1C3A;
     color: #ffffff;
     border: unset;
@@ -778,7 +778,7 @@ footer{
 .ft-menu{
     list-style: none;
     padding-left: 8px;
-    padding-right: 8px; 
+    padding-right: 8px;
 }
 .ft-menu a{
     color: #fff;
@@ -961,7 +961,7 @@ Responsive
     .contact-fb-fanpage iframe{
         width: 270px;
         overflow: hidden;
-    }  
+    }
     .show-gall-horizontal {
         height: 220px;
     }
@@ -1006,7 +1006,7 @@ Responsive
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 /*-- Navbar --*/
     .navbar .navbar-nav .nav-item a{
         padding-left: 15px;

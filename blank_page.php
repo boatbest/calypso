@@ -17,12 +17,12 @@
                     <img src="assets/images/Logo/logo.png" alt="Calypso logo" class="top-title-img">
                 </div>
                 <h2 class="text-top-title text-center">Template</h2>
-                
-                
+
+
                 <div class="row">
                     <div class="col-12 col-lg-6">
                         <label>
-                        Line height 
+                        Line height
                         </label>
                         <div class="line-title line-title-h2 line-title-w300"></div>
                         <div class="line-title line-title-h3 line-title-w300"></div>
@@ -59,7 +59,7 @@
                       <li class="page-item"><a class="page-link" href="#">Next</a></li>
                     </ul>
                 </div>
-                
+
             </div>
         </section>
             <!-- START SECTION HOT SHOW -->
@@ -95,7 +95,7 @@
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                             </p>
                         </div>
-                    </div>  
+                    </div>
                 </div>
             </div>
         </div>
@@ -124,7 +124,7 @@
                                     <div class="w-100 text-center">
                                         <a href="#" class="btn-cal btn-cal-sm">Submit</a>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
