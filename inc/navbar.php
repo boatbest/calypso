@@ -1,11 +1,11 @@
 <!-- Social Media Floating -->
 <div class="icon-bar">
-    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-    <a href="#" class="line"><i class="fab fa-line"></i></a>
-    <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
-    <a href="#" class="wechat"><i class="fab fa-weixin"></i></a>
+    <a href="https://www.facebook.com/calypsocabaret/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://twitter.com/calypsobkk" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/calypsocabaret/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://page.line.me/calypsocabaret" target="_blank" class="line"><i class="fab fa-line"></i></a>
+    <a href="https://www.youtube.com/channel/UC158vpAOSPdDczL2THpNtvQ/videos" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.facebook.com/calypsocabaret/" target="_blank" class="wechat"><i class="fab fa-weixin"></i></a>
 </div>
 <!-- <a class="navbar-logo" href="#"></a> -->
   <div class="">
@@ -68,9 +68,9 @@
               <li class="nav-item">
                 <a class="nav-link oop dropdown-toggle <?php if($link == 'localhost/calypso/list_product.php'){echo 'active';} ?> nav-border-right" href="list_product.php" id="navbarDropdown-gallery" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
                   <div class="dropdown-menu bg-purple" aria-labelledby="navbarDropdown-gallery">
-                    <a class="dropdown-item" href="#">Calypso Carbaret</a>
-                    <a class="dropdown-item" href="#">Thai Restaurant</a>
-                    <a class="dropdown-item" href="#">Asiatique the Riverfront</a>
+                    <a class="dropdown-item" href="gallery.php">Calypso Carbaret</a>
+                    <a class="dropdown-item" href="gallery.php">Thai Restaurant</a>
+                    <a class="dropdown-item" href="gallery.php">Asiatique the Riverfront</a>
                   </div>
               </li>
               <li class="nav-item">

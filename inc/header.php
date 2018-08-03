@@ -17,6 +17,7 @@
 
     <!-- Plug-in -->
     <link rel="stylesheet" type="text/css" href="assets/vendor/owlcarousel/css/owl.carousel.min.css">
+    <link href="assets/vendor/lightgallery/dist/css/lightgallery.css" rel="stylesheet">
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
