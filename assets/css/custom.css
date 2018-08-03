@@ -521,10 +521,12 @@ Page Index
     height: 750px;
 }
 .slide-item{
-    /*float: left;*/
+    position: absolute;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);;
 }
 .slide-box{
     position: absolute;
@@ -943,6 +945,18 @@ Responsive
         padding: 20px 15px;
     }
 /*-- Index --*/
+    .carousel-item_size{
+        width: 100%;
+        height: 750px;
+    }
+    .slide-item{
+        position: absolute;
+        width: auto!important;
+        height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
     section {
         padding: 40px 0px;
     }
@@ -1007,6 +1021,18 @@ Responsive
         left: 50%;
     }
 /*-- Index --*/
+    .carousel-item_size{
+        width: 100%;
+        height: 750px;
+    }
+    .slide-item{
+        position: absolute;
+        width: auto!important;
+        height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
     .show-gall-horizontal {
         height: 135px;
     }
@@ -1109,6 +1135,14 @@ Responsive
 /*-- Social --*/
     
 /*-- Index --*/
+    .slide-item{
+        position: absolute;
+        width: 100%!important;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
     .contact-fb-fanpage iframe{
         width: 340px;
         overflow: hidden;
