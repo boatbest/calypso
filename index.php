@@ -28,7 +28,6 @@
 	    	<div class="row">
 	    		<div class="col-12">
 	    			<div class="owl-carousel owl-theme owl-product" id="owl-package">
-
 					    <div class="item">
 							<div class="package-card">
 								<div class="package-card-img">
@@ -59,7 +58,6 @@
 								</div>
 							</div>
 					    </div>
-
 					</div>
 	    		</div>
 	    	</div>
@@ -296,13 +294,12 @@
     <!-- START FOOTER -->
     <?php include_once('inc/footer.php'); ?>
     <!-- END FOOTER -->
-
     <!-- START FOOTER SCRIPT -->
     <?php include_once('inc/footer-script.php'); ?>
     <!-- END FOOOTER SCRIPT -->
     
     <script type="text/javascript">
-    	$('#owl-package').owlCarousel({
+     	$("#owl-package").owlCarousel({
 		    loop:false,
 		    margin:10,
 		    nav:true,
@@ -320,9 +317,9 @@
 		            items:3
 		        }
 		    }
-		})
+		});
 
-		$('#owl-news').owlCarousel({
+		$("#owl-news").owlCarousel({
 		    loop:false,
 		    margin:10,
 		    nav:true,
@@ -344,6 +341,12 @@
 		        }
 		    }
 		})
+
+		$('#aniimated-thumbnials').lightGallery({
+		    thumbnail:true,
+		    animateThumb: false,
+		    showThumbByDefault: false,
+		});
 
 		jQuery(document).ready(function(){
 		    // This button will increment the value
