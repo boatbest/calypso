@@ -10,9 +10,9 @@
     <?php include_once('inc/navbar.php'); ?>
     <!-- END FOOTER -->
     <div class="wrapper">
-      <div class="nav-upper">
+      <section>
           <div class="container">
-              <div class="row mx-0 pt-4">
+              <div class="row mx-0">
                   <div class="navbar-frame">
                        <a href="index.php">
                          <img class="navbar-logo" src="assets/images/Logo/logo.png">
@@ -52,7 +52,7 @@
                   </div>
               </div>
           </div>
-      </div>
+      </section>
       <section class="section-contact bg-bottom-linear">
         <div class="container">
             <div class="contact-box">
