@@ -57,10 +57,32 @@ Author :        workbythai;
   margin: 25px auto;
   width: 370px;
 }
+.img-ab-set {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% ,-50%);
+}
+.ab-cal-fix-centent-long {
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+  margin-bottom: 15px;
+}
+.ab-cal-fix-centent-shot {
+  position: relative;
+  overflow: hidden;
+  height: 165px;
+  margin-bottom: 15px;
+}
 .ab-cal-hr-content {
   margin: 25px auto;
   width: 170px;
 }
+
 .ab-cal-sethr {
   border-top: 1px solid rgba(0,0,0,.1);
   padding-left: 25px;
@@ -69,11 +91,7 @@ Author :        workbythai;
   border-image: linear-gradient(90deg, #E71270,#DF3529, #14BFF0);
   border-image-slice: 1;
 }
-.ab-cal-fix-centent {
-  width: 100%;
-  overflow: hidden;
-  height: 65vmin;
-}
+
 .ab-img-centent {
   float:left;
   width:100%;
@@ -229,10 +247,17 @@ Responsive
       text-align: center;
       padding-top: 50px;
   }
-  .ab-cal-fix-centent {
-      width: 100%;
+  .ab-cal-fix-centent-shot {
+      position: relative;
       overflow: hidden;
-      height: 65vmin;
+      height: 25vmin;
+      margin-bottom: 15px;
+  }
+  .ab-cal-fix-centent-long {
+      position: relative;
+      overflow: hidden;
+      height: 45vmin;
+      margin-bottom: 15px;
   }
   /* END ABOUT-CAL SM 575.98 */
 
@@ -287,11 +312,7 @@ Responsive
   .ab-mb-set-500 {
       margin-bottom: 170px;
   }
-  .ab-cal-fix-centent {
-      width: 100%;
-      overflow: hidden;
-      height: 46vmin;
-  }
+
   /* GALLERY */
   .galley-fix {
       position: relative;
@@ -306,12 +327,7 @@ Responsive
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-  .ab-cal-fix-centent {
-      width: 100%;
-      overflow: hidden;
-      height: 100%;
-      max-height: 600px;
-  }
+
   .ab-cal-d-table {
       width: 100%;
       max-height: 460px;
@@ -333,6 +349,18 @@ Responsive
       height: 27vmin;
       border: 1px solid rgba(72, 72, 72, 0.53);
   }
+  .ab-cal-fix-centent-long {
+      position: relative;
+      overflow: hidden;
+      height: 45vmin;
+      margin-bottom: 15px;
+  }
+  .ab-cal-fix-centent-shot {
+      position: relative;
+      overflow: hidden;
+      height: 25vmin;
+      margin-bottom: 15px;
+  }
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -352,12 +380,7 @@ Responsive
       padding-left: 0px;
       padding-right: 0px;
   }
-  .ab-cal-fix-centent {
-      width: 100%;
-      overflow: hidden;
-      height: 100%;
-      max-height: 450px;
-  }
+
   .ab-mb-set-500 {
       margin-bottom: 380px;
   }
@@ -379,6 +402,19 @@ Responsive
       max-height: 28vmin;
       font-size: 16px;
   }
+  .ab-cal-fix-centent-long {
+      position: relative;
+      overflow: hidden;
+      height: 50vmin;
+      margin-bottom: 15px;
+  }
+  .ab-cal-fix-centent-shot {
+      position: relative;
+      overflow: hidden;
+      height: 27vmin;
+      margin-bottom: 15px;
+  }
+
 /* END ABOUT MIN 992 */
 }
 
@@ -418,13 +454,25 @@ Responsive
       padding-left: 0px;
       padding-right: 0px;
   }
-/* END ABOUT MIN 1200 */
+  /* END ABOUT MIN 1200 */
   .galley-fix {
       position: relative;
       width: 100%;
       overflow: hidden;
       height: 28vmin;
       border: 1px solid rgba(72, 72, 72, 0.53);
+  }
+  .ab-cal-fix-centent-long {
+      position: relative;
+      overflow: hidden;
+      height: 28vmin;
+      margin-bottom: 15px;
+  }
+  .ab-cal-fix-centent-shot {
+      position: relative;
+      overflow: hidden;
+      height: 15vmin;
+      margin-bottom: 15px;
   }
 }
 

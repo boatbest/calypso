@@ -66,9 +66,35 @@
               </div>
             </div>
             <div class="col-xl-6 col-12">
-    	    			<div class="ab-cal-fix-centent">
+              <div class="row">
+                <div class="col-4 px-2">
+                  <div class="ab-cal-fix-centent-long">
+                    <img src="assets/images/about/about1.jpg" class="img-ab-set">
+                  </div>
+                  <div class="ab-cal-fix-centent-shot">
+                    <img src="assets/images/about/CAL_9140.jpg" class="img-ab-set">
+                  </div>
+                </div>
+                <div class="col-4 px-2">
+                  <div class="ab-cal-fix-centent-shot">
+                    <img src="assets/images/01.jpg" class="img-ab-set">
+                  </div>
+                  <div class="ab-cal-fix-centent-long">
+                    <img src="assets/images/about/CAL_1251rs.jpg" class="img-ab-set">
+                  </div>
+                </div>
+                <div class="col-4 px-2">
+                  <div class="ab-cal-fix-centent-long">
+                    <img src="assets/images/about/DSC_6232.jpg" class="img-ab-set">
+                  </div>
+                  <div class="ab-cal-fix-centent-shot">
+                    <img src="assets/images/02.jpg" class="img-ab-set">
+                  </div>
+                </div>
+              </div>
+    	    <!-- 			<div class="ab-cal-fix-centent">
                   <img src="assets/images/calypso1.jpg" class="ab-img-centent">
-    						</div>
+    						</div> -->
             </div>
           </div>
         </div>
