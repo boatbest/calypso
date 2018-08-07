@@ -404,6 +404,10 @@
 		    });
 		});
 
+		$('.carousel').carousel({
+		  interval: 6000
+		})
+
     </script>
 </body>
 
