@@ -14,13 +14,15 @@ Author :        workbythai;
 
 
 /* -------- ABOUT-CAL ------------ */
-
+#myList{ display:none;
+}
 .ab-acl-fix {
   position: relative;
   width: 100%;
   overflow: hidden;
   height: 600px;
 }
+
 .ab-cal-image {
   float:left;
   width:100%;
@@ -36,7 +38,7 @@ Author :        workbythai;
   height: 100%;
   width: 100%;
   opacity: 1;
-  background-color: #000000ba;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .ab-cal-text {
   color: white;
@@ -57,10 +59,32 @@ Author :        workbythai;
   margin: 25px auto;
   width: 370px;
 }
+.img-ab-set {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% ,-50%);
+}
+.ab-cal-fix-centent-long {
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+  margin-bottom: 15px;
+}
+.ab-cal-fix-centent-shot {
+  position: relative;
+  overflow: hidden;
+  height: 165px;
+  margin-bottom: 15px;
+}
 .ab-cal-hr-content {
   margin: 25px auto;
   width: 170px;
 }
+
 .ab-cal-sethr {
   border-top: 1px solid rgba(0,0,0,.1);
   padding-left: 25px;
@@ -69,11 +93,7 @@ Author :        workbythai;
   border-image: linear-gradient(90deg, #E71270,#DF3529, #14BFF0);
   border-image-slice: 1;
 }
-.ab-cal-fix-centent {
-  width: 100%;
-  overflow: hidden;
-  height: 65vmin;
-}
+
 .ab-img-centent {
   float:left;
   width:100%;
@@ -92,9 +112,7 @@ Author :        workbythai;
 }
 .ab-cal-d-table {
     width: 100%;
-    height: 400px;
-    display: table-cell;
-    vertical-align: middle;
+    max-height: 400px;
 }
 .ab-fix-line-text {
   overflow: hidden;
@@ -212,9 +230,7 @@ Responsive
   }
   .ab-cal-d-table {
       width: 100%;
-      height: 400px;
-      display: table-cell;
-      vertical-align: middle;
+      max-height: 400px;
       text-align: center;
   }
   .ab-mb-set-500 {
@@ -222,17 +238,22 @@ Responsive
   }
   .ab-cal-d-table {
       width: 100%;
-      max-height: 400px;
-      height: 0;
-      display: table-cell;
-      vertical-align: middle;
+      max-height: 410px;
       text-align: center;
       padding-top: 50px;
-  }
-  .ab-cal-fix-centent {
-      width: 100%;
       overflow: hidden;
-      height: 65vmin;
+  }
+  .ab-cal-fix-centent-shot {
+      position: relative;
+      overflow: hidden;
+      height: 25vmin;
+      margin-bottom: 15px;
+  }
+  .ab-cal-fix-centent-long {
+      position: relative;
+      overflow: hidden;
+      height: 45vmin;
+      margin-bottom: 15px;
   }
   /* END ABOUT-CAL SM 575.98 */
 
@@ -278,20 +299,14 @@ Responsive
   .ab-cal-d-table {
       width: 100%;
       max-height: 460px;
-      display: table-cell;
-      vertical-align: middle;
       text-align: center;
-      height: 0px;
+      min-height:  50px;
       padding-top: 50px;
   }
   .ab-mb-set-500 {
       margin-bottom: 170px;
   }
-  .ab-cal-fix-centent {
-      width: 100%;
-      overflow: hidden;
-      height: 46vmin;
-  }
+
   /* GALLERY */
   .galley-fix {
       position: relative;
@@ -306,19 +321,11 @@ Responsive
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-  .ab-cal-fix-centent {
-      width: 100%;
-      overflow: hidden;
-      height: 100%;
-      max-height: 600px;
-  }
+
   .ab-cal-d-table {
       width: 100%;
       max-height: 460px;
-      height: 0px;
       padding-top: 50px;
-      display: table-cell;
-      vertical-align: middle;
       text-align: center;
   }
   .ab-fix-line-text {
@@ -332,6 +339,18 @@ Responsive
       overflow: hidden;
       height: 27vmin;
       border: 1px solid rgba(72, 72, 72, 0.53);
+  }
+  .ab-cal-fix-centent-long {
+      position: relative;
+      overflow: hidden;
+      height: 45vmin;
+      margin-bottom: 15px;
+  }
+  .ab-cal-fix-centent-shot {
+      position: relative;
+      overflow: hidden;
+      height: 25vmin;
+      margin-bottom: 15px;
   }
 }
 
@@ -352,12 +371,7 @@ Responsive
       padding-left: 0px;
       padding-right: 0px;
   }
-  .ab-cal-fix-centent {
-      width: 100%;
-      overflow: hidden;
-      height: 100%;
-      max-height: 450px;
-  }
+
   .ab-mb-set-500 {
       margin-bottom: 380px;
   }
@@ -365,8 +379,8 @@ Responsive
       width: 100%;
       padding-top: 0px;
       height: 38vmin;
-      display: table-cell;
-      vertical-align: middle;
+/*      display: table-cell;
+      vertical-align: middle;*/
       text-align: left;
   }
   .ab-cal-set-img-5 {
@@ -379,6 +393,19 @@ Responsive
       max-height: 28vmin;
       font-size: 16px;
   }
+  .ab-cal-fix-centent-long {
+      position: relative;
+      overflow: hidden;
+      height: 50vmin;
+      margin-bottom: 15px;
+  }
+  .ab-cal-fix-centent-shot {
+      position: relative;
+      overflow: hidden;
+      height: 27vmin;
+      margin-bottom: 15px;
+  }
+
 /* END ABOUT MIN 992 */
 }
 
@@ -395,9 +422,9 @@ Responsive
       width: 100%;
       padding-top: 0px;
       height: 400px;
-      display: table-cell;
+/*      display: table-cell;
       vertical-align: middle;
-      text-align: left;
+*/      text-align: left;
   }
   .ab-fix-line-text {
       overflow: hidden;
@@ -418,13 +445,25 @@ Responsive
       padding-left: 0px;
       padding-right: 0px;
   }
-/* END ABOUT MIN 1200 */
+  /* END ABOUT MIN 1200 */
   .galley-fix {
       position: relative;
       width: 100%;
       overflow: hidden;
       height: 28vmin;
       border: 1px solid rgba(72, 72, 72, 0.53);
+  }
+  .ab-cal-fix-centent-long {
+      position: relative;
+      overflow: hidden;
+      height: 28vmin;
+      margin-bottom: 15px;
+  }
+  .ab-cal-fix-centent-shot {
+      position: relative;
+      overflow: hidden;
+      height: 15vmin;
+      margin-bottom: 15px;
   }
 }
 

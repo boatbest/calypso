@@ -28,7 +28,6 @@
 	    	<div class="row">
 	    		<div class="col-12">
 	    			<div class="owl-carousel owl-theme owl-product" id="owl-package">
-
 					    <div class="item">
 							<div class="package-card">
 								<div class="package-card-img">
@@ -59,7 +58,6 @@
 								</div>
 							</div>
 					    </div>
-
 					</div>
 	    		</div>
 	    	</div>
@@ -72,20 +70,29 @@
 	    		<img src="assets/images/Logo/logo.png" alt="Calypso logo" class="top-title-img">
 	    	</div>
 	    	<h2 class="text-top-title text-center">Show Gallery</h2>
-	    	<div class="row">
+	    	<div class="row lightgallery">
 	    		<div class="col-12 col-lg-6 mb-2 mb-lg-0">
 	    			<div class="row">
 	    				<div class="col-6 px-1">
-	    					<div class="show-gall-horizontal mb-2">
+	    					<div class="show-gall-horizontal mb-2 test" href="assets/images/01.jpg">
 	    						<img src="assets/images/01.jpg" class="">
-	    					</div>
-	    					<div class="show-gall-horizontal">
+	    						<div class="show-gal-overlay">
+								    <i class="fa fa-search-plus text-overlay" aria-hidden="true"></i>
+								</div>
+				            </div>
+	    					<div class="show-gall-horizontal test" href="assets/images/02.jpg">
 	    						<img src="assets/images/02.jpg" class="">
+	    						<div class="show-gal-overlay">
+								    <i class="fa fa-search-plus text-overlay" aria-hidden="true"></i>
+								</div>
 	    					</div>
 	    				</div>
 	    				<div class="col-6 px-1">
-	    					<div class="show-gall-vertical">
+	    					<div class="show-gall-vertical test" href="assets/images/03.jpg">
 	    						<img src="assets/images/03.jpg" class="">
+	    						<div class="show-gal-overlay">
+								    <i class="fa fa-search-plus text-overlay" aria-hidden="true"></i>
+								</div>
 	    					</div>
 	    				</div>
 	    			</div>
@@ -93,16 +100,25 @@
 	    		<div class="col-12 col-lg-6">
 	    			<div class="row">
 	    				<div class="col-6 px-1">
-	    					<div class="show-gall-horizontal mb-2">
+	    					<div class="show-gall-horizontal mb-2 test" href="assets/images/04.jpg">
 	    						<img src="assets/images/04.jpg" class="">
+	    						<div class="show-gal-overlay">
+								    <i class="fa fa-search-plus text-overlay" aria-hidden="true"></i>
+								</div>
 	    					</div>
-	    					<div class="show-gall-horizontal">
+	    					<div class="show-gall-horizontal test" href="assets/images/05.jpg">
 	    						<img src="assets/images/05.jpg" class="">
+	    						<div class="show-gal-overlay">
+								    <i class="fa fa-search-plus text-overlay" aria-hidden="true"></i>
+								</div>
 	    					</div>
 	    				</div>
 	    				<div class="col-6 px-1">
-	    					<div class="show-gall-vertical">
+	    					<div class="show-gall-vertical test" href="assets/images/06.jpg">
 	    						<img src="assets/images/06.jpg" class="">
+	    						<div class="show-gal-overlay">
+								    <i class="fa fa-search-plus text-overlay" aria-hidden="true"></i>
+								</div>
 	    					</div>
 	    				</div>
 	    			</div>
@@ -172,7 +188,7 @@
 								    <div class="w-100 text-center">
 								    	<a href="#" class="btn-cal btn-cal-sm">Submit</a>
 								    </div>
-								    
+
 								</div>
 							</div>
 					    </div>
@@ -296,13 +312,12 @@
     <!-- START FOOTER -->
     <?php include_once('inc/footer.php'); ?>
     <!-- END FOOTER -->
-
     <!-- START FOOTER SCRIPT -->
     <?php include_once('inc/footer-script.php'); ?>
     <!-- END FOOOTER SCRIPT -->
-    
+
     <script type="text/javascript">
-    	$('#owl-package').owlCarousel({
+     	$("#owl-package").owlCarousel({
 		    loop:false,
 		    margin:10,
 		    nav:true,
@@ -320,9 +335,9 @@
 		            items:3
 		        }
 		    }
-		})
+		});
 
-		$('#owl-news').owlCarousel({
+		$("#owl-news").owlCarousel({
 		    loop:false,
 		    margin:10,
 		    nav:true,
@@ -333,7 +348,7 @@
 		        0:{
 		            items:2
 		        },
-		        600:{
+		        768:{
 		            items:3
 		        },
 		        1000:{
@@ -344,6 +359,13 @@
 		        }
 		    }
 		})
+
+		$('.lightgallery').lightGallery({
+		    thumbnail:true,
+		    animateThumb: false,
+		    showThumbByDefault: false,
+        selector: '.test',
+		});
 
 		jQuery(document).ready(function(){
 		    // This button will increment the value

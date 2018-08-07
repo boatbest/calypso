@@ -21,6 +21,19 @@
   transform: translate(-50%, -50%);
   width: 100%;
 }
+.section-hotshow-40 {
+    height: 180vh;
+}
+
+.section-gallery-01{
+    background-color: #2C1D3A;
+}
+.about-line-h{
+      line-height: 10px;
+}
+.section-hotshow-a-01{
+    background-color: #1c1129;
+}
 /*----------about-thai end------*/
 
 
