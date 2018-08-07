@@ -8,14 +8,51 @@
 </head>
 <body>
 
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+  <style type="text/css">
+    .booking-ol-dot {
+      position: initial;
+      margin-top: 25px;
+    }
+    .booking-ol-dot .active {
+      background-color: #ce0604;
+    }
+    .booking-fix-heige-img {
+      overflow: hidden;
+      height: 103vmin;
+    }
+    .booking-fix-heige-img img {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+
+    @media (max-width: 575.98px) {
+      .booking-fix-heige-img {
+          overflow: hidden;
+          height: 60vmin;
+      }
+    }
+    @media (min-width: 576px) {
+      .booking-fix-heige-img {
+          overflow: hidden;
+          height: 55vmin;
+      }
+    }
+    @media (min-width: 768px) {
+      .booking-fix-heige-img {
+          overflow: hidden;
+          height: 65vmin;
+      }
+    }
+    @media (min-width: 992px) {
+      .booking-fix-heige-img {
+          overflow: hidden;
+          height: 85vmin;
+      }
+    }
+    @media (min-width: 1200px) {}
+    @media (min-width: 1600px) {}
+  </style>
 
 
 
@@ -79,7 +116,7 @@ Second round starts at 21:00
 
                               <div class="owl-carousel owl-theme cc-gallery">
                                     <div class="item">
-                                      <div class="gal-img test" style="visibility:hidden;" href="assets/images/02.jpg">
+                                      <div class="gal-img test" href="assets/images/02.jpg">
                                          <img src="assets/images/02.jpg" />
                                       </div>
                                     </div>
@@ -249,20 +286,28 @@ Second round starts at 21:00
           </div>
         </div>
       </section>
-      <section class="booking-slide-section bg-bottom-linear" style="height:100vh;">
-        <div class="owl-carousell owl-carousel owl-theme">
-              <div class="item"><h4>1</h4></div>
-              <div class="item"><h4>2</h4></div>
-              <div class="item"><h4>3</h4></div>
-              <div class="item"><h4>4</h4></div>
-              <div class="item"><h4>5</h4></div>
-              <div class="item"><h4>6</h4></div>
-              <div class="item"><h4>7</h4></div>
-              <div class="item"><h4>8</h4></div>
-              <div class="item"><h4>9</h4></div>
-              <div class="item"><h4>10</h4></div>
-              <div class="item"><h4>11</h4></div>
-              <div class="item"><h4>12</h4></div>
+      <section class="booking-slide-section bg-bottom-linear">
+          <div class="container">
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="booking-fix-heige-img"><img class="d-block w-100" src="assets/images/plan.gif" alt="First slide"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="booking-fix-heige-img"><img class="d-block w-100" src="assets/images/01.jpg" alt="Second slide"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="booking-fix-heige-img"><img class="d-block w-100" src="assets/images/02.jpg" alt="Third slide"></div>
+              </div>
+            </div>
+            <ol class="carousel-indicators booking-ol-dot">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+          </div>
+
           </div>
       </section>
 
@@ -334,8 +379,7 @@ $('.icon-group').find('a').on('click', function(){
       var galwidth = $('.gal-img').width();
       $('.gal-img').css({'height':galwidth+'px'});
     });
-    alert($('.test').outerWidth())
-   }, 3000);
+  }, 1500);
 
 
 

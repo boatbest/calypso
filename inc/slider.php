@@ -32,7 +32,7 @@
       </div>
       <form>
           <div class="input-group form-booking mb-4 select">
-            <select id="inputState" class="form-control has-form">
+            <select class="form-control has-form" required>
               <option selected disabled="">Select Package</option>
               <option value="">Package 1</option>
               <option value="">Package 2</option>
@@ -40,13 +40,12 @@
             </select>
             <i class="fas fa-ticket-alt fa-lg"></i>
           </div>
-          
           <div class="input-group form-booking mb-4">
-            <input type="date" class="form-control has-form" id="inlineFormInputGroup" placeholder="Select Date">
+            <input type="date" class="form-control has-form" id="inlineFormInputGroup" placeholder="Select Date" required>
             <i class="far fa-calendar-alt fa-lg"></i>
           </div>
           <div class="input-group form-booking mb-4 select">
-            <select id="inputState" class="form-control has-form">
+            <select class="form-control has-form" required>
               <option selected disabled="">Select Time</option>
               <option value="">17.30 - 19.30</option>
               <option value="">20.00 - 22.00</option>
@@ -55,10 +54,9 @@
           </div>
           <label for="count">Ticket</label>
           <div class="input-group form-booking mb-4">
-            <!-- <input type="password" class="form-control has-form" id="" placeholder=""> -->
-                <input type="button" value="-" class="qtyminus" field="quantity" />
-                <input type="text" name="quantity" value="0" class="qty form-control has-form2" />
-                <input type="button" value="+" class="qtyplus" field="quantity" />
+            <input type="button" value="-" class="qtyminus" field="quantity">
+            <input type="text" name="quantity" value="0" class="qty form-control has-form2" required>
+            <input type="button" value="+" class="qtyplus" field="quantity">
           </div>
           <div class="w-100 text-center">
             <button type="submit" class="btn-cal btn-cal-md">Booking</button>

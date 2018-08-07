@@ -5,6 +5,7 @@
     <?php include_once('inc/header.php'); ?>
     <!-- END HEADER -->
 </head>
+
 <body>
 	<!-- START FOOTER -->
     <?php include_once('inc/navbar.php'); ?>
@@ -66,9 +67,35 @@
               </div>
             </div>
             <div class="col-xl-6 col-12">
-    	    			<div class="ab-cal-fix-centent">
+              <div class="row">
+                <div class="col-4 px-2">
+                  <div class="ab-cal-fix-centent-long">
+                    <img src="assets/images/about/about1.jpg" class="img-ab-set">
+                  </div>
+                  <div class="ab-cal-fix-centent-shot">
+                    <img src="assets/images/about/CAL_9140.jpg" class="img-ab-set">
+                  </div>
+                </div>
+                <div class="col-4 px-2">
+                  <div class="ab-cal-fix-centent-shot">
+                    <img src="assets/images/01.jpg" class="img-ab-set">
+                  </div>
+                  <div class="ab-cal-fix-centent-long">
+                    <img src="assets/images/about/CAL_1251rs.jpg" class="img-ab-set">
+                  </div>
+                </div>
+                <div class="col-4 px-2">
+                  <div class="ab-cal-fix-centent-long">
+                    <img src="assets/images/about/DSC_6232.jpg" class="img-ab-set">
+                  </div>
+                  <div class="ab-cal-fix-centent-shot">
+                    <img src="assets/images/02.jpg" class="img-ab-set">
+                  </div>
+                </div>
+              </div>
+    	    <!-- 			<div class="ab-cal-fix-centent">
                   <img src="assets/images/calypso1.jpg" class="ab-img-centent">
-    						</div>
+    						</div> -->
             </div>
           </div>
         </div>
@@ -78,11 +105,14 @@
 
       <section>
         <div class="container">
-          <div class="text-center">
+          <div class="header-text-box mx-auto mb-3">
+              <label class="text-box-detail">Our Show</label>
+          </div>
+<!--           <div class="text-center">
     		    <button type="submit" class="btn-cal btn-cal-md ab-cal-btn-show  px-5">Our Show</button>
-    		  </div>
+    		  </div> -->
 
-          <div class="row py-md-4 py-4">
+          <div class="row py-md-4 py-4 moreBox blogBox">
             <div class="col-lg-7">
               <div class="ab-cal-set-img-5">
                 <img src="assets/images/about/CAL_6429.jpg" class="ab-img-centent">
@@ -104,7 +134,7 @@
             </div>
           </div>
 
-          <div class="row py-md-4 py-4">
+          <div class="row py-md-4 py-4 moreBox blogBox">
             <div class="col-lg-7">
               <div class="ab-cal-set-img-5">
                 <img src="assets/images/about/CAL_7219.jpg" class="ab-img-centent">
@@ -136,7 +166,7 @@
             </div>
           </div>
 
-          <div class="row py-md-4 py-4">
+          <div class="row py-md-4 py-4 moreBox blogBox">
             <div class="col-lg-7">
               <div class="ab-cal-set-img-5">
                 <img src="assets/images/about/GIGI3637.JPG" class="ab-img-centent">
@@ -155,8 +185,162 @@
                 </div>
             </div>
           </div>
+
+
+          <div class="row py-md-4 py-4 moreBox blogBox" style="display: none;">
+            <div class="col-lg-7">
+              <div class="ab-cal-set-img-5">
+                <img src="assets/images/about/CAL_6429.jpg" class="ab-img-centent">
+              </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="ab-cal-d-table">
+                  <div class="ab-cal-fix-2line">
+                    <h3 class="ab-cal-h3-w300">Elvils : </h3>
+                  </div>
+
+                    <div class="ab-fix-line-text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="row py-md-4 py-4 moreBox blogBox" style="display: none;">
+            <div class="col-lg-7">
+              <div class="ab-cal-set-img-5">
+                <img src="assets/images/about/CAL_7219.jpg" class="ab-img-centent">
+              </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="ab-cal-d-table">
+                  <div class="ab-cal-fix-2line">
+                    <h3 class="ab-cal-h3-w300">Lorem Ipsum is simply dummy text </h3>
+                  </div>
+                  <div class="ab-fix-line-text">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="row py-md-4 py-4 moreBox blogBox" style="display: none;">
+            <div class="col-lg-7">
+              <div class="ab-cal-set-img-5">
+                <img src="assets/images/about/GIGI3637.JPG" class="ab-img-centent">
+              </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="ab-cal-d-table">
+                  <div class="ab-cal-fix-2line">
+                    <h3 class="ab-cal-h3-w300">Lorem Ipsum is simply dummy text </h3>
+                  </div>
+                  <div class="ab-fix-line-text">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+
+          <div class="row py-md-4 py-4 moreBox blogBox" style="display: none;">
+            <div class="col-lg-7">
+              <div class="ab-cal-set-img-5">
+                <img src="assets/images/about/CAL_6429.jpg" class="ab-img-centent">
+              </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="ab-cal-d-table">
+                  <div class="ab-cal-fix-2line">
+                    <h3 class="ab-cal-h3-w300">Elvils : </h3>
+                  </div>
+
+                    <div class="ab-fix-line-text">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="row py-md-4 py-4 moreBox blogBox" style="display: none;">
+            <div class="col-lg-7">
+              <div class="ab-cal-set-img-5">
+                <img src="assets/images/about/CAL_7219.jpg" class="ab-img-centent">
+              </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="ab-cal-d-table">
+                  <div class="ab-cal-fix-2line">
+                    <h3 class="ab-cal-h3-w300">Lorem Ipsum is simply dummy text </h3>
+                  </div>
+                  <div class="ab-fix-line-text">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="row py-md-4 py-4 moreBox blogBox" style="display: none;">
+            <div class="col-lg-7">
+              <div class="ab-cal-set-img-5">
+                <img src="assets/images/about/GIGI3637.JPG" class="ab-img-centent">
+              </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="ab-cal-d-table">
+                  <div class="ab-cal-fix-2line">
+                    <h3 class="ab-cal-h3-w300">Lorem Ipsum is simply dummy text </h3>
+                  </div>
+                  <div class="ab-fix-line-text">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+
+
           <div class="text-center mt-md-5 mt-3">
-  		    	<button type="submit" class="btn-cal btn-cal-md px-5">Read More</button>
+  		    	<button id="loadMore" type="submit" class="btn-cal btn-cal-md px-5">Load More</button>
   		    </div>
         </div>
       </section>
@@ -174,3 +358,19 @@
 </body>
 
 </html>
+
+<script>
+  $( document ).ready(function () {
+      $(".moreBox").slice(0, 3).show();
+      if ($(".blogBox:hidden").length != 0) {
+        $("#loadMore").show();
+      }   
+      $("#loadMore").on('click', function (e) {
+        e.preventDefault();
+        $(".moreBox:hidden").slice(0, 3).slideDown();
+        if ($(".moreBox:hidden").length == 0) {
+          $("#loadMore").fadeOut('slow');
+        }
+      });
+    });
+</script>
