@@ -18,6 +18,53 @@
   }(document, 'script', 'facebook-jssdk'));</script>
 
 
+  <style type="text/css">
+    .booking-ol-dot {
+      position: initial;
+      margin-top: 25px;
+    }
+    .booking-ol-dot .active {
+      background-color: #ce0604;
+    }
+    .booking-fix-heige-img {
+      overflow: hidden;
+      height: 103vmin;
+    }
+    .booking-fix-heige-img img {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+
+    @media (max-width: 575.98px) {
+      .booking-fix-heige-img {
+          overflow: hidden;
+          height: 60vmin;
+      }
+    }
+    @media (min-width: 576px) {
+      .booking-fix-heige-img {
+          overflow: hidden;
+          height: 55vmin;
+      }
+    }
+    @media (min-width: 768px) {
+      .booking-fix-heige-img {
+          overflow: hidden;
+          height: 65vmin;
+      }
+    }
+    @media (min-width: 992px) {
+      .booking-fix-heige-img {
+          overflow: hidden;
+          height: 85vmin;
+      }
+    }
+    @media (min-width: 1200px) {}
+    @media (min-width: 1600px) {}
+  </style>
+
+
 
 	<!-- START FOOTER -->
     <?php include_once('inc/navbar.php'); ?>
@@ -428,7 +475,28 @@
         </div>
       </section>
       <section class="booking-slide-section bg-bottom-linear">
-        
+          <div class="container">
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="booking-fix-heige-img"><img class="d-block w-100" src="assets/images/plan.gif" alt="First slide"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="booking-fix-heige-img"><img class="d-block w-100" src="assets/images/01.jpg" alt="Second slide"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="booking-fix-heige-img"><img class="d-block w-100" src="assets/images/02.jpg" alt="Third slide"></div>
+              </div>
+            </div>
+            <ol class="carousel-indicators booking-ol-dot">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+          </div>
+
+          </div>
       </section>
 
 

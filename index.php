@@ -4,7 +4,12 @@
 	<!-- START HEADER -->
     <?php include_once('inc/header.php'); ?>
     <!-- END HEADER -->
+
+
 </head>
+
+
+
 <body>
 	<!-- START FOOTER -->
     <?php include_once('inc/navbar.php'); ?>
