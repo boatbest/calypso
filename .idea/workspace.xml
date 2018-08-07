@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f70a8e00-0075-46d7-a94b-d12bd6b2dde4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/pond.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/pond.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/map.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,10 +18,14 @@
     <session id="-1923041253">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,10 +40,13 @@
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit" />
+      <usages-collector id="statistics.file.types.edit" />
+      <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,6 +59,7 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/assets/vendor/lightgallery/package.json" />
       <path value="$PROJECT_DIR$/node_modules/bootstrap/package.json" />
       <path value="$PROJECT_DIR$/node_modules/jquery/package.json" />
       <path value="$PROJECT_DIR$/node_modules/popper.js/package.json" />
@@ -70,6 +77,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,7 +100,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,14 +130,19 @@
       <updated>1533182988022</updated>
       <workItem from="1533182991785" duration="136000" />
       <workItem from="1533183160798" duration="12000" />
+      <workItem from="1533183207068" duration="161000" />
+      <workItem from="1533188569764" duration="531000" />
+      <workItem from="1533200184554" duration="595000" />
+      <workItem from="1533264494341" duration="173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148000" />
+    <option name="totallyTimeSpent" value="1608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1260" height="732" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21388216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
