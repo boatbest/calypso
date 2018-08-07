@@ -82,16 +82,16 @@
                                       <label for="formGroupExampleInput">Country/Region of Travel Document<span class="text-red">*</span> :</label>
                                       <select class="cal-form form-control custom-select" id="">
                                         <option selected disabled="">Select your country/region</option>
-                                        <option value="United States">United States</option> 
-                                        <option value="United Kingdom">United Kingdom</option> 
-                                        <option value="Afghanistan">Afghanistan</option> 
-                                        <option value="Albania">Albania</option> 
-                                        <option value="Algeria">Algeria</option> 
-                                        <option value="American Samoa">American Samoa</option> 
-                                        <option value="Andorra">Andorra</option> 
-                                        <option value="Angola">Angola</option> 
-                                        <option value="Anguilla">Anguilla</option> 
-                                        <option value="Antarctica">Antarctica</option> 
+                                        <option value="United States">United States</option>
+                                        <option value="United Kingdom">United Kingdom</option>
+                                        <option value="Afghanistan">Afghanistan</option>
+                                        <option value="Albania">Albania</option>
+                                        <option value="Algeria">Algeria</option>
+                                        <option value="American Samoa">American Samoa</option>
+                                        <option value="Andorra">Andorra</option>
+                                        <option value="Angola">Angola</option>
+                                        <option value="Anguilla">Anguilla</option>
+                                        <option value="Antarctica">Antarctica</option>
                                        </select>
                                     </div>
                                   </div>
