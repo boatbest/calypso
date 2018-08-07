@@ -5,6 +5,7 @@
     <?php include_once('inc/header.php'); ?>
     <!-- END HEADER -->
 </head>
+
 <body>
 	<!-- START FOOTER -->
     <?php include_once('inc/navbar.php'); ?>
@@ -104,9 +105,12 @@
 
       <section>
         <div class="container">
-          <div class="text-center">
+          <div class="header-text-box mx-auto mb-3">
+              <label class="text-box-detail">Our Show</label>
+          </div>
+<!--           <div class="text-center">
     		    <button type="submit" class="btn-cal btn-cal-md ab-cal-btn-show  px-5">Our Show</button>
-    		  </div>
+    		  </div> -->
 
           <div class="row py-md-4 py-4 moreBox blogBox">
             <div class="col-lg-7">
@@ -292,7 +296,8 @@
                     <h3 class="ab-cal-h3-w300">Lorem Ipsum is simply dummy text </h3>
                   </div>
                   <div class="ab-fix-line-text">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
