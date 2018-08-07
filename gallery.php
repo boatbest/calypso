@@ -13,25 +13,23 @@
 
 
       <!-- HEAD -->
-      <div class="container">
-        <div class="top-title mx-auto my-3">
-            <img src="assets/images/Logo/logo.png" alt="Calypso logo" class="top-title-img">
-            <div class="form-title text-center mt-lg-5">
-              <h3>GALLERY</h3>
+      <section class="pb-0">
+        <div class="container">
+          <div class="top-title mx-auto mb-3">
+              <img src="assets/images/Logo/logo.png" alt="Calypso logo" class="top-title-img">
+              <div class="form-title text-center mt-lg-5">
+                <h3>GALLERY</h3>
+              </div>
+          </div>
+          <div class="col-md-6 col-12 mx-auto">
+            <div class="text-center mt-lg-5 mt-3">
+              <p>Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry'sd</p>
             </div>
-        </div>
-        <div class="col-md-6 col-12 mx-auto">
-          <div class="text-center mt-lg-5 mt-3">
-            <p>Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry'sd</p>
           </div>
         </div>
-      </div>
+      </section>
       <!-- END HEAD -->
-
-
-
-
 
       <section>
         <div class="container">
@@ -150,15 +148,15 @@
 
 
       <div class="container">
-        <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-center">
-            <li class="page-item"><a class="galley-page-link" href="#">Previous</a></li>
-            <li class="page-item"><a class="galley-page-link" href="#">1</a></li>
-            <li class="page-item"><a class="galley-page-link galley-page-link-active" href="#">2</a></li>
-            <li class="page-item"><a class="galley-page-link" href="#">3</a></li>
-            <li class="page-item"><a class="galley-page-link" href="#">Next</a></li>
-          </ul>
-        </nav>
+        <div class="m-4">
+            <ul class="pagination justify-content-center">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
       </div>
     </div>
 

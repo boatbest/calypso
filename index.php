@@ -81,14 +81,23 @@
 	    				<div class="col-6 px-1">
 	    					<div class="show-gall-horizontal mb-2 test" href="assets/images/01.jpg">
 	    						<img src="assets/images/01.jpg" class="">
-	    					</div>
+	    						<div class="show-gal-overlay">
+								    <i class="fa fa-search-plus text-overlay" aria-hidden="true"></i>
+								</div>
+				            </div>
 	    					<div class="show-gall-horizontal test" href="assets/images/02.jpg">
 	    						<img src="assets/images/02.jpg" class="">
+	    						<div class="show-gal-overlay">
+								    <i class="fa fa-search-plus text-overlay" aria-hidden="true"></i>
+								</div>
 	    					</div>
 	    				</div>
 	    				<div class="col-6 px-1">
 	    					<div class="show-gall-vertical test" href="assets/images/03.jpg">
 	    						<img src="assets/images/03.jpg" class="">
+	    						<div class="show-gal-overlay">
+								    <i class="fa fa-search-plus text-overlay" aria-hidden="true"></i>
+								</div>
 	    					</div>
 	    				</div>
 	    			</div>
@@ -98,14 +107,23 @@
 	    				<div class="col-6 px-1">
 	    					<div class="show-gall-horizontal mb-2 test" href="assets/images/04.jpg">
 	    						<img src="assets/images/04.jpg" class="">
+	    						<div class="show-gal-overlay">
+								    <i class="fa fa-search-plus text-overlay" aria-hidden="true"></i>
+								</div>
 	    					</div>
 	    					<div class="show-gall-horizontal test" href="assets/images/05.jpg">
 	    						<img src="assets/images/05.jpg" class="">
+	    						<div class="show-gal-overlay">
+								    <i class="fa fa-search-plus text-overlay" aria-hidden="true"></i>
+								</div>
 	    					</div>
 	    				</div>
 	    				<div class="col-6 px-1">
 	    					<div class="show-gall-vertical test" href="assets/images/06.jpg">
 	    						<img src="assets/images/06.jpg" class="">
+	    						<div class="show-gal-overlay">
+								    <i class="fa fa-search-plus text-overlay" aria-hidden="true"></i>
+								</div>
 	    					</div>
 	    				</div>
 	    			</div>
