@@ -455,7 +455,7 @@ Second round starts at 21:00
                               <span class="mr-2">THB</span><span>2,700</span>
                             </div>
                             <div class="col-12 text-right booking-form-button">
-                              <button type="submit" class="btn-cal btn-cal-md mt-2 mr-2">Reset</button>
+                              <button type="submit" class="btn-cal btn-cal-md mt-2 mr-2 reset">Reset</button>
                               <button type="submit" class="btn-cal btn-cal-md mt-2">Buy</button>
                             </div>
                           </div>
@@ -516,7 +516,7 @@ Second round starts at 21:00
                             <span class="mr-2">THB</span><span>2,700</span>
                           </div>
                           <div class="col-12 text-right booking-form-button">
-                            <button type="submit" class="btn-cal btn-cal-md mt-2 mr-2">Reset</button>
+                            <button type="submit" class="btn-cal btn-cal-md mt-2 mr-2 reset">Reset</button>
                             <button type="submit" class="btn-cal btn-cal-md mt-2">Buy</button>
                           </div>
                         </div>
@@ -649,7 +649,6 @@ $(document).ready(function() {
 
 
     $('.choose-package').on('click', function(){
-
       $('.choose-package').not(this).each(function(){
         if($(this).text() == 'Choosed'){
           $(this).closest('.row').find('.collpase-box a').click();
@@ -681,6 +680,12 @@ $(document).ready(function() {
         $(this).closest('form').find("select").prop("selectedIndex", 0);
         $(this).text('Choose');
       }
+    });
+
+    $('.reset').on('click', function(){
+      $('form').find("input[type=text]").val("0");
+      $('form').find("input[type=date]").val("");
+      $('form').find("select").prop("selectedIndex", 0);
     });
 
 });
