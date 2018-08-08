@@ -81,15 +81,21 @@
               </div>
               <div class="col-12 col-xl-8">
                 <form>
+
+
+<!-- Calypso cabaret only -->
+
                   <div class="card-box">
                       <div class="card-box-header">
                         <div class="row">
-                          <div class="col-12 col-md-6">
+                          <div class="col-12 col-md-6 collpase-box">
                             <h6 class="card-box-title mb-0">CALYPSO CABARET (TICKET ONLY)</h6>
-                            <div class="icon-group"><a data-toggle="collapse" href="#moredetails1">More details <i class="fas fa-chevron-down"></i></a></div>
+                            <div class="icon-group">
+                              <a class="collapsed fade-back" data-toggle="collapse" href="#moredetails1">More details <i class="fas fa-chevron-down"></i></a>
+                            </div>
                           </div>
-                          <div class="col-12 col-md-6">
-                            <div class="d-md-flex justify-content-end text-right">
+                          <div class="col-12 col-md-6 choose-row">
+                            <div class="d-flex justify-content-end text-right">
                               <div class="show-ribbon">
                                 <div class="ribbon red-ribbon">20% OFF TODAY</div>
                               </div>
@@ -97,14 +103,14 @@
                                 <p class="sale_price">THB 900</p>
                                 <p class="normal_price">THB 1,200</p>
                               </div>
-                              <div class="px-2"><button type="submit" class="btn-cal btn-cal-sm mt-1">Choose</button></div>
+                              <div class="px-2"><button type="button" class="choose-package btn-cal btn-cal-sm mt-1">Choose</button></div>
                             </div>
                           </div>
                         </div>
                       </div>
                       <div class="card-box-content px-4 collapse" id="moredetails1">
                         <!-- <div class="collapse" id="moredetails1"> -->
-                          <div class="booking-package mb-2">
+                          <div class="booking-package mb-2 d-none">
                             <div class="row">
                               <div class="col-lg-4 col-md-3 col-12 ">
                                 <div class="form-group form-date">
@@ -114,13 +120,14 @@
                                 </div>
                               </div>
                               <div class="col-lg-4 col-md-4 col-12 ">
-                                <div class="form-group">
+                                <div class="form-group form-time">
                                   <label for="formGroupExampleInpu2">Select Time :</label>
-                                  <select class="cal-form form-control custom-select" id="">
+                                  <select class="cal-form form-control custom-select time-select" id="" required>
                                     <option selected disabled="">Select Time</option>
                                     <option value="1">17.30 - 19.30</option>
                                     <option value="2">20.00 - 22.00</option>
                                   </select>
+                                  <i class="far fa-clock"></i>
                                 </div>
                               </div>
                               <div class="col-lg-4 col-md-5 col-12 ">
@@ -185,12 +192,235 @@ Second round starts at 21:00
                                 </div>
 
                             </div>
-                        <!-- </div>  -->
+                      </div>
+                  </div>
+
+<!-- Calypso thai restuarant + Calypso cabaret -->
+
+                  <div class="card-box">
+                      <div class="card-box-header">
+                        <div class="row">
+                          <div class="col-12 col-md-6 collpase-box">
+                            <h6 class="card-box-title mb-0">CALYPSO THAI RESTAURANT + CALYPSO CABARET</h6>
+                            <div class="icon-group">
+                              <a class="collapsed fade-back" data-toggle="collapse" href="#moredetails2">More details <i class="fas fa-chevron-down"></i></a>
+                            </div>
+                          </div>
+                          <div class="col-12 col-md-6 choose-row">
+                            <div class="d-flex justify-content-end text-right">
+                              <div class="show-ribbon">
+                                <div class="ribbon red-ribbon">20% OFF TODAY</div>
+                              </div>
+                              <div class="p-2">
+                                <p class="sale_price">THB 900</p>
+                                <p class="normal_price">THB 1,200</p>
+                              </div>
+                              <div class="px-2"><button type="button" class="choose-package btn-cal btn-cal-sm mt-1">Choose</button></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-box-content px-4 collapse" id="moredetails2">
+                        <!-- <div class="collapse" id="moredetails1"> -->
+                          <div class="booking-package mb-2 d-none">
+                            <div class="row">
+                              <div class="col-lg-4 col-md-3 col-12 ">
+                                <div class="form-group form-date">
+                                  <label for="formGroupExampleInput">Select Date :</label>
+                                  <input type="date" class="form-control cal-form" id="inlineFormInputGroup" placeholder="Select Date" required>
+                                  <i class="far fa-calendar-alt"></i>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-12 ">
+                                <div class="form-group form-time">
+                                  <label for="formGroupExampleInpu2">Select Time :</label>
+                                  <select class="cal-form form-control custom-select time-select" id="" required>
+                                    <option selected disabled="">Select Time</option>
+                                    <option value="1">17.30 - 19.30</option>
+                                    <option value="2">20.00 - 22.00</option>
+                                  </select>
+                                  <i class="far fa-clock"></i>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-5 col-12 ">
+                                <label for="formGroupExampleInput3">Seat :</label>
+                                <div class="input-group mb-1 form-count">
+                                  <input type="button" value="-" class="qtyminus" field="quantity">
+                                  <input type="text" name="quantity" value="0" class="qty form-control" required>
+                                  <input type="button" value="+" class="qtyplus" field="quantity">
+                                </div>
+
+                                <div class="ribbon orange-ribbon">Avilable Seats : 6</div>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="details-text-editor">
+                              <!-- Text editor? -->
+<pre style="color:white;font-family:kanit;font-weight:300;">
+PRICE INCLUDES:
+
+Calypso Cabaret Ticket
+Performance duration 70mins with 15 show numbers.
+One beverage inside the theater (Drink choices as listed on ticket)
+VAT and Service Charge
+
+Daily Show Time:
+First round starts at 19:30
+Second round starts at 21:00
+</pre>
+                              <!-- end text editor? -->
+
+                              <div class="owl-carousel owl-theme cc-gallery">
+                                    <div class="item">
+                                      <div class="gal-img test" href="assets/images/02.jpg">
+                                         <img src="assets/images/02.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/04.jpg">
+                                         <img src="assets/images/04.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/06.jpg">
+                                         <img src="assets/images/06.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/01.jpg">
+                                         <img src="assets/images/01.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/03.jpg">
+                                         <img src="assets/images/03.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/05.jpg">
+                                         <img src="assets/images/05.jpg" />
+                                      </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                      </div>
+                  </div>
+
+<!-- Calypso Thai restuarant (dinner only) -->
+
+                  <div class="card-box">
+                      <div class="card-box-header">
+                        <div class="row">
+                          <div class="col-12 col-md-6 collpase-box">
+                            <h6 class="card-box-title mb-0">CALYPSO THAI RESTAURANT (DINNER ONLY)</h6>
+                            <div class="icon-group">
+                              <a class="collapsed fade-back" data-toggle="collapse" href="#moredetails3">More details <i class="fas fa-chevron-down"></i></a>
+                            </div>
+                          </div>
+                          <div class="col-12 col-md-6 choose-row">
+                            <div class="d-flex justify-content-end text-right">
+                              <div class="show-ribbon">
+                                <div class="ribbon red-ribbon">20% OFF TODAY</div>
+                              </div>
+                              <div class="p-2">
+                                <p class="sale_price">THB 900</p>
+                                <p class="normal_price">THB 1,200</p>
+                              </div>
+                              <div class="px-2"><button type="button" class="choose-package btn-cal btn-cal-sm mt-1">Choose</button></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-box-content px-4 collapse" id="moredetails3">
+                        <!-- <div class="collapse" id="moredetails1"> -->
+                          <div class="booking-package mb-2 d-none">
+                            <div class="row">
+                              <div class="col-lg-4 col-md-3 col-12 ">
+                                <div class="form-group form-date">
+                                  <label for="formGroupExampleInput">Select Date :</label>
+                                  <input type="date" class="form-control cal-form" id="inlineFormInputGroup" placeholder="Select Date" required>
+                                  <i class="far fa-calendar-alt"></i>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-12 ">
+                                <div class="form-group form-time">
+                                  <label for="formGroupExampleInpu2">Select Time :</label>
+                                  <select class="cal-form form-control custom-select time-select" id="" required>
+                                    <option selected disabled="">Select Time</option>
+                                    <option value="1">17.30 - 19.30</option>
+                                    <option value="2">20.00 - 22.00</option>
+                                  </select>
+                                  <i class="far fa-clock"></i>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-5 col-12 ">
+                                <label for="formGroupExampleInput3">Seat :</label>
+                                <div class="input-group mb-1 form-count">
+                                  <input type="button" value="-" class="qtyminus" field="quantity">
+                                  <input type="text" name="quantity" value="0" class="qty form-control" required>
+                                  <input type="button" value="+" class="qtyplus" field="quantity">
+                                </div>
+
+                                <div class="ribbon orange-ribbon">Avilable Seats : 6</div>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="details-text-editor">
+                              <!-- Text editor? -->
+<pre style="color:white;font-family:kanit;font-weight:300;">
+PRICE INCLUDES:
+
+Calypso Cabaret Ticket
+Performance duration 70mins with 15 show numbers.
+One beverage inside the theater (Drink choices as listed on ticket)
+VAT and Service Charge
+
+Daily Show Time:
+First round starts at 19:30
+Second round starts at 21:00
+</pre>
+                              <!-- end text editor? -->
+
+                              <div class="owl-carousel owl-theme cc-gallery">
+                                    <div class="item">
+                                      <div class="gal-img test" href="assets/images/02.jpg">
+                                         <img src="assets/images/02.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/04.jpg">
+                                         <img src="assets/images/04.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/06.jpg">
+                                         <img src="assets/images/06.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/01.jpg">
+                                         <img src="assets/images/01.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/03.jpg">
+                                         <img src="assets/images/03.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/05.jpg">
+                                         <img src="assets/images/05.jpg" />
+                                      </div>
+                                    </div>
+                                </div>
+
+                            </div>
                       </div>
                   </div>
 
 
-                  <!-- Summary Mobile site -->
+<!-- Summary Mobile site -->
                   <div class="card-box d-md-none d-block summary-section-mobile">
                       <div class="card-box-header">
                           <h5 class="card-box-title">CALYPSO CABARET SHOW</h5>
@@ -359,6 +589,41 @@ Second round starts at 21:00
 
 $(document).ready(function() {
 
+    // This button will increment the value
+    $('.qtyplus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        fieldName = $(this).attr('field');
+        // Get its current value
+        var currentVal = parseInt($('input[name='+fieldName+']').val());
+        // If is not undefined
+        if (!isNaN(currentVal)) {
+            // Increment
+            $('input[name='+fieldName+']').val(currentVal + 1);
+        } else {
+            // Otherwise put a 0 there
+            $('input[name='+fieldName+']').val(0);
+        }
+    });
+    // This button will decrement the value till 0
+    $(".qtyminus").click(function(e) {
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        fieldName = $(this).attr('field');
+        // Get its current value
+        var currentVal = parseInt($('input[name='+fieldName+']').val());
+        // If it isn't undefined or its greater than 0
+        if (!isNaN(currentVal) && currentVal > 0) {
+            // Decrement one
+            $('input[name='+fieldName+']').val(currentVal - 1);
+        } else {
+            // Otherwise put a 0 there
+            $('input[name='+fieldName+']').val(0);
+        }
+    });
+
     $('.owl-carousell').owlCarousel({
         loop:true,
         margin:10,
@@ -376,11 +641,12 @@ $(document).ready(function() {
         nav:false,
         responsive:{
             0:{
-                items:1
+                items:2
             },
-            1000:{
+            768:{
                 items:4
             },
+
         }
     })
 
@@ -391,65 +657,74 @@ $(document).ready(function() {
         selector: '.gal-img',
     });
 
+
+    $('.icon-group').find('a').on('click', function(){
+      // $(this).toggleClass('fade-away fade-back');
+    });
+
+
+    $('.choose-package').on('click', function(){
+
+      $('.choose-package').not(this).each(function(){
+        if($(this).text() == 'Choosed'){
+          $(this).closest('.row').find('.collpase-box a').click();
+          $(this).closest('.card-box').find('.card-box-content .booking-package').toggleClass('d-none');
+          $(this).closest('form').find("input[type=text]").val("0");
+          $(this).closest('form').find("input[type=date]").val("");
+          $(this).closest('form').find("select").prop("selectedIndex", 0);
+          $(this).closest('.card-box-header').find('.icon-group a').toggleClass('fade-away fade-back');
+          $(this).text('Choose');
+        }
+      });
+
+      if($(this).text() == 'Choose'){
+        if(($(this).closest('.row').find('.collpase-box a').hasClass('collapsed'))){
+          $(this).closest('.row').find('.collpase-box a').click();
+          $(this).closest('.card-box-header').find('.icon-group a').toggleClass('fade-away fade-back');
+        }
+        $(this).closest('.card-box').find('.card-box-content .booking-package').toggleClass('d-none');
+        $(this).text('Choosed');
+      }
+      else{
+        if(!($(this).closest('.row').find('.collpase-box a').hasClass('collapsed'))){
+          $(this).closest('.row').find('.collpase-box a').click();
+          $(this).closest('.card-box-header').find('.icon-group a').toggleClass('fade-away fade-back');
+        }
+        $(this).closest('.card-box').find('.card-box-content .booking-package').toggleClass('d-none');
+        $(this).closest('form').find("input[type=text]").val("0");
+        $(this).closest('form').find("input[type=date]").val("");
+        $(this).closest('form').find("select").prop("selectedIndex", 0);
+        $(this).text('Choose');
+      }
+    });
+
 });
 
 
 $(window).on('load', function () {
 
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    var galheight = $('.card-box-header').width() / 3 ;
+    $('.gal-img').css({'height':galheight+'px'});
+  }
+  else{
+    var galheight = $('.card-box-header').width() / 6 ;
+    $('.gal-img').css({'height':galheight+'px'});
+  }
 
 });
 
+$(window).on('resize', function () {
 
-$('.icon-group').find('a').on('click', function(){
-
-
-  setTimeout(function(){
-    $('.gal-img').each(function () {
-      var galwidth = $('.gal-img').width();
-      $('.gal-img').css({'height':galwidth+'px'});
-    });
-  }, 1500);
-
-
-
-
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    var galheight = $('.card-box-header').width() / 3 ;
+    $('.gal-img').css({'height':galheight+'px'});
+  }
+  else{
+    var galheight = $('.card-box-header').width() / 6 ;
+    $('.gal-img').css({'height':galheight+'px'});
+  }
 });
 
-jQuery(document).ready(function(){
-        // This button will increment the value
-        $('.qtyplus').click(function(e){
-            // Stop acting like a button
-            e.preventDefault();
-            // Get the field name
-            fieldName = $(this).attr('field');
-            // Get its current value
-            var currentVal = parseInt($('input[name='+fieldName+']').val());
-            // If is not undefined
-            if (!isNaN(currentVal)) {
-                // Increment
-                $('input[name='+fieldName+']').val(currentVal + 1);
-            } else {
-                // Otherwise put a 0 there
-                $('input[name='+fieldName+']').val(0);
-            }
-        });
-        // This button will decrement the value till 0
-        $(".qtyminus").click(function(e) {
-            // Stop acting like a button
-            e.preventDefault();
-            // Get the field name
-            fieldName = $(this).attr('field');
-            // Get its current value
-            var currentVal = parseInt($('input[name='+fieldName+']').val());
-            // If it isn't undefined or its greater than 0
-            if (!isNaN(currentVal) && currentVal > 0) {
-                // Decrement one
-                $('input[name='+fieldName+']').val(currentVal - 1);
-            } else {
-                // Otherwise put a 0 there
-                $('input[name='+fieldName+']').val(0);
-            }
-        });
-    });
 
 </script>

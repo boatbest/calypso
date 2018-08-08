@@ -144,10 +144,6 @@ $BOOKING
   width:100%;
   height:auto;
   position:relative;
-  /* background-image: url('../images/01.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
 }
 
 
@@ -276,6 +272,35 @@ $BOOKING
     height: auto;
 }
 
+.time-select{
+  padding-left: 15%;
+}
+
+.form-time{
+  position:relative;
+}
+
+.form-time i{
+  position: absolute;
+  bottom: 0;
+  padding: 10px 8px;
+  color: #6c757d;
+  z-index: 20;
+}
+
+.icon-group a{
+  transition: all ease 0.5s;
+}
+
+.icon-group .fade-away{
+  opacity: 0;
+  pointer-events: none;
+}
+
+.icon-group .fade-back{
+  opacity: 1;
+  pointer-events: unset;
+}
 
 
 /*------------------------------------*
@@ -325,7 +350,74 @@ $END Payment
 /*------------------------------------*
 Responsive
 *------------------------------------*/
-@media (min-width: 300px) {
+
+@media (max-width: 376px) {
+
+  /*------------------------------------*
+  $Booking max 368px
+  *------------------------------------*/
+
+      .card-box-header .d-flex{
+        display:-webkit-box!important;
+      }
+
+      .choose-row{
+        padding-right:0.25rem!important;
+        padding-left:0.25rem!important;
+      }
+
+  /*------------------------------------*
+  $END Booking max 368px
+  *------------------------------------*/
+
+
+
+
+@media (max-width: 368px) {
+
+  /*------------------------------------*
+  $Booking max 368px
+  *------------------------------------*/
+
+      .card-box-header .d-flex{
+        display:-webkit-box!important;
+      }
+
+  /*------------------------------------*
+  $END Booking max 368px
+  *------------------------------------*/
+
+
+}
+
+@media (max-width: 348px) {
+
+  /*------------------------------------*
+  $Booking max 368px
+  *------------------------------------*/
+
+      .card-box-header .d-flex{
+        display:block!important;
+        text-align: center !important;
+      }
+
+      .icon-group a{
+        text-align: center;
+      }
+
+      .normal_price {
+        text-align: center;
+      }
+
+  /*------------------------------------*
+  $END Booking max 368px
+  *------------------------------------*/
+
+
+}
+
+
+@media (max-width: 575px) {
 
   /*------------------------------------*
   $GENERAL 300px
@@ -347,22 +439,12 @@ Responsive
   /*------------------------------------*
   $END GENERAL 300px
   *------------------------------------*/
-}
 
-/*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-    .show-ribbon{
-      position: relative;
-      margin-left: 10px;
-    }
-    .show-ribbon .ribbon{
-      position: absolute;
-      left: 0;
-    } 
+
 }
 
 @media (min-width: 576px) {
- 
+
 }
 
 @media (min-width: 768px) {
