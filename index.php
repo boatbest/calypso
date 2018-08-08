@@ -290,11 +290,11 @@
 						  </div>
 						  <div class="form-group">
 						    <label for="formGroupExampleInput2">Email</label>
-						    <input type="text" class="form-control cal-form" id="formGroupExampleInput2" placeholder="Another input">
+						    <input type="email" class="form-control cal-form" id="formGroupExampleInput2" placeholder="Another input">
 						  </div>
 						  <div class="form-group">
 						    <label for="formGroupExampleInput2">Message</label>
-						    <input type="text" class="form-control cal-form" id="formGroupExampleInput2" placeholder="Another input">
+						    <textarea class="form-control cal-form" rows="4" placeholder="Message" id="" required=""></textarea>
 						  </div>
 						  <div class="cal-capcha">
 						  	<img src="assets/images/newCaptchaAnchor.gif" alt="calypso" class="img-fluid">
@@ -410,7 +410,7 @@
 		});
 
 		$('.carousel').carousel({
-		  interval: 6000
+		  interval: 5000
 		})
 
     </script>

@@ -237,7 +237,7 @@
                           <div class="card-box-header">
                               <h4 class="card-box-title">CALYPSO CABARET SHOW</h4>
                           </div>
-                          <div class="card-box-header px-4">
+                          <div class="card-box-content">
                               <div class="row">
                                 <div class="col-12 mb-2">
                                   <span>Package Name : CALYPSO CABARET (TICKET ONLY)</span>
@@ -282,7 +282,7 @@
 
                       <!-- Promotion Code Mobile site -->
                       <div class="card-box d-md-none d-block summary-section-mobile">
-                          <div class="card-box-content">
+                          <div class="card-box-header">
                             <h4 class="card-box-title pl-0">Promo Code</h4>
                             <input type="text" class="form-control cal-form w-100" id="" placeholder="ENTER YOUT COUPON">
                             <div class="w-100 text-center">
@@ -378,7 +378,7 @@
                           <div class="card-box-header">
                               <h4 class="card-box-title">CALYPSO CABARET SHOW</h4>
                           </div>
-                          <div class="card-box-header px-4">
+                          <div class="card-box-content">
                             <div class="row">
                               <div class="col-12 mb-2">
                                 <span>Package Name : CALYPSO CABARET (TICKET ONLY)</span>
@@ -422,7 +422,7 @@
                       </div>
                     <form>
                       <div class="card-box">
-                        <div class="card-box-content">
+                        <div class="card-box-header px-4">
                           <h4 class="card-box-title pl-0">Promo Code</h4>
                           <input type="text" class="form-control cal-form" id="" placeholder="ENTER YOUT COUPON">
                           <div class="w-100 text-right">

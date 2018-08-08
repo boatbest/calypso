@@ -84,20 +84,57 @@
                   <div class="card-box">
                       <div class="card-box-header">
                         <div class="row">
-                          <div class="col-7">
-                            <h5 class="card-box-title">CALYPSO CABARET (TICKET ONLY)</h5>
+                          <div class="col-12 col-md-6">
+                            <h6 class="card-box-title mb-0">CALYPSO CABARET (TICKET ONLY)</h6>
                             <div class="icon-group"><a data-toggle="collapse" href="#moredetails1">More details <i class="fas fa-chevron-down"></i></a></div>
                           </div>
-                          <div class="col-3 px-0">
-
-                          </div>
-                          <div class="col-2 px-0">
-
+                          <div class="col-12 col-md-6">
+                            <div class="d-md-flex justify-content-end text-right">
+                              <div class="show-ribbon">
+                                <div class="ribbon red-ribbon">20% OFF TODAY</div>
+                              </div>
+                              <div class="p-2">
+                                <p class="sale_price">THB 900</p>
+                                <p class="normal_price">THB 1,200</p>
+                              </div>
+                              <div class="px-2"><button type="submit" class="btn-cal btn-cal-sm mt-1">Choose</button></div>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div class="card-box-content px-4">
-                        <div class="collapse" id="moredetails1">
+                      <div class="card-box-content px-4 collapse" id="moredetails1">
+                        <!-- <div class="collapse" id="moredetails1"> -->
+                          <div class="booking-package mb-2">
+                            <div class="row">
+                              <div class="col-lg-4 col-md-3 col-12 ">
+                                <div class="form-group form-date">
+                                  <label for="formGroupExampleInput">Select Date :</label>
+                                  <input type="date" class="form-control cal-form" id="inlineFormInputGroup" placeholder="Select Date" required>
+                                  <i class="far fa-calendar-alt"></i>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-12 ">
+                                <div class="form-group">
+                                  <label for="formGroupExampleInpu2">Select Time :</label>
+                                  <select class="cal-form form-control custom-select" id="">
+                                    <option selected disabled="">Select Time</option>
+                                    <option value="1">17.30 - 19.30</option>
+                                    <option value="2">20.00 - 22.00</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-5 col-12 ">
+                                <label for="formGroupExampleInput3">Seat :</label>
+                                <div class="input-group mb-1 form-count">
+                                  <input type="button" value="-" class="qtyminus" field="quantity">
+                                  <input type="text" name="quantity" value="0" class="qty form-control" required>
+                                  <input type="button" value="+" class="qtyplus" field="quantity">
+                                </div>
+
+                                <div class="ribbon orange-ribbon">Avilable Seats : 6</div>
+                              </div>
+                            </div>
+                          </div>
                             <div class="details-text-editor">
                               <!-- Text editor? -->
 <pre style="color:white;font-family:kanit;font-weight:300;">
@@ -148,25 +185,17 @@ Second round starts at 21:00
                                 </div>
 
                             </div>
-                        </div>
+                        <!-- </div>  -->
                       </div>
                   </div>
-                  <div class="card-box">
-                      <div class="card-box-header">
-                          <h4 class="card-box-title">Payment Card</h4>
-                      </div>
-                      <div class="card-box-content px-lg-4 px-0">
 
-
-                      </div>
-                  </div>
 
                   <!-- Summary Mobile site -->
                   <div class="card-box d-md-none d-block summary-section-mobile">
                       <div class="card-box-header">
                           <h5 class="card-box-title">CALYPSO CABARET SHOW</h5>
                       </div>
-                      <div class="card-box-header px-4">
+                      <div class="card-box-content">
                           <div class="row">
                             <div class="col-12 mb-2">
                               <span>Package Name : CALYPSO CABARET (TICKET ONLY)</span>
@@ -211,7 +240,7 @@ Second round starts at 21:00
 
                   <!-- Promotion Code Mobile site -->
                   <div class="card-box d-md-none d-block summary-section-mobile">
-                      <div class="card-box-content">
+                      <div class="card-box-header">
                         <h5 class="card-box-title pl-0">Promo Code</h5>
                         <input type="text" class="form-control cal-form w-100" id="" placeholder="ENTER YOUT COUPON">
                         <div class="w-100 text-center">
@@ -229,7 +258,7 @@ Second round starts at 21:00
                       <div class="card-box-header">
                           <h5 class="card-box-title">CALYPSO CABARET SHOW</h5>
                       </div>
-                      <div class="card-box-header px-4">
+                      <div class="card-box-content">
                         <div class="row">
                           <div class="col-12 mb-2">
                             <span>Package Name : CALYPSO CABARET (TICKET ONLY)</span>
@@ -273,7 +302,7 @@ Second round starts at 21:00
                   </div>
                   <form>
                     <div class="card-box">
-                      <div class="card-box-content">
+                      <div class="card-box-header px-4">
                         <h5 class="card-box-title pl-0">Promo Code</h5>
                         <input type="text" class="form-control cal-form" id="" placeholder="ENTER YOUT COUPON">
                         <div class="w-100 text-right">
@@ -358,7 +387,7 @@ $(document).ready(function() {
     $(".cc-gallery").lightGallery({
         thumbnail:true,
         animateThumb: false,
-        showThumbByDefault: false,
+        showThumbByDefault: true,
         selector: '.gal-img',
     });
 
@@ -385,5 +414,42 @@ $('.icon-group').find('a').on('click', function(){
 
 
 });
+
+jQuery(document).ready(function(){
+        // This button will increment the value
+        $('.qtyplus').click(function(e){
+            // Stop acting like a button
+            e.preventDefault();
+            // Get the field name
+            fieldName = $(this).attr('field');
+            // Get its current value
+            var currentVal = parseInt($('input[name='+fieldName+']').val());
+            // If is not undefined
+            if (!isNaN(currentVal)) {
+                // Increment
+                $('input[name='+fieldName+']').val(currentVal + 1);
+            } else {
+                // Otherwise put a 0 there
+                $('input[name='+fieldName+']').val(0);
+            }
+        });
+        // This button will decrement the value till 0
+        $(".qtyminus").click(function(e) {
+            // Stop acting like a button
+            e.preventDefault();
+            // Get the field name
+            fieldName = $(this).attr('field');
+            // Get its current value
+            var currentVal = parseInt($('input[name='+fieldName+']').val());
+            // If it isn't undefined or its greater than 0
+            if (!isNaN(currentVal) && currentVal > 0) {
+                // Decrement one
+                $('input[name='+fieldName+']').val(currentVal - 1);
+            } else {
+                // Otherwise put a 0 there
+                $('input[name='+fieldName+']').val(0);
+            }
+        });
+    });
 
 </script>

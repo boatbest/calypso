@@ -43,7 +43,7 @@ $GENERAL
     vertical-align: middle;
     background: #fff url(../../assets/images/img-icon/option.png) no-repeat right center;
     background-size: 35px 100%;
-    border: 1px solid #ced4da;
+    border: 1px solid #999 !important;
     border-radius: 0px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -175,7 +175,7 @@ $BOOKING
 }
 
 .card-box-header .icon-group{
-  padding: 10px 10px 10px 15px;
+  padding: 2px 10px 10px 15px;
 }
 
 .card-box-header .icon-group a{
@@ -210,6 +210,72 @@ $BOOKING
   left:50%;
   transform: translate(-50%, -50%);
 }
+
+.ribbon {
+  height: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  width: auto;
+  display: inline-block;
+  margin-top: 5px;
+/*position: absolute;
+  left: 0;*/
+  color: #FFF;
+  line-height: 30px;
+  padding: 0px 10px;
+  top: 0;
+  z-index: 5;
+}
+.red-ribbon {
+  background: #d60000;
+}
+.orange-ribbon {
+  background: #e36a03;
+}
+
+.sale_price{
+  margin-bottom: 2px;
+}
+.normal_price{
+  font-size: 12px;
+  margin-bottom: 0px;
+  text-align: right;
+  color: #8f8f8f;
+  text-decoration: line-through;
+}
+
+.form-date{
+  position: relative;
+}
+.form-date input{
+  padding-left: 28px;
+}
+.form-date i {
+  position: absolute;
+  bottom: 0;
+  padding: 12px 8px;
+  color: #6c757d;
+  z-index: 20;
+}
+
+.form-count input.qtyminus{
+    width: 38px;
+    background-color: #2B1C3A;
+    color: #ffffff;
+    border: 1px solid #999;
+    cursor: pointer;
+    height: auto;
+}
+
+.form-count input.qtyplus {
+    width: 38px;
+    background-color: #2B1C3A;
+    color: #ffffff;
+    border: 1px solid #999;
+    cursor: pointer;
+    height: auto;
+}
+
 
 
 /*------------------------------------*
@@ -277,14 +343,26 @@ Responsive
        color: transparent;
     }
 
+
   /*------------------------------------*
   $END GENERAL 300px
   *------------------------------------*/
+}
 
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .show-ribbon{
+      position: relative;
+      margin-left: 10px;
+    }
+    .show-ribbon .ribbon{
+      position: absolute;
+      left: 0;
+    } 
 }
 
 @media (min-width: 576px) {
-
+ 
 }
 
 @media (min-width: 768px) {
