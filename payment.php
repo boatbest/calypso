@@ -233,7 +233,7 @@
                       </div>
 
                       <!-- Summary Mobile site -->
-                      <div class="card-box d-md-none d-block summary-section-mobile">
+                      <div class="card-box summary-section-mobile">
                           <div class="card-box-header">
                               <h4 class="card-box-title">CALYPSO CABARET SHOW</h4>
                           </div>
@@ -281,7 +281,7 @@
                       </div>
 
                       <!-- Promotion Code Mobile site -->
-                      <div class="card-box d-md-none d-block summary-section-mobile">
+                      <div class="card-box summary-section-mobile">
                           <div class="card-box-header">
                             <h4 class="card-box-title pl-0">Promo Code</h4>
                             <input type="text" class="form-control cal-form w-100" id="" placeholder="ENTER YOUT COUPON">
@@ -373,7 +373,8 @@
 
                   <!-- Summary Desktop site -->
                   <!-- Promotion Code Desktop site -->
-                  <div class="col-12 col-xl-4 d-md-block d-none summary-section-desktop">
+                  <div class="col-12 col-xl-4 summary-section-desktop">
+                    <div class="sticky-summary">
                       <div class="card-box">
                           <div class="card-box-header">
                               <h4 class="card-box-title">CALYPSO CABARET SHOW</h4>
@@ -432,6 +433,7 @@
                       </div>
                     </form>
                   </div>
+              </div>
           </div>
       </section>
 

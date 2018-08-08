@@ -86,7 +86,7 @@
 <!-- Calypso cabaret only -->
 
                   <div class="card-box">
-                      <div class="card-box-header">
+                      <div class="card-box-header addon-header">
                         <div class="row">
                           <div class="col-12 col-md-6 collpase-box">
                             <h6 class="card-box-title mb-0">CALYPSO CABARET (TICKET ONLY)</h6>
@@ -198,7 +198,7 @@ Second round starts at 21:00
 <!-- Calypso thai restuarant + Calypso cabaret -->
 
                   <div class="card-box">
-                      <div class="card-box-header">
+                      <div class="card-box-header addon-header">
                         <div class="row">
                           <div class="col-12 col-md-6 collpase-box">
                             <h6 class="card-box-title mb-0">CALYPSO THAI RESTAURANT + CALYPSO CABARET</h6>
@@ -209,11 +209,11 @@ Second round starts at 21:00
                           <div class="col-12 col-md-6 choose-row">
                             <div class="d-flex justify-content-end text-right">
                               <div class="show-ribbon">
-                                <div class="ribbon red-ribbon">20% OFF TODAY</div>
+                                <div class="ribbon red-ribbon">25% OFF TODAY</div>
                               </div>
                               <div class="p-2">
-                                <p class="sale_price">THB 900</p>
-                                <p class="normal_price">THB 1,200</p>
+                                <p class="sale_price">THB 1,500</p>
+                                <p class="normal_price">THB 2,200</p>
                               </div>
                               <div class="px-2"><button type="button" class="choose-package btn-cal btn-cal-sm mt-1">Choose</button></div>
                             </div>
@@ -310,7 +310,7 @@ Second round starts at 21:00
 <!-- Calypso Thai restuarant (dinner only) -->
 
                   <div class="card-box">
-                      <div class="card-box-header">
+                      <div class="card-box-header addon-header">
                         <div class="row">
                           <div class="col-12 col-md-6 collpase-box">
                             <h6 class="card-box-title mb-0">CALYPSO THAI RESTAURANT (DINNER ONLY)</h6>
@@ -321,11 +321,9 @@ Second round starts at 21:00
                           <div class="col-12 col-md-6 choose-row">
                             <div class="d-flex justify-content-end text-right">
                               <div class="show-ribbon">
-                                <div class="ribbon red-ribbon">20% OFF TODAY</div>
                               </div>
                               <div class="p-2">
-                                <p class="sale_price">THB 900</p>
-                                <p class="normal_price">THB 1,200</p>
+                                <p class="sale_price">THB 800</p>
                               </div>
                               <div class="px-2"><button type="button" class="choose-package btn-cal btn-cal-sm mt-1">Choose</button></div>
                             </div>
@@ -420,96 +418,92 @@ Second round starts at 21:00
                   </div>
 
 
-<!-- Summary Mobile site -->
-                  <div class="card-box d-md-none d-block summary-section-mobile">
-                      <div class="card-box-header">
-                          <h5 class="card-box-title">CALYPSO CABARET SHOW</h5>
-                      </div>
-                      <div class="card-box-content">
-                          <div class="row">
-                            <div class="col-12 mb-2">
-                              <span>Package Name : CALYPSO CABARET (TICKET ONLY)</span>
+                  <!-- Summary Mobile site -->
+                  <div class="card-box summary-section-mobile mobile-booking-summary">
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h5 class="card-box-title">Booking Details</h5>
+                            <span class="card-box-title ticket-type">Package Name : CALYPSO CABARET (TICKET ONLY)</span>
+                            <div class="row card-box-title">
+                              <div class="col-6">
+                                <span>Date : </span><span class="ticket-details-small">15 May 2018</span>
+                              </div>
+                              <div class="col-6">
+                                <span>Date : </span><span class="ticket-details-small">18.00</span>
+                              </div>
                             </div>
+                        </div>
+                        <div class="card-box-content">
+                          <div class="row sum-details">
                             <div class="col-6 mb-2 text-left">
-                              <span>Date</span>
+                              <span class="ticket-details-small">person</span>
                             </div>
-                            <div class="col-6 mb-2 text-right">
-                              <span>15 May 2018</span>
+                            <div class="col-2 mb-2 text-left">
+                              <span class="ticket-details-small">3</span>
                             </div>
-                            <div class="col-6 mb-2 text-left">
-                              <span>Time</span>
+                            <div class="col-4 mb-2 text-right">
+                              <span class="ticket-details-small">2,700</span>
                             </div>
-                            <div class="col-6 mb-2 text-right">
-                              <span>18:00</span>
-                            </div>
-                            <div class="col-6 mb-2 text-left">
-                              <span>Person</span>
-                            </div>
-                            <div class="col-6 mb-2 text-right">
-                              <span>3</span>
-                            </div>
-                          </div>
-                      </div>
-                      <div class="card-box-content">
-                        <div class="row">
-                          <div class="col-6 mb-2 text-left">
-                            <span>Total</span>
-                          </div>
-                          <div class="col-6 mb-2 text-right">
-                            <span class="mr-2">THB</span><span>2,700</span>
-                          </div>
-                          <div class="col-6 mb-2 text-left">
-                            <span>Payment Amount</span>
-                          </div>
-                          <div class="col-6 mb-2 text-right sum-price">
-                            <span class="mr-2">THB</span><span>2,700</span>
                           </div>
                         </div>
-                      </div>
+                        <div class="card-box-content">
+                          <div class="row">
+                            <div class="col-6 mb-2 text-left">
+                              <span>Total</span>
+                            </div>
+                            <div class="col-6 mb-2 text-right">
+                              <span class="mr-2">THB</span><span>2,700</span>
+                            </div>
+                            <div class="col-12 text-right booking-form-button">
+                              <button type="submit" class="btn-cal btn-cal-md mt-2 mr-2">Reset</button>
+                              <button type="submit" class="btn-cal btn-cal-md mt-2">Buy</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                   </div>
 
                   <!-- Promotion Code Mobile site -->
-                  <div class="card-box d-md-none d-block summary-section-mobile">
-                      <div class="card-box-header">
-                        <h5 class="card-box-title pl-0">Promo Code</h5>
-                        <input type="text" class="form-control cal-form w-100" id="" placeholder="ENTER YOUT COUPON">
-                        <div class="w-100 text-center">
-                          <button type="submit" class="btn-cal btn-cal-md mt-2">Apply</button>
-                        </div>
+                  <div class="card-box summary-section-mobile mobile-booking-summary">
+                    <div class="card-box">
+                      <div class="card-box-header px-4">
+                        <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Instant Confirmation</p>
+                        <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Best Price Guarantee</p>
+                        <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Best Seat Arrangement</p>
+                        <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Net price</p>
                       </div>
+                    </div>
                   </div>
                 </form>
               </div>
 
               <!-- Summary Desktop site -->
               <!-- Promotion Code Desktop site -->
-              <div class="col-12 col-xl-4 d-md-block d-none summary-section-desktop">
+              <div class="offset-xl-0 offset-4 col-8 col-xl-4 summary-section-desktop desktop-booking-summary">
+                <div class="sticky-summary">
                   <div class="card-box">
                       <div class="card-box-header">
-                          <h5 class="card-box-title">CALYPSO CABARET SHOW</h5>
+                          <h5 class="card-box-title">Booking Details</h5>
+                          <span class="card-box-title ticket-type">Package Name : CALYPSO CABARET (TICKET ONLY)</span>
+                          <div class="row card-box-title">
+                            <div class="col-6">
+                              <span>Date : </span><span class="ticket-details-small">15 May 2018</span>
+                            </div>
+                            <div class="col-6">
+                              <span>Date : </span><span class="ticket-details-small">18.00</span>
+                            </div>
+                          </div>
                       </div>
                       <div class="card-box-content">
-                        <div class="row">
-                          <div class="col-12 mb-2">
-                            <span>Package Name : CALYPSO CABARET (TICKET ONLY)</span>
-                          </div>
+                        <div class="row sum-details">
                           <div class="col-6 mb-2 text-left">
-                            <span>Date</span>
+                            <span class="ticket-details-small">person</span>
                           </div>
-                          <div class="col-6 mb-2 text-right">
-                            <span>15 May 2018</span>
+                          <div class="col-2 mb-2 text-left">
+                            <span class="ticket-details-small">3</span>
                           </div>
-                          <div class="col-6 mb-2 text-left">
-                            <span>Time</span>
-                          </div>
-                          <div class="col-6 mb-2 text-right">
-                            <span>18:00</span>
-                          </div>
-                          <div class="col-6 mb-2 text-left">
-                            <span>Person</span>
-                          </div>
-                          <div class="col-6 mb-2 text-right">
-                            <span>3</span>
+                          <div class="col-4 mb-2 text-right">
+                            <span class="ticket-details-small">2,700</span>
                           </div>
                         </div>
                       </div>
@@ -521,27 +515,23 @@ Second round starts at 21:00
                           <div class="col-6 mb-2 text-right">
                             <span class="mr-2">THB</span><span>2,700</span>
                           </div>
-                          <div class="col-6 mb-2 text-left">
-                            <span>Payment Amount</span>
-                          </div>
-                          <div class="col-6 mb-2 text-right sum-price">
-                            <span class="mr-2">THB</span><span>2,700</span>
+                          <div class="col-12 text-right booking-form-button">
+                            <button type="submit" class="btn-cal btn-cal-md mt-2 mr-2">Reset</button>
+                            <button type="submit" class="btn-cal btn-cal-md mt-2">Buy</button>
                           </div>
                         </div>
                       </div>
                   </div>
-                  <form>
-                    <div class="card-box">
-                      <div class="card-box-header px-4">
-                        <h5 class="card-box-title pl-0">Promo Code</h5>
-                        <input type="text" class="form-control cal-form" id="" placeholder="ENTER YOUT COUPON">
-                        <div class="w-100 text-right">
-                          <button type="submit" class="btn-cal btn-cal-md mt-2">Apply</button>
-                        </div>
-                      </div>
+                  <div class="card-box">
+                    <div class="card-box-header px-4">
+                      <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Instant Confirmation</p>
+                      <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Best Price Guarantee</p>
+                      <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Best Seat Arrangement</p>
+                      <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Net price</p>
                     </div>
-                  </form>
+                  </div>
               </div>
+            </div>
           </div>
         </div>
       </section>
@@ -655,11 +645,6 @@ $(document).ready(function() {
         animateThumb: false,
         showThumbByDefault: true,
         selector: '.gal-img',
-    });
-
-
-    $('.icon-group').find('a').on('click', function(){
-      // $(this).toggleClass('fade-away fade-back');
     });
 
 

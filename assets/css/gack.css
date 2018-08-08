@@ -302,6 +302,32 @@ $BOOKING
   pointer-events: unset;
 }
 
+.ticket-type{
+  display:inline-block;
+  padding-bottom: 0px;
+}
+
+.ticket-details-small {
+    font-size: 14px;
+}
+
+.sum-details{
+  height:15vmin
+}
+
+.summary-section-desktop{
+  position:relative;
+}
+
+.sticky-summary{
+  position:sticky;
+  top:0;
+  left:0;
+}
+
+.booking-form-button button{
+  width:40%;
+}
 
 /*------------------------------------*
 $END BOOKING
@@ -341,6 +367,14 @@ $Payment
   color:#ffc14f;
 }
 
+.summary-section-desktop{
+  display:none;
+}
+
+.summary-section-mobile{
+  display:block;
+}
+
 /*------------------------------------*
 $END Payment
 *------------------------------------*/
@@ -351,13 +385,78 @@ $END Payment
 Responsive
 *------------------------------------*/
 
+@media (max-width: 575px) {
+  /*------------------------------------*
+  $GENERAL 300px
+  *------------------------------------*/
+  .form-control::-webkit-input-placeholder { /* WebKit browsers */
+        color: transparent;
+    }
+    .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       color: transparent;
+    }
+    .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+       color: transparent;
+    }
+   .form-control :-ms-input-placeholder { /* Internet Explorer 10+ */
+       color: transparent;
+    }
+
+
+  /*------------------------------------*
+  $END GENERAL 300px
+  *------------------------------------*/
+}
+
+
+@media (max-width: 400px) {
+
+  /*------------------------------------*
+  $Booking max 400px
+  *------------------------------------*/
+
+  .booking-form-button{
+    display:inline;
+    text-align: center !important;
+  }
+
+  .booking-form-button button{
+    width:47%;
+    margin: 1% !important;
+  }
+
+  /*------------------------------------*
+  $END Booking max 400px
+  *------------------------------------*/
+}
+
+@media (max-width: 382px) {
+  /*------------------------------------*
+  $Booking max 382px
+  *------------------------------------*/
+
+  .booking-form-button{
+    display:inline;
+    text-align: center !important;
+  }
+
+  .booking-form-button button{
+    width:100%;
+  }
+
+  /*------------------------------------*
+  $END Booking max 382px
+  *------------------------------------*/
+}
+
+
 @media (max-width: 376px) {
 
   /*------------------------------------*
   $Booking max 368px
   *------------------------------------*/
 
-      .card-box-header .d-flex{
+      .addon-header .d-flex{
         display:-webkit-box!important;
       }
 
@@ -370,7 +469,7 @@ Responsive
   $END Booking max 368px
   *------------------------------------*/
 
-
+}
 
 
 @media (max-width: 368px) {
@@ -416,45 +515,20 @@ Responsive
 
 }
 
-
-@media (max-width: 575px) {
-
-  /*------------------------------------*
-  $GENERAL 300px
-  *------------------------------------*/
-  .form-control::-webkit-input-placeholder { /* WebKit browsers */
-        color: transparent;
-    }
-    .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-       color: transparent;
-    }
-    .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
-       color: transparent;
-    }
-   .form-control :-ms-input-placeholder { /* Internet Explorer 10+ */
-       color: transparent;
-    }
-
-
-  /*------------------------------------*
-  $END GENERAL 300px
-  *------------------------------------*/
-
-
-}
-
 @media (min-width: 576px) {
 
 }
 
 @media (min-width: 768px) {
 
-  .summary-section-desktop{
-    display:none !important;
+  .booking-form-button{
+    display:inline;
+    text-align: right;
   }
 
-  .summary-section-mobile{
-    display:block !important;
+  .booking-form-button button{
+    width:35%;
+    margin: 1% !important;
   }
 
 }
@@ -462,7 +536,7 @@ Responsive
 @media (min-width: 992px) {
 
   /*------------------------------------*
-  $GENERAL 768px
+  $GENERAL 992px
   *------------------------------------*/
   .form-control::-webkit-input-placeholder { /* WebKit browsers */
         color: unset;
@@ -478,7 +552,7 @@ Responsive
     }
 
   /*------------------------------------*
-  $END GENERAL 768px
+  $END GENERAL 992px
   *------------------------------------*/
 
   .summary-section-desktop{
@@ -489,12 +563,21 @@ Responsive
     display:block !important;
   }
 
+  .desktop-booking-summary{
+    display:block !important;
+  }
+
+  .mobile-booking-summary{
+    display:none !important;
+  }
+
+
 }
 
 @media (min-width: 1200px) {
 
   /*------------------------------------*
-  $GENERAL 768px
+  $GENERAL 1200px
   *------------------------------------*/
   .form-control::-webkit-input-placeholder { /* WebKit browsers */
       color: inherit;
@@ -509,7 +592,7 @@ Responsive
        color: inherit;
     }
     /*------------------------------------*
-    $END GENERAL 768px
+    $END GENERAL 1200px
     *------------------------------------*/
 
     .summary-section-desktop{
@@ -519,6 +602,15 @@ Responsive
     .summary-section-mobile{
       display:none !important;
     }
+
+    .desktop-booking-summary{
+      display:block !important;
+    }
+
+    .mobile-booking-summary{
+      display:none !important;
+    }
+
 
 }
 
