@@ -137,9 +137,9 @@ MAP
 .map-icon{
     font-size: 20px;
 }
-.map-overlay-image{
+.map-overlay-image {
     position: relative;
-    height: 787px;
+    height: 82vmin;
     width: 100%;
     overflow: hidden;
 }
@@ -147,6 +147,7 @@ MAP
     position: absolute;
     display: block;
     width: 100%;
+    height: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -242,7 +243,7 @@ Responsive
   }
   .map-overlay-image {
       position: relative;
-      height: 270px;
+      height: 65vmin;
       width: 100%;
       overflow: hidden;
   }
@@ -293,14 +294,6 @@ Responsive
   .line-title-w100 {
       width: 90px;
   }
-  .login-image-full {
-      position: absolute;
-      display: block;
-      width: 50%;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-  }
   /*------------------------------------*
   END LOGIN / 576px
   *------------------------------------*/
@@ -331,7 +324,7 @@ Responsive
   }
   .map-overlay-image {
       position: relative;
-      height: 360px;
+      height: 88vmin;
       width: 100%;
       overflow: hidden;
   }
@@ -378,7 +371,7 @@ Responsive
   *------------------------------------*/
   .map-overlay-image {
       position: relative;
-      height: 489px;
+      height: 64vmin;
       width: 100%;
       overflow: hidden;
   }
@@ -409,7 +402,7 @@ Responsive
   *------------------------------------*/
   .map-overlay-image {
       position: relative;
-      height: 656px;
+      height: 64vmin;
       width: 100%;
       overflow: hidden;
   }
@@ -458,9 +451,9 @@ Responsive
   .map-line-title-w300 {
       width: 350px;
   }
-  .map-overlay-image{
+  .map-overlay-image {
       position: relative;
-      height: 787px;
+      height: 82vmin;
       width: 100%;
       overflow: hidden;
   }

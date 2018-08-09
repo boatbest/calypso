@@ -29,7 +29,7 @@
                   <div class="login-font text-center">Login</div>
     						  <div class="form-group row justify-content-center mt-4">
       						    <input type="text" class="login-form" id="formGroupExampleInput" placeholder="Email" required="">
-      						    <input type="text" class="login-form mt-4" id="formGroupExampleInput2" placeholder="Password" required="">
+      						    <input type="password" class="login-form mt-4" id="formGroupExampleInput2" placeholder="Password" required="">
                       <div class="cal-capcha col-xl-5 col-lg-5 col-md-5 mt-4">
                          <img src="assets/images/newCaptchaAnchor.gif" alt="calypso" class="img-fluid">
                       </div>
