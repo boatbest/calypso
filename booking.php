@@ -8,14 +8,51 @@
 </head>
 <body>
 
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+  <style type="text/css">
+    .booking-ol-dot {
+      position: initial;
+      margin-top: 25px;
+    }
+    .booking-ol-dot .active {
+      background-color: #ce0604;
+    }
+    .booking-fix-heige-img {
+      overflow: hidden;
+      height: 103vmin;
+    }
+    .booking-fix-heige-img img {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+
+    @media (max-width: 575.98px) {
+      .booking-fix-heige-img {
+          overflow: hidden;
+          height: 60vmin;
+      }
+    }
+    @media (min-width: 576px) {
+      .booking-fix-heige-img {
+          overflow: hidden;
+          height: 55vmin;
+      }
+    }
+    @media (min-width: 768px) {
+      .booking-fix-heige-img {
+          overflow: hidden;
+          height: 65vmin;
+      }
+    }
+    @media (min-width: 992px) {
+      .booking-fix-heige-img {
+          overflow: hidden;
+          height: 85vmin;
+      }
+    }
+    @media (min-width: 1200px) {}
+    @media (min-width: 1600px) {}
+  </style>
 
 
 
@@ -36,327 +73,404 @@
           </nav>
         </div>
       </section>
-      <section class="booking-section bg-page-booking">  
+      <section class="booking-section bg-page-booking">
         <div class="container">
           <div class="row">
+              <div class="col-12 pl-5">
+                <h4 class="payment-box-title">Choose Package</h4>
+              </div>
               <div class="col-12 col-xl-8">
                 <form>
+
+
+<!-- Calypso cabaret only -->
+
                   <div class="card-box">
-                      <div class="card-box-header">
-                          <h4 class="card-box-title">Traveler's Infarmation</h4>
-                      </div>
-                      <div class="card-box-content px-4">
-                          <h5 class="payment-box-title">CALYPSO CABARET (TICKET ONLY)</h5>
-                          <div class="row">
-                              <div class="col-xl-2 col-lg-2 col-md-3 col-12 ">
-                                <div class="form-group">
-                                  <label for="formGroupExampleInput">Title<span class="text-red">*</span> :</label>
-                                  <select class="cal-form form-control custom-select" id="">
-                                     <option selected></option>
-                                     <option value="mr">Mr.</option>
-                                     <option value="ms">Ms.</option>
-                                     <option value="mrs">Mrs.</option>
-                                   </select>
-                                </div>
-                              </div>
-                              <div class="col-xl-5 col-lg-5 col-md-4 col-12 ">
-                                <div class="form-group">
-                                  <label for="formGroupExampleInpu2">First Name<span class="text-red">*</span> :</label>
-                                  <input type="text" class="form-control cal-form" id="" placeholder="Please enter your first name">
-                                </div>
-                              </div>
-                              <div class="col-xl-5 col-lg-5 col-md-5 col-12 ">
-                                <div class="form-group">
-                                  <label for="formGroupExampleInput3">Family Name<span class="text-red">*</span> :</label>
-                                  <input type="text" class="form-control cal-form" id="" placeholder="Please enter your family name">
-                                </div>
-                              </div>
-                              <div class="col-xl-6 col-lg-6 col-md-6 col-12 ">
-                                <div class="form-group">
-                                  <label for="formGroupExampleInpu2">Phone Number<span class="text-red">*</span> :</label>
-                                  <input type="text" class="form-control cal-form" id="" placeholder="Please enter your first name">
-                                </div>
-                              </div>
-                              <div class="col-xl-6 col-lg-6 col-md-6 col-12 ">
-                                <div class="form-group">
-                                  <label for="formGroupExampleInput">Country/Region of Travel Document<span class="text-red">*</span> :</label>
-                                  <select class="cal-form form-control custom-select" id="">
-                                     <option selected></option>
-                                     <option value="mr">Mr.</option>
-                                     <option value="ms">Ms.</option>
-                                     <option value="mrs">Mrs.</option>
-                                   </select>
-                                </div>
-                              </div>
-                              <div class="col-12 ">
-                                <label for="formGroupExampleInpu2">Email Address (Voucher will be sent to the providing email below)<span class="text-red">*</span> :</label>
-                              </div>
-                              <div class="col-xl-6 col-lg-6 col-md-6 col-12">
-                                <div class="form-group">
-                                  <input type="text" class="form-control cal-form" id="" placeholder="example@mail.com">
-                                </div>
-                              </div>
-                              <div class="col-12 ">
-                                <label for="formGroupExampleInpu2">Confirm Email<span class="text-red">*</span> :</label>
-                              </div>
-                              <div class="col-xl-6 col-lg-6 col-md-6 col-12 ">
-                                <div class="form-group">
-                                  <input type="text" class="form-control cal-form" id="" placeholder="example@mail.com">
-                                </div>
-                              </div>
-                              <div class="col-xl-12 ">
-                                <div class="form-group">
-                                  <label for="formGroupExampleInput">Your Requirement<span class="text-red">*</span> :</label>
-                                  <textarea class="form-control cal-form" rows="3" placeholder="Please enter your requirement" id=""></textarea>
-                                </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="card-box">
-                      <div class="card-box-header">
-                          <h4 class="card-box-title">Payment Card</h4>
-                      </div>
-                      <div class="card-box-content px-lg-4 px-0">
-                        <!-- credit card -->
-                          <div class="row mb-2">
-                              <div class="col-xl-12 col-12 ">
-                                <div class="custom-radio">
-                                  <input type="radio" id="customRadio1" name="customRadio" class="">
-                                  <label class="pl-2" for="customRadio1">Credit/Debit Card</label>
-                                </div>
-                              </div>
-                              <div class="col-12 pl-5">
-                                <div class="row">
-                                  <div class="col-lg-7 col-12 ">
-                                    <div class="form-group">
-                                      <label for="formGroupExampleInpu2">Card Number :</label>
-                                      <div class="input-group mb-2">
-                                             <input type="text" class="form-control cal-form" id="inlineFormInputGroup" placeholder="----- ---- ---- ----">
-                                             <div class="input-group-prepend">
-                                               <div class="input-group-text"><i class="fas fa-lock"></i></div>
-                                             </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-lg-5 col-0">
-                                  </div>
-                                  <div class="col-xl-3 col-lg-3 col-md-3 col-12 ">
-                                    <div class="form-group">
-                                      <label for="formGroupExampleInput">Expire Date :</label>
-                                      <select class="cal-form form-control custom-select" id="">
-                                         <option selected></option>
-                                         <option value="1">01</option>
-                                         <option value="2">02</option>
-                                         <option value="3">03</option>
-                                       </select>
-                                    </div>
-                                  </div>
-                                  <div class="col-xl-3 col-lg-3 col-md-3 col-12 ">
-                                    <div class="form-group">
-                                      <label for="formGroupExampleInput">Expire Month :</label>
-                                      <select class="cal-form form-control custom-select" id="">
-                                         <option selected></option>
-                                         <option value="1">2015</option>
-                                         <option value="2">2016</option>
-                                         <option value="3">2017</option>
-                                       </select>
-                                    </div>
-                                  </div>
-                                  <div class="col-xl-4 col-lg-4 col-md-4 col-6 ">
-                                    <div class="form-group">
-                                      <label for="formGroupExampleInpu2">Security Code <i class="far fa-question-circle" data-toggle="tooltip" data-placement="right" title="Description"></i></label>
-                                      <input type="text" class="form-control cal-form" id="" >
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                          </div>
-
-                          <!-- Walk-in -->
-                          <div class="row mb-2">
-                                <div class="col-xl-12 col-12">
-                                  <div class="custom-radio">
-                                    <input type="radio" id="customRadio1" name="customRadio" class="">
-                                    <label class="pl-2" for="customRadio1">Walk-in</label>
-                                  </div>
-                                </div>
-                                <div class="col-12 pl-5">
-                                  <div class="row">
-                                    <div class="col-md-6 col-12 ">
-                                      <div class="form-group">
-                                        <label for="formGroupExampleInpu2">First Name :</label>
-                                        <input type="text" class="form-control cal-form" id="" placeholder="Please enter your first name">
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 col-12 ">
-                                      <div class="form-group">
-                                        <label for="formGroupExampleInput3">Family Name :</label>
-                                        <input type="text" class="form-control cal-form" id="" placeholder="Please enter your family name">
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 col-12 ">
-                                      <div class="form-group">
-                                        <label for="formGroupExampleInpu2">Email Address :</label>
-                                        <input type="text" class="form-control cal-form" id="" placeholder="example@mail.com">
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 col-12 ">
-                                      <div class="form-group">
-                                        <label for="formGroupExampleInput3">Phone Number :</label>
-                                        <input type="text" class="form-control cal-form" id="" placeholder="Please enter your phone number">
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <!-- Bank -->
-                            <div class="row mb-2">
-                                  <div class="col-xl-12 col-12">
-                                    <div class="custom-radio">
-                                      <input type="radio" id="customRadio1" name="customRadio" class="">
-                                      <label class="pl-2" for="customRadio1">Bank Channels</label>
-                                    </div>
-                                  </div>
-                            </div>
-
-
-                      </div>
-                  </div>
-
-                  <!-- Summary Mobile site -->
-                  <div class="card-box d-md-none d-block summary-section-mobile">
-                      <div class="card-box-header">
-                          <h4 class="card-box-title">CALYPSO CABARET SHOW</h4>
-                      </div>
-                      <div class="card-box-header px-4">
-                          <div class="row">
-                            <div class="col-12 mb-2">
-                              <span>Package Name : CALYPSO CABARET (TICKET ONLY)</span>
-                            </div>
-                            <div class="col-6 mb-2 text-left">
-                              <span>Date</span>
-                            </div>
-                            <div class="col-6 mb-2 text-right">
-                              <span>15 May 2018</span>
-                            </div>
-                            <div class="col-6 mb-2 text-left">
-                              <span>Time</span>
-                            </div>
-                            <div class="col-6 mb-2 text-right">
-                              <span>18:00</span>
-                            </div>
-                            <div class="col-6 mb-2 text-left">
-                              <span>Person</span>
-                            </div>
-                            <div class="col-6 mb-2 text-right">
-                              <span>3</span>
-                            </div>
-                          </div>
-                      </div>
-                      <div class="card-box-content">
+                      <div class="card-box-header addon-header">
                         <div class="row">
-                          <div class="col-6 mb-2 text-left">
-                            <span>Total</span>
+                          <div class="col-12 col-md-6 collpase-box">
+                            <h6 class="card-box-title mb-0">CALYPSO CABARET (TICKET ONLY)</h6>
+                            <div class="icon-group">
+                              <a class="collapsed fade-back" data-toggle="collapse" href="#moredetails1">More details <i class="fas fa-chevron-down"></i></a>
+                            </div>
                           </div>
-                          <div class="col-6 mb-2 text-right">
-                            <span class="mr-2">THB</span><span>2,700</span>
-                          </div>
-                          <div class="col-6 mb-2 text-left">
-                            <span>Payment Amount</span>
-                          </div>
-                          <div class="col-6 mb-2 text-right sum-price">
-                            <span class="mr-2">THB</span><span>2,700</span>
+                          <div class="col-12 col-md-6 choose-row">
+                            <div class="d-flex justify-content-end text-right">
+                              <div class="show-ribbon">
+                                <div class="ribbon red-ribbon">20% OFF TODAY</div>
+                              </div>
+                              <div class="p-2">
+                                <p class="sale_price">THB 900</p>
+                                <p class="normal_price">THB 1,200</p>
+                              </div>
+                              <div class="px-2"><button type="button" class="choose-package btn-cal btn-cal-sm mt-1">Choose</button></div>
+                            </div>
                           </div>
                         </div>
                       </div>
+                      <div class="card-box-content px-4 collapse" id="moredetails1">
+                        <!-- <div class="collapse" id="moredetails1"> -->
+                          <div class="booking-package mb-2 d-none">
+                            <div class="row">
+                              <div class="col-lg-4 col-md-3 col-12 ">
+                                <div class="form-group form-date">
+                                  <label for="formGroupExampleInput">Select Date :</label>
+                                  <input type="date" class="form-control cal-form" id="inlineFormInputGroup" placeholder="Select Date" required>
+                                  <i class="far fa-calendar-alt"></i>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-12 ">
+                                <div class="form-group form-time">
+                                  <label for="formGroupExampleInpu2">Select Time :</label>
+                                  <select class="cal-form form-control custom-select time-select" id="" required>
+                                    <option selected disabled="">Select Time</option>
+                                    <option value="1">17.30 - 19.30</option>
+                                    <option value="2">20.00 - 22.00</option>
+                                  </select>
+                                  <i class="far fa-clock"></i>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-5 col-12 ">
+                                <label for="formGroupExampleInput3">Seat :</label>
+                                <div class="input-group mb-1 form-count">
+                                  <input type="button" value="-" class="qtyminus" field="quantity">
+                                  <input type="text" name="quantity" value="0" class="qty form-control" required>
+                                  <input type="button" value="+" class="qtyplus" field="quantity">
+                                </div>
+
+                                <div class="ribbon orange-ribbon">Avilable Seats : 6</div>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="details-text-editor">
+                              <!-- Text editor? -->
+<pre style="color:white;font-family:kanit;font-weight:300;">
+PRICE INCLUDES:
+
+Calypso Cabaret Ticket
+Performance duration 70mins with 15 show numbers.
+One beverage inside the theater (Drink choices as listed on ticket)
+VAT and Service Charge
+
+Daily Show Time:
+First round starts at 19:30
+Second round starts at 21:00
+</pre>
+                              <!-- end text editor? -->
+
+                              <div class="owl-carousel owl-theme cc-gallery">
+                                    <div class="item">
+                                      <div class="gal-img test" href="assets/images/02.jpg">
+                                         <img src="assets/images/02.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/04.jpg">
+                                         <img src="assets/images/04.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/06.jpg">
+                                         <img src="assets/images/06.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/01.jpg">
+                                         <img src="assets/images/01.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/03.jpg">
+                                         <img src="assets/images/03.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/05.jpg">
+                                         <img src="assets/images/05.jpg" />
+                                      </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                      </div>
+                  </div>
+
+<!-- Calypso thai restuarant + Calypso cabaret -->
+
+                  <div class="card-box">
+                      <div class="card-box-header addon-header">
+                        <div class="row">
+                          <div class="col-12 col-md-6 collpase-box">
+                            <h6 class="card-box-title mb-0">CALYPSO THAI RESTAURANT + CALYPSO CABARET</h6>
+                            <div class="icon-group">
+                              <a class="collapsed fade-back" data-toggle="collapse" href="#moredetails2">More details <i class="fas fa-chevron-down"></i></a>
+                            </div>
+                          </div>
+                          <div class="col-12 col-md-6 choose-row">
+                            <div class="d-flex justify-content-end text-right">
+                              <div class="show-ribbon">
+                                <div class="ribbon red-ribbon">25% OFF TODAY</div>
+                              </div>
+                              <div class="p-2">
+                                <p class="sale_price">THB 1,500</p>
+                                <p class="normal_price">THB 2,200</p>
+                              </div>
+                              <div class="px-2"><button type="button" class="choose-package btn-cal btn-cal-sm mt-1">Choose</button></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-box-content px-4 collapse" id="moredetails2">
+                        <!-- <div class="collapse" id="moredetails1"> -->
+                          <div class="booking-package mb-2 d-none">
+                            <div class="row">
+                              <div class="col-lg-4 col-md-3 col-12 ">
+                                <div class="form-group form-date">
+                                  <label for="formGroupExampleInput">Select Date :</label>
+                                  <input type="date" class="form-control cal-form" id="inlineFormInputGroup" placeholder="Select Date" required>
+                                  <i class="far fa-calendar-alt"></i>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-12 ">
+                                <div class="form-group form-time">
+                                  <label for="formGroupExampleInpu2">Select Time :</label>
+                                  <select class="cal-form form-control custom-select time-select" id="" required>
+                                    <option selected disabled="">Select Time</option>
+                                    <option value="1">17.30 - 19.30</option>
+                                    <option value="2">20.00 - 22.00</option>
+                                  </select>
+                                  <i class="far fa-clock"></i>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-5 col-12 ">
+                                <label for="formGroupExampleInput3">Seat :</label>
+                                <div class="input-group mb-1 form-count">
+                                  <input type="button" value="-" class="qtyminus" field="quantity">
+                                  <input type="text" name="quantity" value="0" class="qty form-control" required>
+                                  <input type="button" value="+" class="qtyplus" field="quantity">
+                                </div>
+
+                                <div class="ribbon orange-ribbon">Avilable Seats : 6</div>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="details-text-editor">
+                              <!-- Text editor? -->
+<pre style="color:white;font-family:kanit;font-weight:300;">
+PRICE INCLUDES:
+
+Calypso Cabaret Ticket
+Performance duration 70mins with 15 show numbers.
+One beverage inside the theater (Drink choices as listed on ticket)
+VAT and Service Charge
+
+Daily Show Time:
+First round starts at 19:30
+Second round starts at 21:00
+</pre>
+                              <!-- end text editor? -->
+
+                              <div class="owl-carousel owl-theme cc-gallery">
+                                    <div class="item">
+                                      <div class="gal-img test" href="assets/images/02.jpg">
+                                         <img src="assets/images/02.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/04.jpg">
+                                         <img src="assets/images/04.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/06.jpg">
+                                         <img src="assets/images/06.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/01.jpg">
+                                         <img src="assets/images/01.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/03.jpg">
+                                         <img src="assets/images/03.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/05.jpg">
+                                         <img src="assets/images/05.jpg" />
+                                      </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                      </div>
+                  </div>
+
+<!-- Calypso Thai restuarant (dinner only) -->
+
+                  <div class="card-box">
+                      <div class="card-box-header addon-header">
+                        <div class="row">
+                          <div class="col-12 col-md-6 collpase-box">
+                            <h6 class="card-box-title mb-0">CALYPSO THAI RESTAURANT (DINNER ONLY)</h6>
+                            <div class="icon-group">
+                              <a class="collapsed fade-back" data-toggle="collapse" href="#moredetails3">More details <i class="fas fa-chevron-down"></i></a>
+                            </div>
+                          </div>
+                          <div class="col-12 col-md-6 choose-row">
+                            <div class="d-flex justify-content-end text-right">
+                              <div class="show-ribbon">
+                              </div>
+                              <div class="p-2">
+                                <p class="sale_price">THB 800</p>
+                              </div>
+                              <div class="px-2"><button type="button" class="choose-package btn-cal btn-cal-sm mt-1">Choose</button></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-box-content px-4 collapse" id="moredetails3">
+                        <!-- <div class="collapse" id="moredetails1"> -->
+                          <div class="booking-package mb-2 d-none">
+                            <div class="row">
+                              <div class="col-lg-4 col-md-3 col-12 ">
+                                <div class="form-group form-date">
+                                  <label for="formGroupExampleInput">Select Date :</label>
+                                  <input type="date" class="form-control cal-form" id="inlineFormInputGroup" placeholder="Select Date" required>
+                                  <i class="far fa-calendar-alt"></i>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-12 ">
+                                <div class="form-group form-time">
+                                  <label for="formGroupExampleInpu2">Select Time :</label>
+                                  <select class="cal-form form-control custom-select time-select" id="" required>
+                                    <option selected disabled="">Select Time</option>
+                                    <option value="1">17.30 - 19.30</option>
+                                    <option value="2">20.00 - 22.00</option>
+                                  </select>
+                                  <i class="far fa-clock"></i>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-5 col-12 ">
+                                <label for="formGroupExampleInput3">Seat :</label>
+                                <div class="input-group mb-1 form-count">
+                                  <input type="button" value="-" class="qtyminus" field="quantity">
+                                  <input type="text" name="quantity" value="0" class="qty form-control" required>
+                                  <input type="button" value="+" class="qtyplus" field="quantity">
+                                </div>
+
+                                <div class="ribbon orange-ribbon">Avilable Seats : 6</div>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="details-text-editor">
+                              <!-- Text editor? -->
+<pre style="color:white;font-family:kanit;font-weight:300;">
+PRICE INCLUDES:
+
+Calypso Cabaret Ticket
+Performance duration 70mins with 15 show numbers.
+One beverage inside the theater (Drink choices as listed on ticket)
+VAT and Service Charge
+
+Daily Show Time:
+First round starts at 19:30
+Second round starts at 21:00
+</pre>
+                              <!-- end text editor? -->
+
+                              <div class="owl-carousel owl-theme cc-gallery">
+                                    <div class="item">
+                                      <div class="gal-img test" href="assets/images/02.jpg">
+                                         <img src="assets/images/02.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/04.jpg">
+                                         <img src="assets/images/04.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/06.jpg">
+                                         <img src="assets/images/06.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/01.jpg">
+                                         <img src="assets/images/01.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/03.jpg">
+                                         <img src="assets/images/03.jpg" />
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <div class="gal-img" href="assets/images/05.jpg">
+                                         <img src="assets/images/05.jpg" />
+                                      </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                      </div>
+                  </div>
+
+
+                  <!-- Summary Mobile site -->
+                  <div class="card-box summary-section-mobile mobile-booking-summary">
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h5 class="card-box-title">Booking Details</h5>
+                            <span class="card-box-title ticket-type">Package Name : CALYPSO CABARET (TICKET ONLY)</span>
+                            <div class="row card-box-title">
+                              <div class="col-6">
+                                <span>Date : </span><span class="ticket-details-small">15 May 2018</span>
+                              </div>
+                              <div class="col-6">
+                                <span>Date : </span><span class="ticket-details-small">18.00</span>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="card-box-content">
+                          <div class="row sum-details">
+                            <div class="col-6 mb-2 text-left">
+                              <span class="ticket-details-small">person</span>
+                            </div>
+                            <div class="col-2 mb-2 text-left">
+                              <span class="ticket-details-small">3</span>
+                            </div>
+                            <div class="col-4 mb-2 text-right">
+                              <span class="ticket-details-small">2,700</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-box-content">
+                          <div class="row">
+                            <div class="col-6 mb-2 text-left">
+                              <span>Total</span>
+                            </div>
+                            <div class="col-6 mb-2 text-right">
+                              <span class="mr-2">THB</span><span>2,700</span>
+                            </div>
+                            <div class="col-12 text-right booking-form-button">
+                              <button type="submit" class="btn-cal btn-cal-md mt-2 mr-2 reset">Reset</button>
+                              <button type="submit" class="btn-cal btn-cal-md mt-2">Buy</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                   </div>
 
                   <!-- Promotion Code Mobile site -->
-                  <div class="card-box d-md-none d-block summary-section-mobile">
-                      <div class="card-box-content">
-                        <h4 class="card-box-title pl-0">Promo Code</h4>
-                        <input type="text" class="form-control cal-form w-100" id="" placeholder="ENTER YOUT COUPON">
-                        <div class="w-100 text-center">
-                          <button type="submit" class="btn-cal btn-cal-md mt-2">Apply</button>
-                        </div>
-                      </div>
-                  </div>
-
-
-                  <div class="card-box">
-                    <div class="card-box-header">
-                      <div class="row icon-group px-5 d-md-flex d-none">
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-12 px-1">
-                          <!-- ใช้ &nbsp;&nbsp; เผื่อ &emsp; ไม่รอบรับ.o safari -->
-                          <span><i class="flaticon-refund"></i>&nbsp;&nbsp;No Cancelation</span>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-12 px-1">
-                          <span><i class="flaticon-printer"></i>&nbsp;&nbsp;Show Mobile or Printed voucher</span>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-12 px-1">
-                          <span><i class="flaticon-clock"></i>&nbsp;&nbsp;1 Hrs 1 Min - 3 Hrs Duration</span>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-12 px-1">
-                          <span><i class="flaticon-calendar"></i>&nbsp;&nbsp;Fixed Date Ticket</span>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-12 px-1">
-                          <span><i class="flaticon-ticket"></i>&nbsp;&nbsp;Collect Physical Ticket</span>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-12 px-1">
-                          <span><i class="flaticon-sports-car"></i>&nbsp;&nbsp;Meed Up At location</span>
-                        </div>
-                      </div>
-
-                      <div class="row icon-group px-5 d-md-none d-flex text-center">
-                        <div class="col-xl-1 col-lg-1 col-md-1 col-12 px-1">
-                          <i class="flaticon-refund"></i>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-5 col-12 px-1">
-                          <span>No Cancelation</span>
-                        </div>
-                        <div class="col-xl-1 col-lg-1 col-md-1 col-12 px-1">
-                          <i class="flaticon-printer"></i>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-5 col-12 px-1">
-                          <span>Show Mobile or Printed voucher</span>
-                        </div>
-                        <div class="col-xl-1 col-lg-1 col-md-1 col-12 px-1">
-                          <i class="flaticon-clock"></i>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-5 col-12 px-1">
-                          <span>1 Hrs 1 Min - 3 Hrs Duration</span>
-                        </div>
-                        <div class="col-xl-1 col-lg-1 col-md-1 col-12 px-1">
-                          <i class="flaticon-calendar"></i>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-5 col-12 px-1">
-                          <span>Fixed Date Ticket</span>
-                        </div>
-                        <div class="col-xl-1 col-lg-1 col-md-1 col-12 px-1">
-                          <i class="flaticon-ticket"></i>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-5 col-12 px-1">
-                          <span>Collect Physical Ticket</span>
-                        </div>
-                        <div class="col-xl-1 col-lg-1 col-md-1 col-12 px-1">
-                          <i class="flaticon-sports-car"></i>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-5 col-12 px-1">
-                          <span>Meed Up At location</span>
-                        </div>
-                      </div>
-
-                    </div>
-                    <div class="card-box-content">
-                      <div class="row icon-group px-4 pb-3">
-                        <div class="col-xl-9 col-lg-9 col-md-9 col-12 px-1 mb-md-0 mb-3 text-center">
-                          <span>By clicking Pay Now, you agree that you have read and understand out <a class="policy" href="#">Terms & Conditions</a> and <a class="policy" href="#">Cancelation Policy</a></span>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-3 col-12 px-1 text-center">
-                          <button type="submit" class="btn-cal btn-cal-md">Confirm Order</button>
-                        </div>
+                  <div class="card-box summary-section-mobile mobile-booking-summary">
+                    <div class="card-box">
+                      <div class="card-box-header px-4">
+                        <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Instant Confirmation</p>
+                        <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Best Price Guarantee</p>
+                        <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Best Seat Arrangement</p>
+                        <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Net price</p>
                       </div>
                     </div>
                   </div>
@@ -365,33 +479,31 @@
 
               <!-- Summary Desktop site -->
               <!-- Promotion Code Desktop site -->
-              <div class="col-12 col-xl-4 d-md-block d-none summary-section-desktop">
+              <div class="offset-xl-0 offset-4 col-8 col-xl-4 summary-section-desktop desktop-booking-summary">
+                <div class="sticky-summary">
                   <div class="card-box">
                       <div class="card-box-header">
-                          <h4 class="card-box-title">CALYPSO CABARET SHOW</h4>
+                          <h5 class="card-box-title">Booking Details</h5>
+                          <span class="card-box-title ticket-type">Package Name : CALYPSO CABARET (TICKET ONLY)</span>
+                          <div class="row card-box-title">
+                            <div class="col-6">
+                              <span>Date : </span><span class="ticket-details-small">15 May 2018</span>
+                            </div>
+                            <div class="col-6">
+                              <span>Date : </span><span class="ticket-details-small">18.00</span>
+                            </div>
+                          </div>
                       </div>
-                      <div class="card-box-header px-4">
-                        <div class="row">
-                          <div class="col-12 mb-2">
-                            <span>Package Name : CALYPSO CABARET (TICKET ONLY)</span>
-                          </div>
+                      <div class="card-box-content">
+                        <div class="row sum-details">
                           <div class="col-6 mb-2 text-left">
-                            <span>Date</span>
+                            <span class="ticket-details-small">person</span>
                           </div>
-                          <div class="col-6 mb-2 text-right">
-                            <span>15 May 2018</span>
+                          <div class="col-2 mb-2 text-left">
+                            <span class="ticket-details-small">3</span>
                           </div>
-                          <div class="col-6 mb-2 text-left">
-                            <span>Time</span>
-                          </div>
-                          <div class="col-6 mb-2 text-right">
-                            <span>18:00</span>
-                          </div>
-                          <div class="col-6 mb-2 text-left">
-                            <span>Person</span>
-                          </div>
-                          <div class="col-6 mb-2 text-right">
-                            <span>3</span>
+                          <div class="col-4 mb-2 text-right">
+                            <span class="ticket-details-small">2,700</span>
                           </div>
                         </div>
                       </div>
@@ -403,32 +515,49 @@
                           <div class="col-6 mb-2 text-right">
                             <span class="mr-2">THB</span><span>2,700</span>
                           </div>
-                          <div class="col-6 mb-2 text-left">
-                            <span>Payment Amount</span>
-                          </div>
-                          <div class="col-6 mb-2 text-right sum-price">
-                            <span class="mr-2">THB</span><span>2,700</span>
+                          <div class="col-12 text-right booking-form-button">
+                            <button type="submit" class="btn-cal btn-cal-md mt-2 mr-2 reset">Reset</button>
+                            <button type="submit" class="btn-cal btn-cal-md mt-2">Buy</button>
                           </div>
                         </div>
                       </div>
                   </div>
-                  <form>
-                    <div class="card-box">
-                      <div class="card-box-content">
-                        <h4 class="card-box-title pl-0">Promo Code</h4>
-                        <input type="text" class="form-control cal-form" id="" placeholder="ENTER YOUT COUPON">
-                        <div class="w-100 text-right">
-                          <button type="submit" class="btn-cal btn-cal-md mt-2">Apply</button>
-                        </div>
-                      </div>
+                  <div class="card-box">
+                    <div class="card-box-header px-4">
+                      <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Instant Confirmation</p>
+                      <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Best Price Guarantee</p>
+                      <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Best Seat Arrangement</p>
+                      <p class="mb-1"><i class="fas fa-caret-right mr-2"></i>Net price</p>
                     </div>
-                  </form>
+                  </div>
               </div>
+            </div>
           </div>
         </div>
       </section>
       <section class="booking-slide-section bg-bottom-linear">
-        
+          <div class="container">
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="booking-fix-heige-img"><img class="d-block w-100" src="assets/images/plan.gif" alt="First slide"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="booking-fix-heige-img"><img class="d-block w-100" src="assets/images/01.jpg" alt="Second slide"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="booking-fix-heige-img"><img class="d-block w-100" src="assets/images/02.jpg" alt="Third slide"></div>
+              </div>
+            </div>
+            <ol class="carousel-indicators booking-ol-dot">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+          </div>
+
+          </div>
       </section>
 
 
@@ -443,3 +572,149 @@
     <!-- END FOOOTER SCRIPT -->
 </body>
 </html>
+
+
+<script>
+
+
+$(document).ready(function() {
+
+    // This button will increment the value
+    $('.qtyplus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        fieldName = $(this).attr('field');
+        // Get its current value
+        var currentVal = parseInt($('input[name='+fieldName+']').val());
+        // If is not undefined
+        if (!isNaN(currentVal)) {
+            // Increment
+            $('input[name='+fieldName+']').val(currentVal + 1);
+        } else {
+            // Otherwise put a 0 there
+            $('input[name='+fieldName+']').val(0);
+        }
+    });
+    // This button will decrement the value till 0
+    $(".qtyminus").click(function(e) {
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        fieldName = $(this).attr('field');
+        // Get its current value
+        var currentVal = parseInt($('input[name='+fieldName+']').val());
+        // If it isn't undefined or its greater than 0
+        if (!isNaN(currentVal) && currentVal > 0) {
+            // Decrement one
+            $('input[name='+fieldName+']').val(currentVal - 1);
+        } else {
+            // Otherwise put a 0 there
+            $('input[name='+fieldName+']').val(0);
+        }
+    });
+
+    $('.owl-carousell').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        responsive:{
+            0:{
+                items:1
+            }
+        }
+    })
+
+    $('.cc-gallery').owlCarousel({
+        loop:false,
+        margin:10,
+        nav:false,
+        responsive:{
+            0:{
+                items:2
+            },
+            768:{
+                items:4
+            },
+
+        }
+    })
+
+    $(".cc-gallery").lightGallery({
+        thumbnail:true,
+        animateThumb: false,
+        showThumbByDefault: true,
+        selector: '.gal-img',
+    });
+
+
+    $('.choose-package').on('click', function(){
+      $('.choose-package').not(this).each(function(){
+        if($(this).text() == 'Choosed'){
+          $(this).closest('.row').find('.collpase-box a').click();
+          $(this).closest('.card-box').find('.card-box-content .booking-package').toggleClass('d-none');
+          $(this).closest('form').find("input[type=text]").val("0");
+          $(this).closest('form').find("input[type=date]").val("");
+          $(this).closest('form').find("select").prop("selectedIndex", 0);
+          $(this).closest('.card-box-header').find('.icon-group a').toggleClass('fade-away fade-back');
+          $(this).text('Choose');
+        }
+      });
+
+      if($(this).text() == 'Choose'){
+        if(($(this).closest('.row').find('.collpase-box a').hasClass('collapsed'))){
+          $(this).closest('.row').find('.collpase-box a').click();
+          $(this).closest('.card-box-header').find('.icon-group a').toggleClass('fade-away fade-back');
+        }
+        $(this).closest('.card-box').find('.card-box-content .booking-package').toggleClass('d-none');
+        $(this).text('Choosed');
+      }
+      else{
+        if(!($(this).closest('.row').find('.collpase-box a').hasClass('collapsed'))){
+          $(this).closest('.row').find('.collpase-box a').click();
+          $(this).closest('.card-box-header').find('.icon-group a').toggleClass('fade-away fade-back');
+        }
+        $(this).closest('.card-box').find('.card-box-content .booking-package').toggleClass('d-none');
+        $(this).closest('form').find("input[type=text]").val("0");
+        $(this).closest('form').find("input[type=date]").val("");
+        $(this).closest('form').find("select").prop("selectedIndex", 0);
+        $(this).text('Choose');
+      }
+    });
+
+    $('.reset').on('click', function(){
+      $('form').find("input[type=text]").val("0");
+      $('form').find("input[type=date]").val("");
+      $('form').find("select").prop("selectedIndex", 0);
+    });
+
+});
+
+
+$(window).on('load', function () {
+
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    var galheight = $('.card-box-header').width() / 3 ;
+    $('.gal-img').css({'height':galheight+'px'});
+  }
+  else{
+    var galheight = $('.card-box-header').width() / 6 ;
+    $('.gal-img').css({'height':galheight+'px'});
+  }
+
+});
+
+$(window).on('resize', function () {
+
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    var galheight = $('.card-box-header').width() / 3 ;
+    $('.gal-img').css({'height':galheight+'px'});
+  }
+  else{
+    var galheight = $('.card-box-header').width() / 6 ;
+    $('.gal-img').css({'height':galheight+'px'});
+  }
+});
+
+
+</script>

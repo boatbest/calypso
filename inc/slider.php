@@ -6,15 +6,26 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item carousel-item_size active">
-      <img class="d-block w-100 slide-item" src="assets/images/Banner/banner-1.jpg" alt="First slide">
+      <video autoplay muted loop>
+        <source src="assets/images/VDO/Pexels_Videos_4725.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
     </div>
     <div class="carousel-item carousel-item_size">
       <img class="d-block w-100 slide-item" src="assets/images/Banner/banner-1.jpg" alt="Second slide">
     </div>
     <div class="carousel-item carousel-item_size">
-      <img class="d-block w-100 slide-item" src="assets/images/Banner/banner-1.jpg" alt="Third slide">
+      <video autoplay muted loop>
+        <source src="assets/images/VDO/Night_At_Vegas.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
     </div>
   </div>
+
+  <script type="text/javascript">
+    
+  </script>
+
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>

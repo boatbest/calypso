@@ -82,16 +82,16 @@
                                       <label for="formGroupExampleInput">Country/Region of Travel Document<span class="text-red">*</span> :</label>
                                       <select class="cal-form form-control custom-select" id="">
                                         <option selected disabled="">Select your country/region</option>
-                                        <option value="United States">United States</option> 
-                                        <option value="United Kingdom">United Kingdom</option> 
-                                        <option value="Afghanistan">Afghanistan</option> 
-                                        <option value="Albania">Albania</option> 
-                                        <option value="Algeria">Algeria</option> 
-                                        <option value="American Samoa">American Samoa</option> 
-                                        <option value="Andorra">Andorra</option> 
-                                        <option value="Angola">Angola</option> 
-                                        <option value="Anguilla">Anguilla</option> 
-                                        <option value="Antarctica">Antarctica</option> 
+                                        <option value="United States">United States</option>
+                                        <option value="United Kingdom">United Kingdom</option>
+                                        <option value="Afghanistan">Afghanistan</option>
+                                        <option value="Albania">Albania</option>
+                                        <option value="Algeria">Algeria</option>
+                                        <option value="American Samoa">American Samoa</option>
+                                        <option value="Andorra">Andorra</option>
+                                        <option value="Angola">Angola</option>
+                                        <option value="Anguilla">Anguilla</option>
+                                        <option value="Antarctica">Antarctica</option>
                                        </select>
                                     </div>
                                   </div>
@@ -233,11 +233,11 @@
                       </div>
 
                       <!-- Summary Mobile site -->
-                      <div class="card-box d-md-none d-block summary-section-mobile">
+                      <div class="card-box summary-section-mobile">
                           <div class="card-box-header">
                               <h4 class="card-box-title">CALYPSO CABARET SHOW</h4>
                           </div>
-                          <div class="card-box-header px-4">
+                          <div class="card-box-content">
                               <div class="row">
                                 <div class="col-12 mb-2">
                                   <span>Package Name : CALYPSO CABARET (TICKET ONLY)</span>
@@ -281,8 +281,8 @@
                       </div>
 
                       <!-- Promotion Code Mobile site -->
-                      <div class="card-box d-md-none d-block summary-section-mobile">
-                          <div class="card-box-content">
+                      <div class="card-box summary-section-mobile">
+                          <div class="card-box-header">
                             <h4 class="card-box-title pl-0">Promo Code</h4>
                             <input type="text" class="form-control cal-form w-100" id="" placeholder="ENTER YOUT COUPON">
                             <div class="w-100 text-center">
@@ -373,12 +373,13 @@
 
                   <!-- Summary Desktop site -->
                   <!-- Promotion Code Desktop site -->
-                  <div class="col-12 col-xl-4 d-md-block d-none summary-section-desktop">
+                  <div class="col-12 col-xl-4 summary-section-desktop">
+                    <div class="sticky-summary">
                       <div class="card-box">
                           <div class="card-box-header">
                               <h4 class="card-box-title">CALYPSO CABARET SHOW</h4>
                           </div>
-                          <div class="card-box-header px-4">
+                          <div class="card-box-content">
                             <div class="row">
                               <div class="col-12 mb-2">
                                 <span>Package Name : CALYPSO CABARET (TICKET ONLY)</span>
@@ -422,7 +423,7 @@
                       </div>
                     <form>
                       <div class="card-box">
-                        <div class="card-box-content">
+                        <div class="card-box-header px-4">
                           <h4 class="card-box-title pl-0">Promo Code</h4>
                           <input type="text" class="form-control cal-form" id="" placeholder="ENTER YOUT COUPON">
                           <div class="w-100 text-right">
@@ -432,6 +433,7 @@
                       </div>
                     </form>
                   </div>
+              </div>
           </div>
       </section>
 

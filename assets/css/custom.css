@@ -123,8 +123,11 @@ a.btn-cal:hover{
     padding: 1rem 2rem;
     font-size: 1.25rem;
 }
-.cal-form{
+.cal-form2{
     padding: 10px 0px 10px 15px;
+    border-radius: unset;
+}
+.cal-form{
     border-radius: unset;
 }
 /*----------------- Navbar ----------------*/
@@ -221,16 +224,20 @@ a.btn-cal:hover{
     height: auto;
     background-color: rgba(45, 29, 58, 0.85);
     color: #ffffff;
+    margin-bottom: 15px
 }
 .card-box-header{
-    border-bottom: 1px solid #F2F2F2;
+    /*border-bottom: 1px solid #F2F2F2;*/
     padding: 10px;
 }
 .card-box-title{
     padding: 10px 10px 10px 15px;
 }
 .card-box-content{
-    margin: 15px;
+    /*margin: 15px;*/
+    border-top: 1px solid #F2F2F2;
+    margin-right: 15px;
+    margin-left: 15px;
     padding: 10px;
 }
 /*-- Small Card --*/
@@ -545,6 +552,9 @@ Page Index
 
 /* Reset Select */
 select.form-control:not([size]):not([multiple]) {
+    height: calc(2.25rem + 2px);
+}
+select.has-form:not([size]):not([multiple]) {
     height: calc(2.25rem + 10px);
 }
 select {
@@ -618,7 +628,7 @@ input.qtyplus {
     width: 46px;
     background-color: #2B1C3A;
     color: #ffffff;
-    border: unset;
+    border: 1px solid #999;
     cursor: pointer;
     /*height: 25px;*/
 }
@@ -626,7 +636,7 @@ input.qtyminus {
     width: 46px;
     background-color: #2B1C3A;
     color: #ffffff;
-    border: unset;
+    border: 1px solid #999;
     cursor: pointer;
     /*height:25px;*/
 }

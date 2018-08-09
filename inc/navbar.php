@@ -1,6 +1,6 @@
 <!-- Social Media Floating -->
 <div class="icon-bar">
-    <a href="https://www.facebook.com/calypsocabaret/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.facebook.com/calypsocabaret/" target="_blank"class="facebook"><i class="fab fa-facebook-f"></i></a>
     <a href="https://twitter.com/calypsobkk" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
     <a href="https://www.instagram.com/calypsocabaret/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
     <a href="https://page.line.me/calypsocabaret" target="_blank" class="line"><i class="fab fa-line"></i></a>
@@ -61,8 +61,8 @@
               <li class="nav-item">
                 <a class="nav-link oop dropdown-toggle <?php if($link == 'localhost/calypso/about_cal.php'){echo 'active';} ?> nav-border-right" href="about_cal.php" id="navbarDropdown-about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
                   <div class="dropdown-menu bg-purple" aria-labelledby="navbarDropdown-about">
-                    <a class="dropdown-item" href="about_cal.php">Calypso Carbaret</a>
-                    <a class="dropdown-item" href="about_thai.php">Thai Restaurant</a>
+                    <a class="dropdown-item" href="about-cal.php">Calypso Carbaret</a>
+                    <a class="dropdown-item" href="about-thai.php">Thai Restaurant</a>
                   </div>
               </li>
               <li class="nav-item">
