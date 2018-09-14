@@ -119,9 +119,20 @@ MAP
     font-size: 16px;
     color: #d92a65;
 }
+.txt-dec:hover{
+    text-decoration: none;
+}
 .map-font3{
     font-size: 16px;
     font-family: 'kanitlight';
+    color: white;
+    transition: all 0.3s;
+}
+.map-font3:hover{
+    font-size: 16px;
+    font-family: 'kanitmedium';
+    color: #d92a65;
+    transition: all 0.3s;
 }
 .map-font4{
     font-size: 25px;
